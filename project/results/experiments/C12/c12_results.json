@@ -1,0 +1,971 @@
+{
+ "logs": [
+  {
+   "log": "f1",
+   "events (file)": 24176,
+   "cases (file)": 1140,
+   "cases after rare-activity filter": 1130,
+   "activities after filter": 164,
+   "label=1 cases": 454,
+   "Age min-max": "19-99",
+   "attribute values missing": 0
+  },
+  {
+   "log": "f2",
+   "events (file)": 31235,
+   "cases (file)": 1140,
+   "cases after rare-activity filter": 1130,
+   "activities after filter": 207,
+   "label=1 cases": 886,
+   "Age min-max": "19-99",
+   "attribute values missing": 0
+  },
+  {
+   "log": "f3",
+   "events (file)": 20534,
+   "cases (file)": 1121,
+   "cases after rare-activity filter": 1111,
+   "activities after filter": 156,
+   "label=1 cases": 259,
+   "Age min-max": "19-99",
+   "attribute values missing": 0
+  }
+ ],
+ "attributes": [
+  {
+   "log": "f1",
+   "attribute": "Age",
+   "kind": "numeric",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 74,
+   "distinct values (table)": 74,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "-",
+   "share of cases with code 0": "-"
+  },
+  {
+   "log": "f1",
+   "attribute": "Diagnosis",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 105,
+   "distinct values (table)": 105,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "Adenoca. vagina st II",
+   "share of cases with code 0": 0.0009
+  },
+  {
+   "log": "f1",
+   "attribute": "Treatment code",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 43,
+   "distinct values (table)": 42,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "TC101",
+   "share of cases with code 0": 0.4044
+  },
+  {
+   "log": "f1",
+   "attribute": "Diagnosis code",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 11,
+   "distinct values (table)": 11,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "DC106",
+   "share of cases with code 0": 0.1292
+  },
+  {
+   "log": "f1",
+   "attribute": "Specialism code",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 3,
+   "distinct values (table)": 3,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "SC13",
+   "share of cases with code 0": 0.0496
+  },
+  {
+   "log": "f2",
+   "attribute": "Age",
+   "kind": "numeric",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 74,
+   "distinct values (table)": 74,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "-",
+   "share of cases with code 0": "-"
+  },
+  {
+   "log": "f2",
+   "attribute": "Diagnosis",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 105,
+   "distinct values (table)": 104,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "Adenoca. vagina st II",
+   "share of cases with code 0": 0.0009
+  },
+  {
+   "log": "f2",
+   "attribute": "Treatment code",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 43,
+   "distinct values (table)": 41,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "TC101",
+   "share of cases with code 0": 0.4053
+  },
+  {
+   "log": "f2",
+   "attribute": "Diagnosis code",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 11,
+   "distinct values (table)": 11,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "DC106",
+   "share of cases with code 0": 0.1292
+  },
+  {
+   "log": "f2",
+   "attribute": "Specialism code",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 3,
+   "distinct values (table)": 3,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "SC13",
+   "share of cases with code 0": 0.0496
+  },
+  {
+   "log": "f3",
+   "attribute": "Age",
+   "kind": "numeric",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 73,
+   "distinct values (table)": 73,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "-",
+   "share of cases with code 0": "-"
+  },
+  {
+   "log": "f3",
+   "attribute": "Diagnosis",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 101,
+   "distinct values (table)": 101,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "Adenoca. vagina st II",
+   "share of cases with code 0": 0.0009
+  },
+  {
+   "log": "f3",
+   "attribute": "Treatment code",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 42,
+   "distinct values (table)": 42,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "TC101",
+   "share of cases with code 0": 0.4086
+  },
+  {
+   "log": "f3",
+   "attribute": "Diagnosis code",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 11,
+   "distinct values (table)": 11,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "DC106",
+   "share of cases with code 0": 0.1278
+  },
+  {
+   "log": "f3",
+   "attribute": "Specialism code",
+   "kind": "categorical",
+   "missing events (whole file)": 0,
+   "missing cases (table)": 0,
+   "distinct values (whole file)": 3,
+   "distinct values (table)": 3,
+   "max distinct values inside one case": 1,
+   "category encoded as 0": "SC13",
+   "share of cases with code 0": 0.0495
+  }
+ ],
+ "worker_environments": {
+  "installed": {
+   "scipy": "1.18.1",
+   "scipy_file": "C:\\Users\\Bohabara\\Desktop\\process mining\\project\\.venv\\Lib\\site-packages\\scipy",
+   "numpy": "2.5.3",
+   "pandas": "2.3.3",
+   "sklearn": "1.9.1",
+   "python": "3.12.10",
+   "tiny_pairs": {
+    "pair_A [[0,1,2],[0,1,3]]": {
+     "jaccard": 0.0,
+     "hamming": 0.3333333333333333
+    },
+    "pair_B [[0,1,2],[1,1,3]]": {
+     "jaccard": 0.3333333333333333,
+     "hamming": 0.6666666666666666
+    },
+    "pair_C [[0,1,2],[1,1,2]]": {
+     "jaccard": 0.3333333333333333,
+     "hamming": 0.3333333333333333
+    }
+   },
+   "pattern_names": [
+    "ac370000",
+    "ac419100",
+    "370407",
+    "ac370443",
+    "ac370419",
+    "ac370442",
+    "370715a",
+    "370712b",
+    "ac370403",
+    "ac372417",
+    "302282"
+   ],
+   "original_pattern_warnings": [
+    "RuntimeWarning: Mean of empty slice",
+    "RuntimeWarning: invalid value encountered in scalar divide"
+   ],
+   "seconds": {
+    "f1": 0.1,
+    "f2": 0.06,
+    "f3": 0.06,
+    "sample200_f1": 0.01,
+    "original similarity_measuring_patterns (sample)": 0.32
+   }
+  },
+  "throw-away": {
+   "scipy": "1.11.4",
+   "scipy_file": "C:\\Users\\Bohabara\\Desktop\\process mining\\project\\results\\experiments\\C12\\tmp\\scipy_1_11_4\\scipy",
+   "numpy": "1.26.4",
+   "pandas": "2.3.3",
+   "sklearn": "1.9.1",
+   "python": "3.12.10",
+   "tiny_pairs": {
+    "pair_A [[0,1,2],[0,1,3]]": {
+     "jaccard": 0.5,
+     "hamming": 0.3333333333333333
+    },
+    "pair_B [[0,1,2],[1,1,3]]": {
+     "jaccard": 0.6666666666666666,
+     "hamming": 0.6666666666666666
+    },
+    "pair_C [[0,1,2],[1,1,2]]": {
+     "jaccard": 0.3333333333333333,
+     "hamming": 0.3333333333333333
+    }
+   },
+   "pattern_names": [
+    "ac370000",
+    "ac419100",
+    "370407",
+    "ac370443",
+    "ac370419",
+    "ac370442",
+    "370715a",
+    "370712b",
+    "ac370403",
+    "ac372417",
+    "302282"
+   ],
+   "original_pattern_warnings": [
+    "RuntimeWarning: Mean of empty slice.",
+    "RuntimeWarning: invalid value encountered in scalar divide"
+   ],
+   "seconds": {
+    "f1": 0.11,
+    "f2": 0.07,
+    "f3": 0.06,
+    "sample200_f1": 0.01,
+    "original similarity_measuring_patterns (sample)": 0.19
+   }
+  }
+ },
+ "tiny_pairs": [
+  {
+   "pair": "pair_A [[0,1,2],[0,1,3]]",
+   "pdist jaccard, scipy 1.11.4": 0.5,
+   "pdist jaccard, scipy 1.18.1": 0.0,
+   "explicit mismatch share (ours)": 0.3333,
+   "pdist hamming, scipy 1.11.4": 0.3333,
+   "pdist hamming, scipy 1.18.1": 0.3333,
+   "emulate_jaccard(booleanise=False)": 0.5,
+   "emulate_jaccard(booleanise=True)": 0.0
+  },
+  {
+   "pair": "pair_B [[0,1,2],[1,1,3]]",
+   "pdist jaccard, scipy 1.11.4": 0.6667,
+   "pdist jaccard, scipy 1.18.1": 0.3333,
+   "explicit mismatch share (ours)": 0.6667,
+   "pdist hamming, scipy 1.11.4": 0.6667,
+   "pdist hamming, scipy 1.18.1": 0.6667,
+   "emulate_jaccard(booleanise=False)": 0.6667,
+   "emulate_jaccard(booleanise=True)": 0.3333
+  },
+  {
+   "pair": "pair_C [[0,1,2],[1,1,2]]",
+   "pdist jaccard, scipy 1.11.4": 0.3333,
+   "pdist jaccard, scipy 1.18.1": 0.3333,
+   "explicit mismatch share (ours)": 0.3333,
+   "pdist hamming, scipy 1.11.4": 0.3333,
+   "pdist hamming, scipy 1.18.1": 0.3333,
+   "emulate_jaccard(booleanise=False)": 0.3333,
+   "emulate_jaccard(booleanise=True)": 0.3333
+  }
+ ],
+ "pair_level": [
+  {
+   "table": "sample200_f1",
+   "quantity": "categorical part",
+   "other": "original code @ scipy 1.11.4",
+   "mean ours": 0.7464,
+   "mean other": 0.7709,
+   "share of pairs identical": 0.8645,
+   "mean abs diff": 0.0244,
+   "max abs diff": 0.5,
+   "Pearson r": 0.9629,
+   "Spearman rho": 0.9681
+  },
+  {
+   "table": "sample200_f1",
+   "quantity": "categorical part",
+   "other": "original code @ scipy 1.18.1",
+   "mean ours": 0.7464,
+   "mean other": 0.2002,
+   "share of pairs identical": 0.0495,
+   "mean abs diff": 0.5465,
+   "max abs diff": 1.0,
+   "Pearson r": 0.3997,
+   "Spearman rho": 0.3894
+  },
+  {
+   "table": "sample200_f1",
+   "quantity": "combined distance",
+   "other": "original code @ scipy 1.11.4",
+   "mean ours": 0.646,
+   "mean other": 0.6655,
+   "share of pairs identical": 0.8645,
+   "mean abs diff": 0.0195,
+   "max abs diff": 0.4,
+   "Pearson r": 0.9648,
+   "Spearman rho": 0.9668
+  },
+  {
+   "table": "sample200_f1",
+   "quantity": "combined distance",
+   "other": "original code @ scipy 1.18.1",
+   "mean ours": 0.646,
+   "mean other": 0.209,
+   "share of pairs identical": 0.0495,
+   "mean abs diff": 0.4372,
+   "max abs diff": 0.8,
+   "Pearson r": 0.4343,
+   "Spearman rho": 0.4685
+  },
+  {
+   "table": "f1",
+   "quantity": "categorical part",
+   "other": "original code @ scipy 1.11.4",
+   "mean ours": 0.7376,
+   "mean other": 0.7641,
+   "share of pairs identical": 0.8454,
+   "mean abs diff": 0.0265,
+   "max abs diff": 0.5,
+   "Pearson r": 0.9651,
+   "Spearman rho": 0.9776
+  },
+  {
+   "table": "f1",
+   "quantity": "categorical part",
+   "other": "original code @ scipy 1.18.1",
+   "mean ours": 0.7376,
+   "mean other": 0.2019,
+   "share of pairs identical": 0.0494,
+   "mean abs diff": 0.5358,
+   "max abs diff": 1.0,
+   "Pearson r": 0.4708,
+   "Spearman rho": 0.4727
+  },
+  {
+   "table": "f1",
+   "quantity": "combined distance",
+   "other": "original code @ scipy 1.11.4",
+   "mean ours": 0.6353,
+   "mean other": 0.6565,
+   "share of pairs identical": 0.8454,
+   "mean abs diff": 0.0212,
+   "max abs diff": 0.4,
+   "Pearson r": 0.9666,
+   "Spearman rho": 0.9744
+  },
+  {
+   "table": "f1",
+   "quantity": "combined distance",
+   "other": "original code @ scipy 1.18.1",
+   "mean ours": 0.6353,
+   "mean other": 0.2068,
+   "share of pairs identical": 0.0494,
+   "mean abs diff": 0.4287,
+   "max abs diff": 0.8,
+   "Pearson r": 0.496,
+   "Spearman rho": 0.5403
+  },
+  {
+   "table": "f2",
+   "quantity": "categorical part",
+   "other": "original code @ scipy 1.11.4",
+   "mean ours": 0.7377,
+   "mean other": 0.7643,
+   "share of pairs identical": 0.8444,
+   "mean abs diff": 0.0267,
+   "max abs diff": 0.5,
+   "Pearson r": 0.9648,
+   "Spearman rho": 0.9772
+  },
+  {
+   "table": "f2",
+   "quantity": "categorical part",
+   "other": "original code @ scipy 1.18.1",
+   "mean ours": 0.7377,
+   "mean other": 0.202,
+   "share of pairs identical": 0.0489,
+   "mean abs diff": 0.5358,
+   "max abs diff": 1.0,
+   "Pearson r": 0.4717,
+   "Spearman rho": 0.4736
+  },
+  {
+   "table": "f2",
+   "quantity": "combined distance",
+   "other": "original code @ scipy 1.11.4",
+   "mean ours": 0.6354,
+   "mean other": 0.6567,
+   "share of pairs identical": 0.8444,
+   "mean abs diff": 0.0213,
+   "max abs diff": 0.4,
+   "Pearson r": 0.9663,
+   "Spearman rho": 0.9741
+  },
+  {
+   "table": "f2",
+   "quantity": "combined distance",
+   "other": "original code @ scipy 1.18.1",
+   "mean ours": 0.6354,
+   "mean other": 0.2068,
+   "share of pairs identical": 0.0489,
+   "mean abs diff": 0.4287,
+   "max abs diff": 0.8,
+   "Pearson r": 0.4973,
+   "Spearman rho": 0.5418
+  },
+  {
+   "table": "f3",
+   "quantity": "categorical part",
+   "other": "original code @ scipy 1.11.4",
+   "mean ours": 0.7365,
+   "mean other": 0.7634,
+   "share of pairs identical": 0.8427,
+   "mean abs diff": 0.027,
+   "max abs diff": 0.5,
+   "Pearson r": 0.9647,
+   "Spearman rho": 0.977
+  },
+  {
+   "table": "f3",
+   "quantity": "categorical part",
+   "other": "original code @ scipy 1.18.1",
+   "mean ours": 0.7365,
+   "mean other": 0.2018,
+   "share of pairs identical": 0.05,
+   "mean abs diff": 0.5348,
+   "max abs diff": 1.0,
+   "Pearson r": 0.471,
+   "Spearman rho": 0.473
+  },
+  {
+   "table": "f3",
+   "quantity": "combined distance",
+   "other": "original code @ scipy 1.11.4",
+   "mean ours": 0.6346,
+   "mean other": 0.6561,
+   "share of pairs identical": 0.8427,
+   "mean abs diff": 0.0216,
+   "max abs diff": 0.4,
+   "Pearson r": 0.9662,
+   "Spearman rho": 0.974
+  },
+  {
+   "table": "f3",
+   "quantity": "combined distance",
+   "other": "original code @ scipy 1.18.1",
+   "mean ours": 0.6346,
+   "mean other": 0.2068,
+   "share of pairs identical": 0.05,
+   "mean abs diff": 0.4279,
+   "max abs diff": 0.8,
+   "Pearson r": 0.4971,
+   "Spearman rho": 0.5417
+  }
+ ],
+ "checks": [
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "ours categorical vs pdist hamming @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "ours categorical vs pdist hamming @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "ours numeric vs original numeric @1.18.1",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "ours numeric vs original numeric @1.11.4",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "emulated 1.11.4 jaccard vs pdist jaccard @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "emulated 1.18.1 jaccard vs pdist jaccard @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "original categorical == pdist jaccard @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "original categorical == pdist jaccard @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "(m*jaccard + ours numeric)/(1+m) vs original combined @1.11.4",
+   "value": "2.22e-16"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "(m*jaccard + ours numeric)/(1+m) vs original combined @1.18.1",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "sample200_f1",
+   "check (max abs difference, expected 0)": "2s/(1+s) vs pdist jaccard on one-hot booleans @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "ours categorical vs pdist hamming @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "ours categorical vs pdist hamming @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "ours numeric vs original numeric @1.18.1",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "ours numeric vs original numeric @1.11.4",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "emulated 1.11.4 jaccard vs pdist jaccard @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "emulated 1.18.1 jaccard vs pdist jaccard @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "original categorical == pdist jaccard @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "original categorical == pdist jaccard @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "(m*jaccard + ours numeric)/(1+m) vs original combined @1.11.4",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "(m*jaccard + ours numeric)/(1+m) vs original combined @1.18.1",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f1",
+   "check (max abs difference, expected 0)": "2s/(1+s) vs pdist jaccard on one-hot booleans @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "ours categorical vs pdist hamming @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "ours categorical vs pdist hamming @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "ours numeric vs original numeric @1.18.1",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "ours numeric vs original numeric @1.11.4",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "emulated 1.11.4 jaccard vs pdist jaccard @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "emulated 1.18.1 jaccard vs pdist jaccard @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "original categorical == pdist jaccard @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "original categorical == pdist jaccard @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "(m*jaccard + ours numeric)/(1+m) vs original combined @1.11.4",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "(m*jaccard + ours numeric)/(1+m) vs original combined @1.18.1",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f2",
+   "check (max abs difference, expected 0)": "2s/(1+s) vs pdist jaccard on one-hot booleans @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "ours categorical vs pdist hamming @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "ours categorical vs pdist hamming @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "ours numeric vs original numeric @1.18.1",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "ours numeric vs original numeric @1.11.4",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "emulated 1.11.4 jaccard vs pdist jaccard @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "emulated 1.18.1 jaccard vs pdist jaccard @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "original categorical == pdist jaccard @1.11.4",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "original categorical == pdist jaccard @1.18.1",
+   "value": "0.00e+00"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "(m*jaccard + ours numeric)/(1+m) vs original combined @1.11.4",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "(m*jaccard + ours numeric)/(1+m) vs original combined @1.18.1",
+   "value": "1.11e-16"
+  },
+  {
+   "table": "f3",
+   "check (max abs difference, expected 0)": "2s/(1+s) vs pdist jaccard on one-hot booleans @1.18.1",
+   "value": "0.00e+00"
+  }
+ ],
+ "sample_patterns": [
+  {
+   "pattern (activity)": "ac370000",
+   "cases with it (of 200)": 138,
+   "original function @1.11.4": 0.667769,
+   "pattern_case_distance on the same matrix": 0.667769,
+   "original function @1.18.1": 0.257663,
+   "pattern_case_distance on the same matrix ": 0.257663,
+   "explicit distance (ours)": 0.646427
+  },
+  {
+   "pattern (activity)": "ac419100",
+   "cases with it (of 200)": 135,
+   "original function @1.11.4": 0.685718,
+   "pattern_case_distance on the same matrix": 0.685718,
+   "original function @1.18.1": 0.215526,
+   "pattern_case_distance on the same matrix ": 0.215526,
+   "explicit distance (ours)": 0.674869
+  },
+  {
+   "pattern (activity)": "370407",
+   "cases with it (of 200)": 119,
+   "original function @1.11.4": 0.675572,
+   "pattern_case_distance on the same matrix": 0.675572,
+   "original function @1.18.1": 0.244165,
+   "pattern_case_distance on the same matrix ": 0.244165,
+   "explicit distance (ours)": 0.658744
+  },
+  {
+   "pattern (activity)": "ac370443",
+   "cases with it (of 200)": 115,
+   "original function @1.11.4": 0.677792,
+   "pattern_case_distance on the same matrix": 0.677792,
+   "original function @1.18.1": 0.248813,
+   "pattern_case_distance on the same matrix ": 0.248813,
+   "explicit distance (ours)": 0.663709
+  },
+  {
+   "pattern (activity)": "ac370419",
+   "cases with it (of 200)": 114,
+   "original function @1.11.4": 0.677295,
+   "pattern_case_distance on the same matrix": 0.677295,
+   "original function @1.18.1": 0.244777,
+   "pattern_case_distance on the same matrix ": 0.244777,
+   "explicit distance (ours)": 0.662355
+  },
+  {
+   "pattern (activity)": "ac370442",
+   "cases with it (of 200)": 112,
+   "original function @1.11.4": 0.679829,
+   "pattern_case_distance on the same matrix": 0.679829,
+   "original function @1.18.1": 0.247165,
+   "pattern_case_distance on the same matrix ": 0.247165,
+   "explicit distance (ours)": 0.665935
+  },
+  {
+   "pattern (activity)": "370715a",
+   "cases with it (of 200)": 110,
+   "original function @1.11.4": 0.68081,
+   "pattern_case_distance on the same matrix": 0.68081,
+   "original function @1.18.1": 0.242312,
+   "pattern_case_distance on the same matrix ": 0.242312,
+   "explicit distance (ours)": 0.666359
+  },
+  {
+   "pattern (activity)": "370712b",
+   "cases with it (of 200)": 108,
+   "original function @1.11.4": 0.682685,
+   "pattern_case_distance on the same matrix": 0.682685,
+   "original function @1.18.1": 0.239985,
+   "pattern_case_distance on the same matrix ": 0.239985,
+   "explicit distance (ours)": 0.66791
+  },
+  {
+   "pattern (activity)": "ac370403",
+   "cases with it (of 200)": 106,
+   "original function @1.11.4": 0.683082,
+   "pattern_case_distance on the same matrix": 0.683082,
+   "original function @1.18.1": 0.240703,
+   "pattern_case_distance on the same matrix ": 0.240703,
+   "explicit distance (ours)": 0.669714
+  },
+  {
+   "pattern (activity)": "ac372417",
+   "cases with it (of 200)": 105,
+   "original function @1.11.4": 0.683063,
+   "pattern_case_distance on the same matrix": 0.683063,
+   "original function @1.18.1": 0.241599,
+   "pattern_case_distance on the same matrix ": 0.241599,
+   "explicit distance (ours)": 0.670144
+  },
+  {
+   "pattern (activity)": "302282",
+   "cases with it (of 200)": 0,
+   "original function @1.11.4": NaN,
+   "pattern_case_distance on the same matrix": NaN,
+   "original function @1.18.1": NaN,
+   "pattern_case_distance on the same matrix ": NaN,
+   "explicit distance (ours)": NaN
+  }
+ ],
+ "sample_pattern_checks": {
+  "max abs diff, pattern_case_distance vs original similarity_measuring_patterns @1.11.4": 1.1102230246251565e-16,
+  "max abs diff, pattern_case_distance vs original similarity_measuring_patterns @1.18.1": 0.0,
+  "warnings of the original function": [
+   "RuntimeWarning: Mean of empty slice",
+   "RuntimeWarning: invalid value encountered in scalar divide"
+  ]
+ },
+ "whole_log_patterns": [
+  {
+   "log": "f1",
+   "patterns (activities)": 164,
+   "patterns in all cases (distance undefined)": 0,
+   "duplicate objective rows (ours)": 1,
+   "explicit mismatch share (ours): CD min / median / max": "0.5904 / 0.6617 / 0.7687",
+   "explicit mismatch share (ours): front size (distinct=False)": 7,
+   "explicit mismatch share (ours): front size (distinct=True)": 7,
+   "original code @ scipy 1.11.4: CD min / median / max": "0.6165 / 0.6749 / 0.7791",
+   "original code @ scipy 1.11.4: front size (distinct=False)": 7,
+   "original code @ scipy 1.11.4: front size (distinct=True)": 7,
+   "original code @ scipy 1.18.1: CD min / median / max": "0.1511 / 0.2105 / 0.3128",
+   "original code @ scipy 1.18.1: front size (distinct=False)": 17,
+   "original code @ scipy 1.18.1: front size (distinct=True)": 17,
+   "one-hot Jaccard (alternative reading): CD min / median / max": "0.6654 / 0.7256 / 0.7991",
+   "one-hot Jaccard (alternative reading): front size (distinct=False)": 7,
+   "one-hot Jaccard (alternative reading): front size (distinct=True)": 7,
+   "ours vs original code @ scipy 1.11.4: Spearman of pattern CD": 0.9497,
+   "ours vs original code @ scipy 1.11.4: front overlap": "6 shared, Jaccard 0.750",
+   "ours vs original code @ scipy 1.18.1: Spearman of pattern CD": 0.2348,
+   "ours vs original code @ scipy 1.18.1: front overlap": "3 shared, Jaccard 0.143",
+   "ours vs one-hot Jaccard (alternative reading): Spearman of pattern CD": 0.9856,
+   "ours vs one-hot Jaccard (alternative reading): front overlap": "5 shared, Jaccard 0.556",
+   "front members (ours)": "337419c, 376400, ac10307, ac355427, ac370000, ac415100, ac419100"
+  },
+  {
+   "log": "f2",
+   "patterns (activities)": 207,
+   "patterns in all cases (distance undefined)": 0,
+   "duplicate objective rows (ours)": 1,
+   "explicit mismatch share (ours): CD min / median / max": "0.5900 / 0.6662 / 0.7626",
+   "explicit mismatch share (ours): front size (distinct=False)": 7,
+   "explicit mismatch share (ours): front size (distinct=True)": 7,
+   "original code @ scipy 1.11.4: CD min / median / max": "0.6174 / 0.6787 / 0.7786",
+   "original code @ scipy 1.11.4: front size (distinct=False)": 12,
+   "original code @ scipy 1.11.4: front size (distinct=True)": 12,
+   "original code @ scipy 1.18.1: CD min / median / max": "0.1504 / 0.2136 / 0.2956",
+   "original code @ scipy 1.18.1: front size (distinct=False)": 33,
+   "original code @ scipy 1.18.1: front size (distinct=True)": 33,
+   "one-hot Jaccard (alternative reading): CD min / median / max": "0.6649 / 0.7297 / 0.7939",
+   "one-hot Jaccard (alternative reading): front size (distinct=False)": 7,
+   "one-hot Jaccard (alternative reading): front size (distinct=True)": 7,
+   "ours vs original code @ scipy 1.11.4: Spearman of pattern CD": 0.9658,
+   "ours vs original code @ scipy 1.11.4: front overlap": "7 shared, Jaccard 0.583",
+   "ours vs original code @ scipy 1.18.1: Spearman of pattern CD": 0.3297,
+   "ours vs original code @ scipy 1.18.1: front overlap": "4 shared, Jaccard 0.111",
+   "ours vs one-hot Jaccard (alternative reading): Spearman of pattern CD": 0.9912,
+   "ours vs one-hot Jaccard (alternative reading): front overlap": "7 shared, Jaccard 1.000",
+   "front members (ours)": "376400, 378619a, ac10307, ac337441, ac370000, ac415100, ac419100"
+  },
+  {
+   "log": "f3",
+   "patterns (activities)": 156,
+   "patterns in all cases (distance undefined)": 0,
+   "duplicate objective rows (ours)": 1,
+   "explicit mismatch share (ours): CD min / median / max": "0.5466 / 0.6640 / 0.7728",
+   "explicit mismatch share (ours): front size (distinct=False)": 7,
+   "explicit mismatch share (ours): front size (distinct=True)": 7,
+   "original code @ scipy 1.11.4: CD min / median / max": "0.5927 / 0.6777 / 0.7843",
+   "original code @ scipy 1.11.4: front size (distinct=False)": 7,
+   "original code @ scipy 1.11.4: front size (distinct=True)": 7,
+   "original code @ scipy 1.18.1: CD min / median / max": "0.1514 / 0.2160 / 0.3175",
+   "original code @ scipy 1.18.1: front size (distinct=False)": 29,
+   "original code @ scipy 1.18.1: front size (distinct=True)": 28,
+   "one-hot Jaccard (alternative reading): CD min / median / max": "0.6319 / 0.7278 / 0.7997",
+   "one-hot Jaccard (alternative reading): front size (distinct=False)": 6,
+   "one-hot Jaccard (alternative reading): front size (distinct=True)": 6,
+   "ours vs original code @ scipy 1.11.4: Spearman of pattern CD": 0.9555,
+   "ours vs original code @ scipy 1.11.4: front overlap": "7 shared, Jaccard 1.000",
+   "ours vs original code @ scipy 1.18.1: Spearman of pattern CD": 0.3988,
+   "ours vs original code @ scipy 1.18.1: front overlap": "1 shared, Jaccard 0.029",
+   "ours vs one-hot Jaccard (alternative reading): Spearman of pattern CD": 0.9897,
+   "ours vs one-hot Jaccard (alternative reading): front overlap": "6 shared, Jaccard 0.857",
+   "front members (ours)": "387070a, ac10307, ac355427, ac370000, ac388170, ac415100, ac419100"
+  }
+ ],
+ "timings": [
+  {
+   "log": "f1",
+   "cases": 1130,
+   "patterns": 164,
+   "pairwise_case_distance (s)": 0.079,
+   "pattern_case_distance, all patterns (s)": 0.182,
+   "matrix size (MB)": 10.2
+  },
+  {
+   "log": "f2",
+   "cases": 1130,
+   "patterns": 207,
+   "pairwise_case_distance (s)": 0.066,
+   "pattern_case_distance, all patterns (s)": 0.159,
+   "matrix size (MB)": 10.2
+  },
+  {
+   "log": "f3",
+   "cases": 1111,
+   "patterns": 156,
+   "pairwise_case_distance (s)": 0.066,
+   "pattern_case_distance, all patterns (s)": 0.123,
+   "matrix size (MB)": 9.9
+  }
+ ],
+ "total_seconds": 41.6
+}

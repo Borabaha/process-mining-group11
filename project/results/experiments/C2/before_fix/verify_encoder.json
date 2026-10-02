@@ -1,0 +1,80 @@
+{
+  "f1": {
+    "original_shape": [
+      1130,
+      5939
+    ],
+    "seconds_original_encoding": 7.44,
+    "eventlog_traces_equal_independent_loader": true,
+    "eventlog_case_order_sorted": true,
+    "eventlog_labels_equal": true,
+    "eventlog_allowed_equal_event_nr_column": true,
+    "eventlog_allowed_equal_original": true,
+    "seconds_engine_encoding": 0.016,
+    "hash_rows_identical": true,
+    "hash_columns_identical_incl_order": true,
+    "hash_values_identical": true,
+    "sorted_same_column_set": true,
+    "sorted_columns_identical_incl_order": false,
+    "sorted_first_block_identical_order": true,
+    "sorted_values_identical_after_reindex": true,
+    "observed_columns": 2450,
+    "never_observed_block_all_zero": true,
+    "labels_identical": true,
+    "engine_equals_naive_encoder": true,
+    "every_row_sums_to_max_len": true,
+    "all_ok": true
+  },
+  "f2": {
+    "original_shape": [
+      1130,
+      8319
+    ],
+    "seconds_original_encoding": 14.48,
+    "eventlog_traces_equal_independent_loader": true,
+    "eventlog_case_order_sorted": true,
+    "eventlog_labels_equal": true,
+    "eventlog_allowed_equal_event_nr_column": true,
+    "eventlog_allowed_equal_original": true,
+    "seconds_engine_encoding": 0.026,
+    "hash_rows_identical": true,
+    "hash_columns_identical_incl_order": true,
+    "hash_values_identical": true,
+    "sorted_same_column_set": true,
+    "sorted_columns_identical_incl_order": false,
+    "sorted_first_block_identical_order": true,
+    "sorted_values_identical_after_reindex": true,
+    "observed_columns": 3289,
+    "never_observed_block_all_zero": true,
+    "labels_identical": true,
+    "engine_equals_naive_encoder": true,
+    "every_row_sums_to_max_len": true,
+    "all_ok": true
+  },
+  "f3": {
+    "original_shape": [
+      1111,
+      4866
+    ],
+    "seconds_original_encoding": 6.06,
+    "eventlog_traces_equal_independent_loader": true,
+    "eventlog_case_order_sorted": true,
+    "eventlog_labels_equal": true,
+    "eventlog_allowed_equal_event_nr_column": true,
+    "eventlog_allowed_equal_original": true,
+    "seconds_engine_encoding": 0.015,
+    "hash_rows_identical": true,
+    "hash_columns_identical_incl_order": true,
+    "hash_values_identical": true,
+    "sorted_same_column_set": true,
+    "sorted_columns_identical_incl_order": false,
+    "sorted_first_block_identical_order": true,
+    "sorted_values_identical_after_reindex": true,
+    "observed_columns": 2049,
+    "never_observed_block_all_zero": true,
+    "labels_identical": true,
+    "engine_equals_naive_encoder": true,
+    "every_row_sums_to_max_len": true,
+    "all_ok": true
+  }
+}

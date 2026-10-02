@@ -1,0 +1,1944 @@
+{
+  "f1": {
+    "n_cases": 1130,
+    "n_activities": 164,
+    "recommended_min_support": 0.5,
+    "selection_stable_at_lower_supports": true,
+    "distinct_activities_in_selection_per_size": {
+      "1": 10,
+      "2": 5,
+      "3": 5
+    },
+    "per_size_rank10_boundary": {
+      "1": {
+        "threshold_count": 605,
+        "threshold_support": 0.5353982300884956,
+        "sets_above": 9,
+        "free_slots": 1,
+        "tied_sets": [
+          [
+            "370488e"
+          ]
+        ]
+      },
+      "2": {
+        "threshold_count": 615,
+        "threshold_support": 0.5442477876106194,
+        "sets_above": 9,
+        "free_slots": 1,
+        "tied_sets": [
+          [
+            "370407",
+            "ac370442"
+          ]
+        ]
+      },
+      "3": {
+        "threshold_count": 612,
+        "threshold_support": 0.5415929203539823,
+        "sets_above": 9,
+        "free_slots": 1,
+        "tied_sets": [
+          [
+            "370407",
+            "ac370442",
+            "ac370443"
+          ]
+        ]
+      }
+    },
+    "original_rank10_boundary_size_gt1": {
+      "threshold_count": 629,
+      "threshold_support": 0.5566371681415929,
+      "sets_above": 8,
+      "free_slots": 2,
+      "tied_sets": [
+        [
+          "ac370419",
+          "ac370442"
+        ],
+        [
+          "ac370442",
+          "ac370443"
+        ],
+        [
+          "ac370000",
+          "ac370419",
+          "ac370442"
+        ],
+        [
+          "ac370000",
+          "ac370442",
+          "ac370443"
+        ]
+      ]
+    },
+    "original_vs_replica": [
+      {
+        "min_support": 0.55,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.039,
+        "seconds_replica": 0.012,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5911504424778761
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5637168141592921
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370442"
+            ],
+            "support": 0.5566371681415929
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.5566371681415929
+          }
+        ]
+      },
+      {
+        "min_support": 0.53,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.043,
+        "seconds_replica": 0.016,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5911504424778761
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5637168141592921
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.5566371681415929
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370442"
+            ],
+            "support": 0.5566371681415929
+          }
+        ]
+      },
+      {
+        "min_support": 0.52,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.053,
+        "seconds_replica": 0.019,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5911504424778761
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5637168141592921
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.5566371681415929
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370442"
+            ],
+            "support": 0.5566371681415929
+          }
+        ]
+      },
+      {
+        "min_support": 0.51,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.051,
+        "seconds_replica": 0.021,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5911504424778761
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5637168141592921
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370442"
+            ],
+            "support": 0.5566371681415929
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.5566371681415929
+          }
+        ]
+      },
+      {
+        "min_support": 0.5,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.065,
+        "seconds_replica": 0.03,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5911504424778761
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5637168141592921
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.5566371681415929
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370442"
+            ],
+            "support": 0.5566371681415929
+          }
+        ]
+      },
+      {
+        "min_support": 0.49,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.109,
+        "seconds_replica": 0.087,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5911504424778761
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5637168141592921
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370442"
+            ],
+            "support": 0.5566371681415929
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.5566371681415929
+          }
+        ]
+      },
+      {
+        "min_support": 0.48,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.428,
+        "seconds_replica": 0.327,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5911504424778761
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5637168141592921
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370442"
+            ],
+            "support": 0.5566371681415929
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.5566371681415929
+          }
+        ]
+      },
+      {
+        "min_support": 0.47,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 2.022,
+        "seconds_replica": 2.208,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5911504424778761
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5637168141592921
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.5619469026548672
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5592920353982301
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370442"
+            ],
+            "support": 0.5566371681415929
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370442"
+            ],
+            "support": 0.5566371681415929
+          }
+        ]
+      }
+    ]
+  },
+  "f2": {
+    "n_cases": 1130,
+    "n_activities": 207,
+    "recommended_min_support": 0.5,
+    "selection_stable_at_lower_supports": true,
+    "distinct_activities_in_selection_per_size": {
+      "1": 10,
+      "2": 7,
+      "3": 7
+    },
+    "per_size_rank10_boundary": {
+      "1": {
+        "threshold_count": 621,
+        "threshold_support": 0.5495575221238939,
+        "sets_above": 9,
+        "free_slots": 1,
+        "tied_sets": [
+          [
+            "ac411100"
+          ]
+        ]
+      },
+      "2": {
+        "threshold_count": 648,
+        "threshold_support": 0.5734513274336284,
+        "sets_above": 8,
+        "free_slots": 2,
+        "tied_sets": [
+          [
+            "ac370000",
+            "ac370442"
+          ],
+          [
+            "ac370419",
+            "ac370443"
+          ],
+          [
+            "ac410100",
+            "ac419100"
+          ]
+        ]
+      },
+      "3": {
+        "threshold_count": 638,
+        "threshold_support": 0.5646017699115045,
+        "sets_above": 9,
+        "free_slots": 1,
+        "tied_sets": [
+          [
+            "370407",
+            "ac370000",
+            "ac370443"
+          ]
+        ]
+      }
+    },
+    "original_rank10_boundary_size_gt1": {
+      "threshold_count": 651,
+      "threshold_support": 0.5761061946902655,
+      "sets_above": 9,
+      "free_slots": 1,
+      "tied_sets": [
+        [
+          "ac370419",
+          "ac379999"
+        ],
+        [
+          "ac370000",
+          "ac370419",
+          "ac379999"
+        ]
+      ]
+    },
+    "original_vs_replica": [
+      {
+        "min_support": 0.55,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.177,
+        "seconds_replica": 0.025,
+        "itemsets": [
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.6902654867256637
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac419100"
+            ],
+            "support": 0.6469026548672566
+          },
+          {
+            "itemset": [
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.6017699115044248
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5858407079646017
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac379999"
+            ],
+            "support": 0.5761061946902655
+          }
+        ]
+      },
+      {
+        "min_support": 0.53,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.082,
+        "seconds_replica": 0.026,
+        "itemsets": [
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.6902654867256637
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac419100"
+            ],
+            "support": 0.6469026548672566
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.6017699115044248
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5858407079646017
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac379999"
+            ],
+            "support": 0.5761061946902655
+          }
+        ]
+      },
+      {
+        "min_support": 0.52,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.098,
+        "seconds_replica": 0.04,
+        "itemsets": [
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.6902654867256637
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac419100"
+            ],
+            "support": 0.6469026548672566
+          },
+          {
+            "itemset": [
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.6017699115044248
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5858407079646017
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac379999"
+            ],
+            "support": 0.5761061946902655
+          }
+        ]
+      },
+      {
+        "min_support": 0.51,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.124,
+        "seconds_replica": 0.062,
+        "itemsets": [
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.6902654867256637
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac419100"
+            ],
+            "support": 0.6469026548672566
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.6017699115044248
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5858407079646017
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac379999"
+            ],
+            "support": 0.5761061946902655
+          }
+        ]
+      },
+      {
+        "min_support": 0.5,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.204,
+        "seconds_replica": 0.173,
+        "itemsets": [
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.6902654867256637
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac419100"
+            ],
+            "support": 0.6469026548672566
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.6017699115044248
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5858407079646017
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac379999"
+            ],
+            "support": 0.5761061946902655
+          }
+        ]
+      },
+      {
+        "min_support": 0.49,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.533,
+        "seconds_replica": 0.589,
+        "itemsets": [
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.6902654867256637
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac419100"
+            ],
+            "support": 0.6469026548672566
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.6017699115044248
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5858407079646017
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac379999"
+            ],
+            "support": 0.5761061946902655
+          }
+        ]
+      },
+      {
+        "min_support": 0.48,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 2.331,
+        "seconds_replica": 1.992,
+        "itemsets": [
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.6902654867256637
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac419100"
+            ],
+            "support": 0.6469026548672566
+          },
+          {
+            "itemset": [
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.6017699115044248
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5858407079646017
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac379999"
+            ],
+            "support": 0.5761061946902655
+          }
+        ]
+      },
+      {
+        "min_support": 0.47,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 14.127,
+        "seconds_replica": 13.935,
+        "itemsets": [
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.6902654867256637
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac419100"
+            ],
+            "support": 0.6469026548672566
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "ac379999",
+              "ac419100"
+            ],
+            "support": 0.6407079646017699
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.6017699115044248
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac379999"
+            ],
+            "support": 0.5929203539823009
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5858407079646017
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5769911504424778
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac379999"
+            ],
+            "support": 0.5761061946902655
+          }
+        ]
+      }
+    ]
+  },
+  "f3": {
+    "n_cases": 1111,
+    "n_activities": 156,
+    "recommended_min_support": 0.45,
+    "selection_stable_at_lower_supports": true,
+    "distinct_activities_in_selection_per_size": {
+      "1": 10,
+      "2": 6,
+      "3": 5
+    },
+    "per_size_rank10_boundary": {
+      "1": {
+        "threshold_count": 532,
+        "threshold_support": 0.47884788478847884,
+        "sets_above": 9,
+        "free_slots": 1,
+        "tied_sets": [
+          [
+            "370488g"
+          ]
+        ]
+      },
+      "2": {
+        "threshold_count": 543,
+        "threshold_support": 0.48874887488748875,
+        "sets_above": 9,
+        "free_slots": 1,
+        "tied_sets": [
+          [
+            "370712b",
+            "ac370000"
+          ]
+        ]
+      },
+      "3": {
+        "threshold_count": 537,
+        "threshold_support": 0.48334833483348333,
+        "sets_above": 9,
+        "free_slots": 1,
+        "tied_sets": [
+          [
+            "370407",
+            "ac370442",
+            "ac370443"
+          ]
+        ]
+      }
+    },
+    "original_rank10_boundary_size_gt1": {
+      "threshold_count": 549,
+      "threshold_support": 0.49414941494149417,
+      "sets_above": 8,
+      "free_slots": 2,
+      "tied_sets": [
+        [
+          "ac370442",
+          "ac370443"
+        ],
+        [
+          "ac370000",
+          "ac370442",
+          "ac370443"
+        ]
+      ]
+    },
+    "original_vs_replica": [
+      {
+        "min_support": 0.55,
+        "n_itemsets_original": 0,
+        "n_itemsets_replica": 0,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.04,
+        "seconds_replica": 0.01,
+        "itemsets": []
+      },
+      {
+        "min_support": 0.53,
+        "n_itemsets_original": 0,
+        "n_itemsets_replica": 0,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.04,
+        "seconds_replica": 0.011,
+        "itemsets": []
+      },
+      {
+        "min_support": 0.52,
+        "n_itemsets_original": 1,
+        "n_itemsets_replica": 1,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.034,
+        "seconds_replica": 0.01,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5274527452745275
+          }
+        ]
+      },
+      {
+        "min_support": 0.51,
+        "n_itemsets_original": 2,
+        "n_itemsets_replica": 2,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.048,
+        "seconds_replica": 0.01,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5274527452745275
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.513051305130513
+          }
+        ]
+      },
+      {
+        "min_support": 0.5,
+        "n_itemsets_original": 5,
+        "n_itemsets_replica": 5,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.048,
+        "seconds_replica": 0.012,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5274527452745275
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.513051305130513
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5022502250225023
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5022502250225023
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5013501350135013
+          }
+        ]
+      },
+      {
+        "min_support": 0.49,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.048,
+        "seconds_replica": 0.014,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5274527452745275
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.513051305130513
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5022502250225023
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5022502250225023
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5013501350135013
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.49954995499549953
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.49954995499549953
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.495949594959496
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.49414941494149417
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.49414941494149417
+          }
+        ]
+      },
+      {
+        "min_support": 0.48,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.042,
+        "seconds_replica": 0.012,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5274527452745275
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.513051305130513
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5022502250225023
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5022502250225023
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5013501350135013
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.49954995499549953
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.49954995499549953
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.495949594959496
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.49414941494149417
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.49414941494149417
+          }
+        ]
+      },
+      {
+        "min_support": 0.47,
+        "n_itemsets_original": 10,
+        "n_itemsets_replica": 10,
+        "same_itemsets_same_rank": true,
+        "same_supports": true,
+        "same_inner_activity_order": true,
+        "seconds_original": 0.046,
+        "seconds_replica": 0.015,
+        "itemsets": [
+          {
+            "itemset": [
+              "370407",
+              "ac370000"
+            ],
+            "support": 0.5274527452745275
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.513051305130513
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370000",
+              "ac370419"
+            ],
+            "support": 0.5022502250225023
+          },
+          {
+            "itemset": [
+              "370407",
+              "ac370419"
+            ],
+            "support": 0.5022502250225023
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370443"
+            ],
+            "support": 0.5013501350135013
+          },
+          {
+            "itemset": [
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.49954995499549953
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370419",
+              "ac370443"
+            ],
+            "support": 0.49954995499549953
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442"
+            ],
+            "support": 0.495949594959496
+          },
+          {
+            "itemset": [
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.49414941494149417
+          },
+          {
+            "itemset": [
+              "ac370000",
+              "ac370442",
+              "ac370443"
+            ],
+            "support": 0.49414941494149417
+          }
+        ]
+      }
+    ]
+  }
+}

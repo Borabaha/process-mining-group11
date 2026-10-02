@@ -1,0 +1,701 @@
+{
+ "subset": {
+  "log": "f1",
+  "n_cases": 150,
+  "seed": 2023,
+  "n_events": 3025,
+  "n_activities": 132,
+  "max_gap": 3,
+  "delta_time": -1,
+  "seed_activities": [
+   "ac370000",
+   "ac419100",
+   "370488j",
+   "ac370419",
+   "370407"
+  ]
+ },
+ "chain_check": {
+  "n_graphs": 150,
+  "n_chain_graphs": 150,
+  "seconds_Trace_graph_generator": 0.17504459992051125
+ },
+ "A_step1_fresh_dictionary": [
+  {
+   "n_original_patterns": 176,
+   "n_original_distinct_tuples": 176,
+   "n_our_patterns": 176,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 174,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 174,
+    "2": 2
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 176,
+   "seed": "ac370000",
+   "n_cases_with_seed": 103,
+   "n_seed_events": 295,
+   "seconds_original_loop": 1.88728589983657,
+   "seconds_original_Pattern_extension_calls": 1.8126395004801452,
+   "seconds_ours": 0.0020008001010864973,
+   "isomorphism": {
+    "n_patterns": 176,
+    "n_distinct_tuples": 176,
+    "pairs_tested": 3057,
+    "pairs_with_same_activity_multiset": 57,
+    "disagreements_isomorphic_vs_tuple_equal": 0
+   }
+  },
+  {
+   "n_original_patterns": 127,
+   "n_original_distinct_tuples": 127,
+   "n_our_patterns": 127,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 126,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 126,
+    "2": 1
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 127,
+   "seed": "ac419100",
+   "n_cases_with_seed": 92,
+   "n_seed_events": 159,
+   "seconds_original_loop": 0.8779627000913024,
+   "seconds_original_Pattern_extension_calls": 0.8209907009731978,
+   "seconds_ours": 0.0011991998180747032,
+   "isomorphism": {
+    "n_patterns": 127,
+    "n_distinct_tuples": 127,
+    "pairs_tested": 3060,
+    "pairs_with_same_activity_multiset": 60,
+    "disagreements_isomorphic_vs_tuple_equal": 0
+   }
+  },
+  {
+   "n_original_patterns": 58,
+   "n_original_distinct_tuples": 58,
+   "n_our_patterns": 58,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 58,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 58
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 58,
+   "seed": "370488j",
+   "n_cases_with_seed": 83,
+   "n_seed_events": 83,
+   "seconds_original_loop": 0.4726547999307513,
+   "seconds_original_Pattern_extension_calls": 0.4263728014193475,
+   "seconds_ours": 0.001011500135064125,
+   "isomorphism": {
+    "n_patterns": 58,
+    "n_distinct_tuples": 58,
+    "pairs_tested": 3009,
+    "pairs_with_same_activity_multiset": 9,
+    "disagreements_isomorphic_vs_tuple_equal": 0
+   }
+  },
+  {
+   "n_original_patterns": 56,
+   "n_original_distinct_tuples": 56,
+   "n_our_patterns": 56,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 56,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 56
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 56,
+   "seed": "ac370419",
+   "n_cases_with_seed": 83,
+   "n_seed_events": 85,
+   "seconds_original_loop": 0.2892934000119567,
+   "seconds_original_Pattern_extension_calls": 0.24554689903743565,
+   "seconds_ours": 0.0012400001287460327,
+   "isomorphism": {
+    "n_patterns": 56,
+    "n_distinct_tuples": 56,
+    "pairs_tested": 3012,
+    "pairs_with_same_activity_multiset": 12,
+    "disagreements_isomorphic_vs_tuple_equal": 0
+   }
+  },
+  {
+   "n_original_patterns": 58,
+   "n_original_distinct_tuples": 58,
+   "n_our_patterns": 58,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 58,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 58
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 58,
+   "seed": "370407",
+   "n_cases_with_seed": 82,
+   "n_seed_events": 86,
+   "seconds_original_loop": 0.30335330008529127,
+   "seconds_original_Pattern_extension_calls": 0.2603956013917923,
+   "seconds_ours": 0.0011307999957352877,
+   "isomorphism": {
+    "n_patterns": 58,
+    "n_distinct_tuples": 58,
+    "pairs_tested": 3012,
+    "pairs_with_same_activity_multiset": 12,
+    "disagreements_isomorphic_vs_tuple_equal": 0
+   }
+  }
+ ],
+ "B_step1_shared_dictionary": {
+  "n_original_patterns": 461,
+  "n_original_distinct_tuples": 461,
+  "n_our_patterns": 461,
+  "only_in_original": [],
+  "only_in_ours": [],
+  "patterns_with_identical_counts": 444,
+  "patterns_by_count_factor_original_over_ours": {
+   "1": 444,
+   "2": 17
+  },
+  "patterns_where_factor_differs_between_cases": 0,
+  "patterns_with_predicted_factor": 461,
+  "seeds": [
+   "ac370000",
+   "ac419100",
+   "370488j",
+   "ac370419",
+   "370407"
+  ],
+  "seconds_original": 33.680737799732015,
+  "seconds_ours": 0.00861570006236434,
+  "count_columns_by_factor_original_over_ours": {
+   "1": 458,
+   "2": 3
+  }
+ },
+ "C_step2": [
+  {
+   "n_original_patterns": 27,
+   "n_original_distinct_tuples": 27,
+   "n_our_patterns": 27,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 27,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 27
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 27,
+   "parent": "ac370000 -> ac370401",
+   "parent_id": "ac370000_13",
+   "parent_instances_in_original": 73,
+   "seconds_original": 8.180399100063369,
+   "seconds_ours": 0.00108149996958673
+  },
+  {
+   "n_original_patterns": 45,
+   "n_original_distinct_tuples": 45,
+   "n_our_patterns": 45,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 45,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 45
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 45,
+   "parent": "ac40014 -> ac370000",
+   "parent_id": "ac370000_31",
+   "parent_instances_in_original": 15,
+   "seconds_original": 0.5780907000880688,
+   "seconds_ours": 0.0005145000759512186
+  },
+  {
+   "n_original_patterns": 97,
+   "n_original_distinct_tuples": 97,
+   "n_our_patterns": 97,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 0,
+   "patterns_by_count_factor_original_over_ours": {
+    "2": 96,
+    "4": 1
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 97,
+   "parent": "ac370000 -> ac370000",
+   "parent_id": "ac370000_2",
+   "parent_instances_in_original": 346,
+   "seconds_original": 63.96515460009687,
+   "seconds_ours": 0.0018774999771267176
+  },
+  {
+   "n_original_patterns": 66,
+   "n_original_distinct_tuples": 66,
+   "n_our_patterns": 66,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 65,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 65,
+    "2": 1
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 66,
+   "parent": "ac370000 -> ac370000 -> ac370000",
+   "parent_id": "ac370000_12",
+   "parent_instances_in_original": 78,
+   "seconds_original": 7.454386199824512,
+   "seconds_ours": 0.0012334000784903765
+  },
+  {
+   "n_original_patterns": 86,
+   "n_original_distinct_tuples": 86,
+   "n_our_patterns": 86,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 86,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 86
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 86,
+   "parent": "ac411100 -> ac419100",
+   "parent_id": "ac419100_6",
+   "parent_instances_in_original": 126,
+   "seconds_original": 12.560414799954742,
+   "seconds_ours": 0.0013341999147087336
+  },
+  {
+   "n_original_patterns": 33,
+   "n_original_distinct_tuples": 33,
+   "n_our_patterns": 33,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 33,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 33
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 33,
+   "parent": "ac419100 -> ac411100",
+   "parent_id": "ac419100_7",
+   "parent_instances_in_original": 59,
+   "seconds_original": 3.2108947997912765,
+   "seconds_ours": 0.0005419999361038208
+  },
+  {
+   "n_original_patterns": 35,
+   "n_original_distinct_tuples": 35,
+   "n_our_patterns": 35,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 35,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 35
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 35,
+   "parent": "ac411100 -> ac419100 -> ac411100",
+   "parent_id": "ac419100_13",
+   "parent_instances_in_original": 58,
+   "seconds_original": 3.5603171000257134,
+   "seconds_ours": 0.000430600019171834
+  },
+  {
+   "n_original_patterns": 36,
+   "n_original_distinct_tuples": 36,
+   "n_our_patterns": 36,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 36,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 36
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 36,
+   "parent": "370488g -> 370488j",
+   "parent_id": "370488j_1",
+   "parent_instances_in_original": 78,
+   "seconds_original": 11.387127599911764,
+   "seconds_ours": 0.0012242000084370375
+  },
+  {
+   "n_original_patterns": 20,
+   "n_original_distinct_tuples": 20,
+   "n_our_patterns": 20,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 20,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 20
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 20,
+   "parent": "370488j -> ac370604",
+   "parent_id": "370488j_2",
+   "parent_instances_in_original": 60,
+   "seconds_original": 6.846691400045529,
+   "seconds_ours": 0.0008777999319136143
+  },
+  {
+   "n_original_patterns": 21,
+   "n_original_distinct_tuples": 21,
+   "n_our_patterns": 21,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 21,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 21
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 21,
+   "parent": "370488g -> 370488j -> ac370604",
+   "parent_id": "370488j_9",
+   "parent_instances_in_original": 60,
+   "seconds_original": 7.330870700068772,
+   "seconds_ours": 0.0011817000340670347
+  },
+  {
+   "n_original_patterns": 28,
+   "n_original_distinct_tuples": 28,
+   "n_our_patterns": 28,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 28,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 28
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 28,
+   "parent": "370407 -> ac370419",
+   "parent_id": "ac370419_1",
+   "parent_instances_in_original": 78,
+   "seconds_original": 14.616269099991769,
+   "seconds_ours": 0.0025861000176519156
+  },
+  {
+   "n_original_patterns": 17,
+   "n_original_distinct_tuples": 17,
+   "n_our_patterns": 17,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 17,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 17
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 17,
+   "parent": "ac370419 -> ac370423",
+   "parent_id": "ac370419_2",
+   "parent_instances_in_original": 72,
+   "seconds_original": 17.268297699978575,
+   "seconds_ours": 0.002522299997508526
+  },
+  {
+   "n_original_patterns": 13,
+   "n_original_distinct_tuples": 13,
+   "n_our_patterns": 13,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 13,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 13
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 13,
+   "parent": "370407 -> ac370419 -> ac370423",
+   "parent_id": "ac370419_9",
+   "parent_instances_in_original": 70,
+   "seconds_original": 13.418926500016823,
+   "seconds_ours": 0.0010400000028312206
+  },
+  {
+   "n_original_patterns": 28,
+   "n_original_distinct_tuples": 28,
+   "n_our_patterns": 28,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 28,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 28
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 28,
+   "parent": "370407 -> ac370419",
+   "parent_id": "370407_2",
+   "parent_instances_in_original": 78,
+   "seconds_original": 16.49117189995013,
+   "seconds_ours": 0.0018368999008089304
+  },
+  {
+   "n_original_patterns": 22,
+   "n_original_distinct_tuples": 22,
+   "n_our_patterns": 22,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 22,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 22
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 22,
+   "parent": "ac370403 -> 370407",
+   "parent_id": "370407_1",
+   "parent_instances_in_original": 75,
+   "seconds_original": 14.966316499980167,
+   "seconds_ours": 0.0011424000840634108
+  },
+  {
+   "n_original_patterns": 24,
+   "n_original_distinct_tuples": 24,
+   "n_our_patterns": 24,
+   "only_in_original": [],
+   "only_in_ours": [],
+   "patterns_with_identical_counts": 24,
+   "patterns_by_count_factor_original_over_ours": {
+    "1": 24
+   },
+   "patterns_where_factor_differs_between_cases": 0,
+   "patterns_with_predicted_factor": 24,
+   "parent": "ac370403 -> 370407 -> ac370419",
+   "parent_id": "370407_9",
+   "parent_instances_in_original": 74,
+   "seconds_original": 15.394368600100279,
+   "seconds_ours": 0.0012865997850894928
+  }
+ ],
+ "D_interest_values": [
+  {
+   "n_patterns": 461,
+   "max_abs_diff_IG": 0.0,
+   "nan_mismatch_IG": 0,
+   "n_nan_IG": 0,
+   "original_range_IG": "0.0001 .. 0.2366",
+   "max_abs_diff_coverage": 0.0,
+   "nan_mismatch_coverage": 0,
+   "n_nan_coverage": 0,
+   "original_range_coverage": "0.0067 .. 0.6000",
+   "max_abs_diff_CD": 0.0,
+   "nan_mismatch_CD": 0,
+   "n_nan_CD": 0,
+   "original_range_CD": "0.5005 .. 0.8038",
+   "patterns": "step 1 (part B)",
+   "seconds_original": 18.642529499949887,
+   "seconds_ours": 1.0533247999846935
+  },
+  {
+   "n_patterns": 598,
+   "max_abs_diff_IG": 0.0,
+   "nan_mismatch_IG": 0,
+   "n_nan_IG": 0,
+   "original_range_IG": "0.0001 .. 0.1522",
+   "max_abs_diff_coverage": 0.0,
+   "nan_mismatch_coverage": 0,
+   "n_nan_coverage": 0,
+   "original_range_coverage": "0.0067 .. 0.5200",
+   "max_abs_diff_CD": 0.0,
+   "nan_mismatch_CD": 0,
+   "n_nan_CD": 0,
+   "original_range_CD": "0.5005 .. 0.8124",
+   "patterns": "step 2 (part C)",
+   "seconds_original": 23.171498600160703,
+   "seconds_ours": 0.9282398000359535
+  }
+ ],
+ "E_automatic_mode": {
+  "seconds_original_AutoStepWise_PPD": 188.94932750007138,
+  "seconds_ours_extension_and_scoring": 1.1257529000286013,
+  "n_train_cases": 120,
+  "steps": [
+   {
+    "step": 0,
+    "original_candidates": 132,
+    "original_distinct_tuples": 132,
+    "our_candidates": 132,
+    "only_in_original": 0,
+    "only_in_ours": 0,
+    "max_abs_diff_IG": 0.0,
+    "nan_mismatch_IG": 0,
+    "n_nan_IG": 0,
+    "max_abs_diff_coverage": 0.0,
+    "nan_mismatch_coverage": 0,
+    "n_nan_coverage": 0,
+    "max_abs_diff_CD": 0.0,
+    "nan_mismatch_CD": 0,
+    "n_nan_CD": 14,
+    "original_front": 10,
+    "original_front_distinct_tuples": 10,
+    "original_front_reproduced_from_our_values": true,
+    "front_distinct_true_undefined_cd_1": 10,
+    "front_by_our_rules": 10,
+    "in_both_fronts": 10,
+    "our_rules_front_only_tied_with_original_front_member": 0,
+    "original_front_only": [],
+    "our_rules_front_only": []
+   },
+   {
+    "step": 1,
+    "original_candidates": 566,
+    "original_distinct_tuples": 566,
+    "our_candidates": 566,
+    "only_in_original": 0,
+    "only_in_ours": 0,
+    "max_abs_diff_IG": 0.0,
+    "nan_mismatch_IG": 0,
+    "n_nan_IG": 0,
+    "max_abs_diff_coverage": 0.0,
+    "nan_mismatch_coverage": 0,
+    "n_nan_coverage": 0,
+    "max_abs_diff_CD": 0.0,
+    "nan_mismatch_CD": 0,
+    "n_nan_CD": 81,
+    "original_front": 18,
+    "original_front_distinct_tuples": 18,
+    "original_front_reproduced_from_our_values": true,
+    "front_distinct_true_undefined_cd_1": 18,
+    "front_by_our_rules": 23,
+    "in_both_fronts": 18,
+    "our_rules_front_only_tied_with_original_front_member": 5,
+    "original_front_only": [],
+    "our_rules_front_only": [
+     "370715a ~> 376400",
+     "ac10307 -> ac370000 -> 370407",
+     "ac370000 -> 376400 -> 376480a",
+     "ac370000 ~> 376480a",
+     "ac411100 -> ac419100 -> ac415100"
+    ]
+   },
+   {
+    "step": 2,
+    "original_candidates": 333,
+    "original_distinct_tuples": 330,
+    "our_candidates": 330,
+    "only_in_original": 0,
+    "only_in_ours": 0,
+    "max_abs_diff_IG": 0.0,
+    "nan_mismatch_IG": 0,
+    "n_nan_IG": 0,
+    "max_abs_diff_coverage": 0.0,
+    "nan_mismatch_coverage": 0,
+    "n_nan_coverage": 0,
+    "max_abs_diff_CD": 0.0,
+    "nan_mismatch_CD": 0,
+    "n_nan_CD": 29,
+    "original_front": 18,
+    "original_front_distinct_tuples": 18,
+    "original_front_reproduced_from_our_values": true,
+    "front_distinct_true_undefined_cd_1": 18,
+    "front_by_our_rules": 35,
+    "in_both_fronts": 18,
+    "our_rules_front_only_tied_with_original_front_member": 17,
+    "original_front_only": [],
+    "our_rules_front_only": [
+     "370407 ~> ac411100 -> ac370000 -> 376400",
+     "370407 ~> ac411100 -> ac419100 -> ac411100",
+     "370407 ~> ac419100 -> ac411100",
+     "370715a -> ac372417 -> 376400",
+     "ac370000 ~> ac411100 -> ac419100 -> ac411100",
+     "ac370000 ~> ac419100 -> ac411100",
+     "ac379999 -> ac411100 -> ac419100 -> ac411100",
+     "ac379999 ~> ac411100 -> ac370000 -> 376400",
+     "ac379999 ~> ac419100 -> ac411100",
+     "ac411100 -> ac370000 -> 376400 -> 376480a",
+     "ac411100 -> ac419100 -> ac411100 ~> 376400",
+     "ac411100 -> ac419100 -> ac411100 ~> 376480a",
+     "ac411100 -> ac419100 -> ac411100 ~> ac419100",
+     "ac411100 ~> ac411100 -> ac370000 -> 376400",
+     "ac419100 -> ac411100 -> ac370000 -> 376400",
+     "ac419100 -> ac411100 ~> 376400",
+     "ac419100 -> ac411100 ~> 376480a"
+    ]
+   }
+  ]
+ },
+ "F_full_log_core": {
+  "n_original_patterns": 385,
+  "n_original_distinct_tuples": 385,
+  "n_our_patterns": 385,
+  "only_in_original": [],
+  "only_in_ours": [],
+  "patterns_with_identical_counts": 383,
+  "patterns_by_count_factor_original_over_ours": {
+   "1": 383,
+   "2": 2
+  },
+  "patterns_where_factor_differs_between_cases": 0,
+  "patterns_with_predicted_factor": 385,
+  "cores": [
+   "ac370000"
+  ],
+  "n_cases": 1130,
+  "n_core_events": 2556,
+  "seconds_original_loop": 30.803861000109464,
+  "seconds_original_per_core": {
+   "ac370000": 30.8
+  },
+  "seconds_original_Pattern_extension_calls": 28.85582360299304,
+  "seconds_ours": 0.018563600024208426,
+  "seconds_Trace_graph_generator": 4.916472299955785,
+  "isomorphism": {
+   "n_patterns": 385,
+   "n_distinct_tuples": 385,
+   "pairs_tested": 3141,
+   "pairs_with_same_activity_multiset": 141,
+   "disagreements_isomorphic_vs_tuple_equal": 0
+  }
+ },
+ "G_full_log_front": {
+  "n_original_patterns": 1204,
+  "n_original_distinct_tuples": 1204,
+  "n_our_patterns": 1204,
+  "only_in_original": [],
+  "only_in_ours": [],
+  "patterns_with_identical_counts": 1158,
+  "patterns_by_count_factor_original_over_ours": {
+   "1": 1158,
+   "2": 46
+  },
+  "patterns_where_factor_differs_between_cases": 0,
+  "patterns_with_predicted_factor": 1204,
+  "cores": [
+   "337419c",
+   "376400",
+   "ac10307",
+   "ac355427",
+   "ac370000",
+   "ac415100",
+   "ac419100"
+  ],
+  "n_cases": 1130,
+  "n_core_events": 4599,
+  "seconds_original_loop": 344.5437445002608,
+  "seconds_original_per_core": {
+   "337419c": 0.0,
+   "376400": 2.8,
+   "ac10307": 2.3,
+   "ac355427": 1.6,
+   "ac370000": 154.7,
+   "ac415100": 43.8,
+   "ac419100": 139.4
+  },
+  "seconds_original_Pattern_extension_calls": 340.321713604033,
+  "seconds_ours": 0.047442499781027436,
+  "seconds_Trace_graph_generator": 4.916472299955785,
+  "isomorphism": {
+   "n_patterns": 1204,
+   "n_distinct_tuples": 1204,
+   "pairs_tested": 3516,
+   "pairs_with_same_activity_multiset": 516,
+   "disagreements_isomorphic_vs_tuple_equal": 0
+  }
+ }
+}

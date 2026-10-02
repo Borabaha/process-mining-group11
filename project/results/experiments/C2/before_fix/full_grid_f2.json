@@ -1,0 +1,45 @@
+{
+  "dataset": "f2",
+  "folds": 5,
+  "n_itemsets": 10,
+  "n_repeats": 10,
+  "iterations_per_variant": 500,
+  "test_f1_per_fold": [
+    0.9202129765193588,
+    0.8759714256835213,
+    0.9135108021926839,
+    0.886198423937742,
+    0.854969860202642
+  ],
+  "seconds_model_fits": 5.513814800418913,
+  "seconds_total_per_variant": {
+    "faithful_train": 47.25991509994492,
+    "fixed_train": 26.381562100024894,
+    "fixed_test": 9.419253800297156
+  },
+  "seconds_per_iteration": {
+    "faithful_train": 0.09451983019988984,
+    "fixed_train": 0.05276312420004979,
+    "fixed_test": 0.01883850760059431
+  },
+  "infeasible_traces_total": {
+    "faithful_train": 0,
+    "fixed_train": 0,
+    "fixed_test": 0
+  },
+  "baseline_mean": {
+    "faithful_train": 0.9946633600612041,
+    "fixed_train": 0.9946633600612041,
+    "fixed_test": 0.8901726977071897
+  },
+  "importance_mean": {
+    "faithful_train": 0.14902305411947334,
+    "fixed_train": 0.07858546778530873,
+    "fixed_test": 0.01992788096705875
+  },
+  "share_of_values_above_zero": {
+    "faithful_train": 1.0,
+    "fixed_train": 1.0,
+    "fixed_test": 0.788
+  }
+}

@@ -1,0 +1,1 @@
+{"directed": true, "multigraph": false, "graph": {}, "nodes": [{"value": "ac372417", "parallel": false, "color": "#F6511F", "id": 21}, {"value": "376400", "parallel": false, "color": "#61CD4B", "id": 22}], "edges": [{"eventually": false, "source": 21, "target": 22}]}

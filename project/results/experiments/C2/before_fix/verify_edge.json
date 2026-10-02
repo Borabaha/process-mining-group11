@@ -1,0 +1,29 @@
+{
+  "activities_absent_from_held_out_fold": 27,
+  "activities_with_one_allowed_position": 4,
+  "encoder_transform_of_empty_list": "CRASH ValueError: need at least one array to concatenate",
+  "itemset_absent_from_scored_fold": {
+    "status": "CRASH",
+    "error": "ValueError: need at least one array to concatenate",
+    "where": "    positions = np.concatenate([self._index[:n] for n in lengths])"
+  },
+  "activity_with_a_single_allowed_position": {
+    "status": "CRASH",
+    "error": "ValueError: need at least one array to concatenate",
+    "where": "    positions = np.concatenate([self._index[:n] for n in lengths])"
+  },
+  "unknown_activity_name": {
+    "status": "CRASH",
+    "error": "ValueError: need at least one array to concatenate",
+    "where": "    positions = np.concatenate([self._index[:n] for n in lengths])"
+  },
+  "string_instead_of_list": {
+    "status": "CRASH",
+    "error": "ValueError: need at least one array to concatenate",
+    "where": "    positions = np.concatenate([self._index[:n] for n in lengths])"
+  },
+  "single_activity_grid_held_out": {
+    "activities": 164,
+    "crashing": 31
+  }
+}

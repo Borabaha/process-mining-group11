@@ -1,0 +1,100 @@
+{
+  "dataset": "f1",
+  "train_cases": 904,
+  "test_cases": 226,
+  "n_itemsets": 10,
+  "n_repeats": 2,
+  "itemsets": {
+    "0": [
+      "370407",
+      "ac370000"
+    ],
+    "1": [
+      "ac370419",
+      "ac370000"
+    ],
+    "2": [
+      "ac370443",
+      "ac370000"
+    ],
+    "3": [
+      "ac370443",
+      "ac370419",
+      "ac370000"
+    ],
+    "4": [
+      "ac370443",
+      "ac370419"
+    ],
+    "5": [
+      "ac370442",
+      "ac370000"
+    ],
+    "6": [
+      "ac370419",
+      "370407",
+      "ac370000"
+    ],
+    "7": [
+      "ac370419",
+      "370407"
+    ],
+    "8": [
+      "ac370443",
+      "ac370442"
+    ],
+    "9": [
+      "ac370419",
+      "ac370442",
+      "ac370000"
+    ]
+  },
+  "seconds_per_iteration": {
+    "original (int cast, train)": 13.579180584999268,
+    "engine faithful (train)": 0.10126812499947846,
+    "engine fixed (train, pools from log)": 0.05869671500986442,
+    "engine fixed (test, pools from log)": 0.01677059499779716,
+    "engine fixed (test, pools from train)": 0.017577975010499357
+  },
+  "seconds_per_iteration_all_runs": {
+    "original (int cast, train)": [
+      13.579180584999268
+    ],
+    "engine faithful (train)": [
+      0.09593025000067427,
+      0.10492350000422448,
+      0.10126812499947846
+    ],
+    "engine fixed (train, pools from log)": [
+      0.05869671500986442,
+      0.06289877999806777,
+      0.04502785500371829
+    ],
+    "engine fixed (test, pools from log)": [
+      0.02001809999346733,
+      0.016511035000439732,
+      0.01677059499779716
+    ],
+    "engine fixed (test, pools from train)": [
+      0.01808433999540284,
+      0.016228779999073593,
+      0.017577975010499357
+    ]
+  },
+  "speedup_vs_original": {
+    "original (int cast, train)": 1.0,
+    "engine faithful (train)": 134.09135979430056,
+    "engine fixed (train, pools from log)": 231.34481346557786,
+    "engine fixed (test, pools from log)": 809.7017778309541,
+    "engine fixed (test, pools from train)": 772.5110871353723
+  },
+  "faithful_vs_original_max_abs_diff": 0.0,
+  "one_time_seconds": {
+    "original DataManager()": 0.5847770997788757,
+    "original index_encoding(whole log) + int cast": 7.984856100054458,
+    "engine EventLog()": 0.25182440015487373,
+    "engine IndexEncoder() fit": 0.011249900097027421,
+    "engine IndexEncoder.transform(whole log)": 0.007302400190383196,
+    "XGBClassifier().fit (original frame, fold 0)": 5.304372600046918
+  }
+}

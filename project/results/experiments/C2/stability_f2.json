@@ -1,0 +1,71 @@
+{
+  "dataset": "f2",
+  "fold_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seconds_total": 3200.05122569995,
+  "variants": {
+    "faithful_train": {
+      "n_seeds": 10,
+      "n_repeats": 10,
+      "mean_importance": 0.1499243753766011,
+      "spread_between_itemset_means": 0.013751007568340714,
+      "std_between_repeats_same_fold": 0.008740424457945106,
+      "std_between_folds_same_seed": 0.008702595019817523,
+      "std_between_seed_means": 0.002622190828568039,
+      "mean_ci95_half_width": 0.0018758023179890858,
+      "itemsets_with_interval_above_zero": 10,
+      "n_itemsets": 10,
+      "spearman_between_two_seeds_10_repeats": 0.9636363636363634,
+      "spearman_between_two_seeds_all_repeats": 0.9636363636363634,
+      "spearman_between_two_halves_of_the_seeds": 0.9999999999999999,
+      "share_of_itemset_pairs_ordered": 0.9555555555555556
+    },
+    "fixed_train": {
+      "n_seeds": 10,
+      "n_repeats": 30,
+      "mean_importance": 0.08094867555759547,
+      "spread_between_itemset_means": 0.015512355454557697,
+      "std_between_repeats_same_fold": 0.0068459197023290645,
+      "std_between_folds_same_seed": 0.004992019659457145,
+      "std_between_seed_means": 0.0016655488962061264,
+      "mean_ci95_half_width": 0.0011914619051328703,
+      "itemsets_with_interval_above_zero": 10,
+      "n_itemsets": 10,
+      "spearman_between_two_seeds_10_repeats": 0.963097643097643,
+      "spearman_between_two_seeds_all_repeats": 0.986262626262626,
+      "spearman_between_two_halves_of_the_seeds": 0.9878787878787878,
+      "share_of_itemset_pairs_ordered": 0.9555555555555556
+    },
+    "fixed_test": {
+      "n_seeds": 10,
+      "n_repeats": 30,
+      "mean_importance": 0.023527263836477925,
+      "spread_between_itemset_means": 0.011857104342097302,
+      "std_between_repeats_same_fold": 0.013979039841646789,
+      "std_between_folds_same_seed": 0.011858920726823012,
+      "std_between_seed_means": 0.004782834814742623,
+      "mean_ci95_half_width": 0.003421433914843059,
+      "itemsets_with_interval_above_zero": 10,
+      "n_itemsets": 10,
+      "spearman_between_two_seeds_10_repeats": 0.8957575757575756,
+      "spearman_between_two_seeds_all_repeats": 0.9305050505050505,
+      "spearman_between_two_halves_of_the_seeds": 0.9393939393939393,
+      "share_of_itemset_pairs_ordered": 0.8444444444444444
+    }
+  },
+  "spearman_between_settings": {
+    "faithful_train vs fixed_train": 0.06666666666666665,
+    "faithful_train vs fixed_test": 0.23636363636363633,
+    "fixed_train vs fixed_test": 0.9393939393939393
+  }
+}

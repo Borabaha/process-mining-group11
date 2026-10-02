@@ -1,0 +1,90 @@
+{
+  "dataset": "f1",
+  "folds": 5,
+  "n_itemsets": 10,
+  "n_repeats": 10,
+  "iterations_per_variant": 500,
+  "test_f1_per_fold": [
+    0.9063654219862193,
+    0.9248444671434538,
+    0.9020536744901886,
+    0.9284097256931173,
+    0.885327792790569
+  ],
+  "seconds_model_fits": 2.7444961003493518,
+  "seconds_total_per_variant": {
+    "faithful_train": 26.282825200119987,
+    "fixed_train": 16.897104599978775,
+    "fixed_test": 5.992037899792194,
+    "fixed_test_train_pools": 5.851272400002927,
+    "fixed_test_uniform_draw": 12.403541299980134
+  },
+  "seconds_per_iteration": {
+    "faithful_train": 0.05256565040023997,
+    "fixed_train": 0.03379420919995755,
+    "fixed_test": 0.011984075799584389,
+    "fixed_test_train_pools": 0.011702544800005854,
+    "fixed_test_uniform_draw": 0.024807082599960267
+  },
+  "infeasible_traces_total": {
+    "faithful_train": 0,
+    "fixed_train": 0,
+    "fixed_test": 0,
+    "fixed_test_train_pools": 0,
+    "fixed_test_uniform_draw": 0
+  },
+  "baseline_mean": {
+    "faithful_train": 0.9938012106928923,
+    "fixed_train": 0.9938012106928923,
+    "fixed_test": 0.9094002164207097,
+    "fixed_test_train_pools": 0.9094002164207097,
+    "fixed_test_uniform_draw": 0.9094002164207097
+  },
+  "importance_mean": {
+    "faithful_train": 0.06278903070715432,
+    "fixed_train": 0.034136797206102173,
+    "fixed_test": 0.004799946365611459,
+    "fixed_test_train_pools": 0.004918636123305935,
+    "fixed_test_uniform_draw": 0.00045672166658751044
+  },
+  "share_of_values_above_zero": {
+    "faithful_train": 1.0,
+    "fixed_train": 1.0,
+    "fixed_test": 0.578,
+    "fixed_test_train_pools": 0.57,
+    "fixed_test_uniform_draw": 0.424
+  },
+  "traces_changed_total": {
+    "faithful_train": 239330,
+    "fixed_train": 254389,
+    "fixed_test": 63633,
+    "fixed_test_train_pools": 63619,
+    "fixed_test_uniform_draw": 63518
+  },
+  "other_events_shifted_total": {
+    "fixed_train": 4380303,
+    "fixed_test": 1097604,
+    "fixed_test_train_pools": 1090591,
+    "fixed_test_uniform_draw": 930053
+  },
+  "other_events_at_unobserved_position_total": {
+    "fixed_train": 152334,
+    "fixed_test": 38070,
+    "fixed_test_train_pools": 47171,
+    "fixed_test_uniform_draw": 30982
+  },
+  "share_of_shifted_events_at_unobserved_position": {
+    "fixed_train": 0.034777046245430966,
+    "fixed_test": 0.034684640362097806,
+    "fixed_test_train_pools": 0.043252695098345756,
+    "fixed_test_uniform_draw": 0.0333120800642544
+  },
+  "position_pairs_whole_log": 2415,
+  "position_pairs_only_in_held_out_fold_per_fold": [
+    240,
+    149,
+    215,
+    208,
+    247
+  ]
+}

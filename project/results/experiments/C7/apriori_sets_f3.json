@@ -1,0 +1,289 @@
+{
+  "log": "f3",
+  "dataset_file": "BPIC11_f3_trunc31.csv",
+  "n_cases": 1111,
+  "n_activities": 156,
+  "min_support": 0.45,
+  "max_len": 3,
+  "top_k": 10,
+  "ranking": "per size: support descending, ties broken lexicographically on sorted activity names",
+  "transactions": "set of distinct activities per case (whole log, after the original rare-activity filter)",
+  "sets": {
+    "1": [
+      {
+        "rank": 1,
+        "itemset": [
+          "ac419100"
+        ],
+        "support": 0.6804680468046804,
+        "count": 756
+      },
+      {
+        "rank": 2,
+        "itemset": [
+          "ac370000"
+        ],
+        "support": 0.6345634563456346,
+        "count": 705
+      },
+      {
+        "rank": 3,
+        "itemset": [
+          "370407"
+        ],
+        "support": 0.5274527452745275,
+        "count": 586
+      },
+      {
+        "rank": 4,
+        "itemset": [
+          "ac370419"
+        ],
+        "support": 0.513051305130513,
+        "count": 570
+      },
+      {
+        "rank": 5,
+        "itemset": [
+          "ac370443"
+        ],
+        "support": 0.5013501350135013,
+        "count": 557
+      },
+      {
+        "rank": 6,
+        "itemset": [
+          "ac370442"
+        ],
+        "support": 0.495949594959496,
+        "count": 551
+      },
+      {
+        "rank": 7,
+        "itemset": [
+          "370712b"
+        ],
+        "support": 0.48874887488748875,
+        "count": 543
+      },
+      {
+        "rank": 8,
+        "itemset": [
+          "370715a"
+        ],
+        "support": 0.48424842484248426,
+        "count": 538
+      },
+      {
+        "rank": 9,
+        "itemset": [
+          "370488e"
+        ],
+        "support": 0.47974797479747977,
+        "count": 533
+      },
+      {
+        "rank": 10,
+        "itemset": [
+          "370488g"
+        ],
+        "support": 0.47884788478847884,
+        "count": 532
+      }
+    ],
+    "2": [
+      {
+        "rank": 1,
+        "itemset": [
+          "370407",
+          "ac370000"
+        ],
+        "support": 0.5274527452745275,
+        "count": 586
+      },
+      {
+        "rank": 2,
+        "itemset": [
+          "ac370000",
+          "ac370419"
+        ],
+        "support": 0.513051305130513,
+        "count": 570
+      },
+      {
+        "rank": 3,
+        "itemset": [
+          "370407",
+          "ac370419"
+        ],
+        "support": 0.5022502250225023,
+        "count": 558
+      },
+      {
+        "rank": 4,
+        "itemset": [
+          "ac370000",
+          "ac370443"
+        ],
+        "support": 0.5013501350135013,
+        "count": 557
+      },
+      {
+        "rank": 5,
+        "itemset": [
+          "ac370419",
+          "ac370443"
+        ],
+        "support": 0.49954995499549953,
+        "count": 555
+      },
+      {
+        "rank": 6,
+        "itemset": [
+          "ac370000",
+          "ac370442"
+        ],
+        "support": 0.495949594959496,
+        "count": 551
+      },
+      {
+        "rank": 7,
+        "itemset": [
+          "ac370442",
+          "ac370443"
+        ],
+        "support": 0.49414941494149417,
+        "count": 549
+      },
+      {
+        "rank": 8,
+        "itemset": [
+          "ac370419",
+          "ac370442"
+        ],
+        "support": 0.49324932493249324,
+        "count": 548
+      },
+      {
+        "rank": 9,
+        "itemset": [
+          "370407",
+          "ac370443"
+        ],
+        "support": 0.49054905490549056,
+        "count": 545
+      },
+      {
+        "rank": 10,
+        "itemset": [
+          "370712b",
+          "ac370000"
+        ],
+        "support": 0.48874887488748875,
+        "count": 543
+      }
+    ],
+    "3": [
+      {
+        "rank": 1,
+        "itemset": [
+          "370407",
+          "ac370000",
+          "ac370419"
+        ],
+        "support": 0.5022502250225023,
+        "count": 558
+      },
+      {
+        "rank": 2,
+        "itemset": [
+          "ac370000",
+          "ac370419",
+          "ac370443"
+        ],
+        "support": 0.49954995499549953,
+        "count": 555
+      },
+      {
+        "rank": 3,
+        "itemset": [
+          "ac370000",
+          "ac370442",
+          "ac370443"
+        ],
+        "support": 0.49414941494149417,
+        "count": 549
+      },
+      {
+        "rank": 4,
+        "itemset": [
+          "ac370000",
+          "ac370419",
+          "ac370442"
+        ],
+        "support": 0.49324932493249324,
+        "count": 548
+      },
+      {
+        "rank": 5,
+        "itemset": [
+          "ac370419",
+          "ac370442",
+          "ac370443"
+        ],
+        "support": 0.49234923492349236,
+        "count": 547
+      },
+      {
+        "rank": 6,
+        "itemset": [
+          "370407",
+          "ac370000",
+          "ac370443"
+        ],
+        "support": 0.49054905490549056,
+        "count": 545
+      },
+      {
+        "rank": 7,
+        "itemset": [
+          "370407",
+          "ac370419",
+          "ac370443"
+        ],
+        "support": 0.49054905490549056,
+        "count": 545
+      },
+      {
+        "rank": 8,
+        "itemset": [
+          "370407",
+          "ac370000",
+          "ac370442"
+        ],
+        "support": 0.48514851485148514,
+        "count": 539
+      },
+      {
+        "rank": 9,
+        "itemset": [
+          "370407",
+          "ac370419",
+          "ac370442"
+        ],
+        "support": 0.48424842484248426,
+        "count": 538
+      },
+      {
+        "rank": 10,
+        "itemset": [
+          "370407",
+          "ac370442",
+          "ac370443"
+        ],
+        "support": 0.48334833483348333,
+        "count": 537
+      }
+    ]
+  }
+}

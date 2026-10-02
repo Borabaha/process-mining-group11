@@ -1,0 +1,89 @@
+{
+  "dataset": "f3",
+  "fold_seeds": [
+    0,
+    1
+  ],
+  "n_repeats": 2,
+  "n_itemsets": 5,
+  "seconds_total": 16.83719450002536,
+  "scored_on": {
+    "train": {
+      "sequential_draw_log_pools": {
+        "importance": {
+          "mean": 0.03237087894978668,
+          "ci95_low": 0.020017578237178216,
+          "ci95_high": 0.04472417966239514
+        },
+        "share_of_values_above_zero": 1.0,
+        "traces_changed": 45059,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.036709393994102425
+      },
+      "uniform_draw_log_pools": {
+        "importance": {
+          "mean": 0.02906686711217684,
+          "ci95_low": 0.028393292379395495,
+          "ci95_high": 0.029740441844958186
+        },
+        "share_of_values_above_zero": 1.0,
+        "traces_changed": 44928,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.03401739906312737,
+        "difference_to_default": {
+          "mean": -0.003304011837609838,
+          "ci95_low": -0.014983737817436955,
+          "ci95_high": 0.008375714142217279
+        },
+        "spearman_with_default_ranking": 0.8999999999999998
+      }
+    },
+    "test": {
+      "sequential_draw_log_pools": {
+        "importance": {
+          "mean": 0.01123648262472108,
+          "ci95_low": -0.022415316439749956,
+          "ci95_high": 0.044888281689192115
+        },
+        "share_of_values_above_zero": 0.75,
+        "traces_changed": 11266,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.03642464265004757
+      },
+      "sequential_draw_train_pools": {
+        "importance": {
+          "mean": 0.011367275456770742,
+          "ci95_low": -0.026260839552600314,
+          "ci95_high": 0.0489953904661418
+        },
+        "share_of_values_above_zero": 0.76,
+        "traces_changed": 11261,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.04281554770318021,
+        "difference_to_default": {
+          "mean": 0.00013079283204966378,
+          "ci95_low": -0.003845523112850356,
+          "ci95_high": 0.004107108776949683
+        },
+        "spearman_with_default_ranking": 0.8999999999999998
+      },
+      "uniform_draw_log_pools": {
+        "importance": {
+          "mean": 0.009507713979962872,
+          "ci95_low": 0.004720822338308457,
+          "ci95_high": 0.014294605621617287
+        },
+        "share_of_values_above_zero": 0.85,
+        "traces_changed": 11227,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.03365056418905353,
+        "difference_to_default": {
+          "mean": -0.0017287686447582055,
+          "ci95_low": -0.03059367606757482,
+          "ci95_high": 0.027136138778058413
+        },
+        "spearman_with_default_ranking": 0.6
+      }
+    }
+  }
+}

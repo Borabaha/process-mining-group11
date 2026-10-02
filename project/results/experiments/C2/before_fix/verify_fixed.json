@@ -1,0 +1,300 @@
+{
+  "f1": {
+    "folds": {
+      "engine_make_folds_equal_mine": true,
+      "train_test_disjoint_every_fold": true,
+      "train_plus_test_is_all_cases_every_fold": true,
+      "every_case_in_exactly_one_test_fold": true,
+      "label_1_share_per_test_fold": [
+        0.3982,
+        0.4027,
+        0.4027,
+        0.4027,
+        0.4027
+      ],
+      "model_trained_on": 904,
+      "held_out": 226
+    },
+    "direct_trials": [
+      {
+        "dataset": "f1",
+        "size": 1,
+        "feasible": 350,
+        "changed": 310,
+        "multi_occurrence": 74,
+        "moved_events": 495,
+        "violations": {},
+        "pools": "log"
+      },
+      {
+        "dataset": "f1",
+        "size": 1,
+        "feasible": 350,
+        "changed": 313,
+        "multi_occurrence": 88,
+        "moved_events": 509,
+        "violations": {},
+        "pools": "train"
+      },
+      {
+        "dataset": "f1",
+        "size": 2,
+        "feasible": 350,
+        "changed": 332,
+        "multi_occurrence": 46,
+        "moved_events": 816,
+        "violations": {},
+        "pools": "log"
+      },
+      {
+        "dataset": "f1",
+        "size": 2,
+        "feasible": 350,
+        "changed": 340,
+        "multi_occurrence": 47,
+        "moved_events": 840,
+        "infeasible": 1,
+        "violations": {},
+        "pools": "train"
+      },
+      {
+        "dataset": "f1",
+        "size": 3,
+        "feasible": 350,
+        "changed": 347,
+        "multi_occurrence": 5,
+        "moved_events": 1071,
+        "violations": {},
+        "pools": "log"
+      },
+      {
+        "dataset": "f1",
+        "size": 3,
+        "feasible": 350,
+        "changed": 345,
+        "multi_occurrence": 6,
+        "moved_events": 1080,
+        "violations": {},
+        "pools": "train"
+      }
+    ],
+    "compute_runs": {
+      "score_on=train,allowed_from=log": {
+        "permuted_traces_checked": 16068,
+        "size_1": 6606,
+        "multi_occurrence": 2751,
+        "table_rows_recomputed": 36,
+        "size_2": 5301,
+        "size_3": 4161,
+        "baseline": 0.9933597873479346,
+        "violations": {},
+        "scored_cases": 904,
+        "first_model_call_rows": 904,
+        "infeasible_total": 0
+      },
+      "score_on=test,allowed_from=log": {
+        "permuted_traces_checked": 3888,
+        "size_1": 1620,
+        "multi_occurrence": 684,
+        "table_rows_recomputed": 36,
+        "size_2": 1266,
+        "size_3": 1002,
+        "baseline": 0.8649975071668953,
+        "violations": {},
+        "scored_cases": 226,
+        "first_model_call_rows": 226,
+        "infeasible_total": 0
+      },
+      "score_on=test,allowed_from=train": {
+        "permuted_traces_checked": 3888,
+        "size_1": 1620,
+        "multi_occurrence": 684,
+        "table_rows_recomputed": 36,
+        "size_2": 1266,
+        "size_3": 1002,
+        "baseline": 0.8649975071668953,
+        "violations": {},
+        "scored_cases": 226,
+        "first_model_call_rows": 226,
+        "infeasible_total": 0
+      }
+    },
+    "determinism": {
+      "same_seed_identical_table": true,
+      "same_seed_identical_permuted_traces": true,
+      "other_seed_different_permuted_traces": true,
+      "share_of_traces_that_differ_with_other_seed": 0.9671,
+      "other_seed_same_baseline": true,
+      "repeat_0_1_2_same_when_6_repeats_are_run": true,
+      "result_independent_of_itemset_order": true,
+      "last_itemset_alone_equals_last_itemset_in_list": true,
+      "log_traces_untouched_after_all_runs": true,
+      "repeats_of_one_itemset_differ_from_each_other": true
+    },
+    "information": {
+      "activity_position_pairs_whole_log": 2415,
+      "pairs_only_known_from_held_out_fold": 220,
+      "shifted_unmoved_events": 50540,
+      "shifted_unmoved_events_at_never_observed_position": 2369
+    },
+    "size_1_uniformity": {
+      "single_occurrence": true,
+      "pool_size": 34,
+      "draws": 20000,
+      "positions_drawn_outside_pool": [],
+      "chi2": 32.07,
+      "degrees_of_freedom": 33
+    }
+  },
+  "f3": {
+    "folds": {
+      "engine_make_folds_equal_mine": true,
+      "train_test_disjoint_every_fold": true,
+      "train_plus_test_is_all_cases_every_fold": true,
+      "every_case_in_exactly_one_test_fold": true,
+      "label_1_share_per_test_fold": [
+        0.2332,
+        0.2297,
+        0.2342,
+        0.2342,
+        0.2342
+      ],
+      "model_trained_on": 889,
+      "held_out": 222
+    },
+    "direct_trials": [
+      {
+        "dataset": "f3",
+        "size": 1,
+        "feasible": 350,
+        "changed": 300,
+        "multi_occurrence": 83,
+        "moved_events": 529,
+        "violations": {},
+        "pools": "log"
+      },
+      {
+        "dataset": "f3",
+        "size": 1,
+        "feasible": 350,
+        "changed": 307,
+        "multi_occurrence": 88,
+        "moved_events": 524,
+        "infeasible": 1,
+        "violations": {},
+        "pools": "train"
+      },
+      {
+        "dataset": "f3",
+        "size": 2,
+        "feasible": 350,
+        "changed": 323,
+        "multi_occurrence": 42,
+        "moved_events": 820,
+        "violations": {},
+        "pools": "log"
+      },
+      {
+        "dataset": "f3",
+        "size": 2,
+        "feasible": 350,
+        "changed": 329,
+        "multi_occurrence": 46,
+        "moved_events": 816,
+        "infeasible": 4,
+        "violations": {},
+        "pools": "train"
+      },
+      {
+        "dataset": "f3",
+        "size": 3,
+        "feasible": 350,
+        "changed": 344,
+        "multi_occurrence": 12,
+        "moved_events": 1089,
+        "violations": {},
+        "pools": "log"
+      },
+      {
+        "dataset": "f3",
+        "size": 3,
+        "feasible": 350,
+        "changed": 349,
+        "multi_occurrence": 4,
+        "moved_events": 1068,
+        "infeasible": 8,
+        "violations": {},
+        "pools": "train"
+      }
+    ],
+    "compute_runs": {
+      "score_on=train,allowed_from=log": {
+        "permuted_traces_checked": 15165,
+        "size_1": 6054,
+        "multi_occurrence": 2499,
+        "table_rows_recomputed": 36,
+        "size_2": 4728,
+        "size_3": 4383,
+        "baseline": 0.9943515955063957,
+        "violations": {},
+        "scored_cases": 889,
+        "first_model_call_rows": 889,
+        "infeasible_total": 0
+      },
+      "score_on=test,allowed_from=log": {
+        "permuted_traces_checked": 3909,
+        "size_1": 1539,
+        "multi_occurrence": 642,
+        "table_rows_recomputed": 36,
+        "size_2": 1221,
+        "size_3": 1149,
+        "baseline": 0.9150130862087384,
+        "violations": {},
+        "scored_cases": 222,
+        "first_model_call_rows": 222,
+        "infeasible_total": 0
+      },
+      "score_on=test,allowed_from=train": {
+        "permuted_traces_checked": 3909,
+        "size_1": 1539,
+        "multi_occurrence": 642,
+        "table_rows_recomputed": 36,
+        "size_2": 1221,
+        "size_3": 1149,
+        "baseline": 0.9150130862087384,
+        "violations": {},
+        "scored_cases": 222,
+        "first_model_call_rows": 222,
+        "infeasible_total": 0
+      }
+    },
+    "determinism": {
+      "same_seed_identical_table": true,
+      "same_seed_identical_permuted_traces": true,
+      "other_seed_different_permuted_traces": true,
+      "share_of_traces_that_differ_with_other_seed": 0.9675,
+      "other_seed_same_baseline": true,
+      "repeat_0_1_2_same_when_6_repeats_are_run": true,
+      "result_independent_of_itemset_order": true,
+      "last_itemset_alone_equals_last_itemset_in_list": true,
+      "log_traces_untouched_after_all_runs": true,
+      "repeats_of_one_itemset_differ_from_each_other": true
+    },
+    "information": {
+      "activity_position_pairs_whole_log": 2019,
+      "pairs_only_known_from_held_out_fold": 212,
+      "shifted_unmoved_events": 45744,
+      "shifted_unmoved_events_at_never_observed_position": 2363
+    },
+    "size_1_uniformity": {
+      "single_occurrence": true,
+      "pool_size": 31,
+      "draws": 20000,
+      "positions_drawn_outside_pool": [],
+      "chi2": 29.3,
+      "degrees_of_freedom": 30
+    }
+  },
+  "permuted_traces_checked_total": 51027,
+  "violations_total": 0
+}

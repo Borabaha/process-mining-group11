@@ -1,0 +1,19 @@
+# Publish only the files listed below; everything else in this folder stays local.
+/*
+!/.gitignore
+!/README.md
+!/GUIDE_Group11_EN.md
+!/PROJECT_BRIEF_Group11.md
+!/project/
+
+# Inside project/: local environment, third-party code and data, temporary files
+project/.venv/
+project/external/
+project/experiments/original_impressed_patched/
+project/results/experiments/**/tmp/
+project/results/experiments/**/work/
+**/__pycache__/
+*.pyc
+*.npz
+*.pkl
+*.log

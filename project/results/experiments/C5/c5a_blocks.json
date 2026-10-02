@@ -1,0 +1,506 @@
+[
+ {
+  "log": "f1",
+  "raw_log": {
+   "n_cases": 1140,
+   "n_events": 24176,
+   "n_consecutive_pairs": 23036,
+   "n_equal_timestamp_pairs": 20450,
+   "share_equal_timestamp_pairs": 0.8877409272443132,
+   "n_decreasing_timestamp_pairs": 0,
+   "distinct_time_of_day_values": [
+    "23:00"
+   ]
+  },
+  "filtered_log": {
+   "n_cases": 1130,
+   "n_events": 23853,
+   "n_consecutive_pairs": 22723,
+   "n_equal_timestamp_pairs": 20185,
+   "share_equal_timestamp_pairs": 0.8883070017163227,
+   "n_decreasing_timestamp_pairs": 0,
+   "distinct_time_of_day_values": [
+    "23:00"
+   ]
+  },
+  "blocks_filtered_log": {
+   "n_blocks": 3668,
+   "block_size_mean": 6.502998909487459,
+   "block_size_median": 2.0,
+   "block_size_p90": 25.0,
+   "block_size_max": 36,
+   "event_weighted_median_block_size": 25.0,
+   "n_events_in_blocks_ge_2": 22487,
+   "share_events_in_blocks_ge_2": 0.9427325703265836,
+   "n_events_in_blocks_ge_10": 17583,
+   "share_events_in_blocks_ge_10": 0.737139982392152,
+   "share_of_parallel_events_in_blocks_ge_10": 0.7819184417663539,
+   "blocks_per_case_median": 3.0,
+   "trace_length_median": 25.0,
+   "n_cases_that_are_one_single_block": 412,
+   "n_cases_with_a_block_ge_10": 690,
+   "distribution": [
+    {
+     "block size": "1",
+     "blocks": 1366,
+     "share of blocks": 0.3724100327153762,
+     "events": 1366,
+     "share of events": 0.057267429673416345
+    },
+    {
+     "block size": "2",
+     "blocks": 925,
+     "share of blocks": 0.25218102508178847,
+     "events": 1850,
+     "share of events": 0.0775583784010397
+    },
+    {
+     "block size": "3",
+     "blocks": 246,
+     "share of blocks": 0.06706652126499454,
+     "events": 738,
+     "share of events": 0.030939504464847188
+    },
+    {
+     "block size": "4-5",
+     "blocks": 204,
+     "share of blocks": 0.05561613958560523,
+     "events": 898,
+     "share of events": 0.03764725611034252
+    },
+    {
+     "block size": "6-9",
+     "blocks": 198,
+     "share of blocks": 0.0539803707742639,
+     "events": 1418,
+     "share of events": 0.05944744895820232
+    },
+    {
+     "block size": "10-19",
+     "blocks": 148,
+     "share of blocks": 0.04034896401308615,
+     "events": 2054,
+     "share of events": 0.08611076174904624
+    },
+    {
+     "block size": "20+",
+     "blocks": 581,
+     "share of blocks": 0.15839694656488548,
+     "events": 15529,
+     "share of events": 0.6510292206431056
+    }
+   ]
+  },
+  "original_graphs_delta_0": {
+   "delta_time": 0,
+   "n_nodes": 23853,
+   "n_nodes_flagged_parallel": 22487,
+   "share_nodes_flagged_parallel": 0.9427325703265836,
+   "n_edges": 37909,
+   "n_edges_of_the_chains": 22723,
+   "edges_per_chain_edge": 1.668309642212736,
+   "max_out_degree": 32,
+   "n_graphs_without_any_edge": 412,
+   "cases_where_parallel_flags_differ_from_block_rule": 0,
+   "step1_pattern_sizes": [
+    {
+     "rule": "concurrent",
+     "pattern instances": 22487,
+     "median nodes": 25.0,
+     "largest": 36,
+     "share with > 3 nodes": 0.8849112820740872,
+     "share with > 3 distinct activities": 0.8758393738604527,
+     "share with >= 10 nodes": 0.7819184417663539
+    },
+    {
+     "rule": "direct following",
+     "pattern instances": 11724,
+     "median nodes": 3.0,
+     "largest": 33,
+     "share with > 3 nodes": 0.3075742067553736,
+     "share with > 3 distinct activities": 0.2868474923234391,
+     "share with >= 10 nodes": 0.0834186284544524
+    },
+    {
+     "rule": "direct preceding",
+     "pattern instances": 8982,
+     "median nodes": 3.0,
+     "largest": 36,
+     "share with > 3 nodes": 0.31462925851703405,
+     "share with > 3 distinct activities": 0.2952571810287241,
+     "share with >= 10 nodes": 0.12424849699398798
+    }
+   ],
+   "seconds": 9.198900999967009
+  },
+  "original_graphs_delta_minus_1": {
+   "delta_time": -1,
+   "n_nodes": 23853,
+   "n_nodes_flagged_parallel": 0,
+   "share_nodes_flagged_parallel": 0.0,
+   "n_edges": 22723,
+   "n_edges_of_the_chains": 22723,
+   "edges_per_chain_edge": 1.0,
+   "max_out_degree": 1,
+   "n_graphs_without_any_edge": 0,
+   "cases_where_parallel_flags_differ_from_block_rule": 0,
+   "step1_pattern_sizes": [
+    {
+     "rule": "direct following",
+     "pattern instances": 22723,
+     "median nodes": 2.0,
+     "largest": 2,
+     "share with > 3 nodes": 0.0,
+     "share with > 3 distinct activities": 0.0,
+     "share with >= 10 nodes": 0.0
+    },
+    {
+     "rule": "direct preceding",
+     "pattern instances": 22723,
+     "median nodes": 2.0,
+     "largest": 2,
+     "share with > 3 nodes": 0.0,
+     "share with > 3 distinct activities": 0.0,
+     "share with >= 10 nodes": 0.0
+    }
+   ],
+   "seconds": 9.6181673000101
+  }
+ },
+ {
+  "log": "f2",
+  "raw_log": {
+   "n_cases": 1140,
+   "n_events": 31235,
+   "n_consecutive_pairs": 30095,
+   "n_equal_timestamp_pairs": 26217,
+   "share_equal_timestamp_pairs": 0.871141385612228,
+   "n_decreasing_timestamp_pairs": 0,
+   "distinct_time_of_day_values": [
+    "23:00"
+   ]
+  },
+  "filtered_log": {
+   "n_cases": 1130,
+   "n_events": 30929,
+   "n_consecutive_pairs": 29799,
+   "n_equal_timestamp_pairs": 25964,
+   "share_equal_timestamp_pairs": 0.8713044061881271,
+   "n_decreasing_timestamp_pairs": 0,
+   "distinct_time_of_day_values": [
+    "23:00"
+   ]
+  },
+  "blocks_filtered_log": {
+   "n_blocks": 4965,
+   "block_size_mean": 6.229405840886203,
+   "block_size_median": 2.0,
+   "block_size_p90": 27.0,
+   "block_size_max": 40,
+   "event_weighted_median_block_size": 26.0,
+   "n_events_in_blocks_ge_2": 29042,
+   "share_events_in_blocks_ge_2": 0.9389892980697727,
+   "n_events_in_blocks_ge_10": 21163,
+   "share_events_in_blocks_ge_10": 0.6842445601215688,
+   "share_of_parallel_events_in_blocks_ge_10": 0.728703257351422,
+   "blocks_per_case_median": 4.0,
+   "trace_length_median": 40.0,
+   "n_cases_that_are_one_single_block": 110,
+   "n_cases_with_a_block_ge_10": 713,
+   "distribution": [
+    {
+     "block size": "1",
+     "blocks": 1887,
+     "share of blocks": 0.38006042296072506,
+     "events": 1887,
+     "share of events": 0.06101070193022729
+    },
+    {
+     "block size": "2",
+     "blocks": 1131,
+     "share of blocks": 0.22779456193353476,
+     "events": 2262,
+     "share of events": 0.073135245239096
+    },
+    {
+     "block size": "3",
+     "blocks": 331,
+     "share of blocks": 0.06666666666666667,
+     "events": 993,
+     "share of events": 0.032105790681884315
+    },
+    {
+     "block size": "4-5",
+     "blocks": 332,
+     "share of blocks": 0.06686807653575025,
+     "events": 1457,
+     "share of events": 0.04710789226939119
+    },
+    {
+     "block size": "6-9",
+     "blocks": 425,
+     "share of blocks": 0.08559919436052367,
+     "events": 3167,
+     "share of events": 0.10239580975783245
+    },
+    {
+     "block size": "10-19",
+     "blocks": 250,
+     "share of blocks": 0.050352467270896276,
+     "events": 3242,
+     "share of events": 0.10482071841960619
+    },
+    {
+     "block size": "20+",
+     "blocks": 609,
+     "share of blocks": 0.12265861027190332,
+     "events": 17921,
+     "share of events": 0.5794238417019626
+    }
+   ]
+  },
+  "original_graphs_delta_0": {
+   "delta_time": 0,
+   "n_nodes": 30929,
+   "n_nodes_flagged_parallel": 29042,
+   "share_nodes_flagged_parallel": 0.9389892980697727,
+   "n_edges": 83410,
+   "n_edges_of_the_chains": 29799,
+   "edges_per_chain_edge": 2.7990872176918686,
+   "max_out_degree": 35,
+   "n_graphs_without_any_edge": 110,
+   "cases_where_parallel_flags_differ_from_block_rule": 0,
+   "step1_pattern_sizes": [
+    {
+     "rule": "concurrent",
+     "pattern instances": 29042,
+     "median nodes": 28.0,
+     "largest": 40,
+     "share with > 3 nodes": 0.8879209420838785,
+     "share with > 3 distinct activities": 0.8765580882859307,
+     "share with >= 10 nodes": 0.728703257351422
+    },
+    {
+     "rule": "direct following",
+     "pattern instances": 24602,
+     "median nodes": 3.0,
+     "largest": 36,
+     "share with > 3 nodes": 0.3366392976180798,
+     "share with > 3 distinct activities": 0.31123485895455655,
+     "share with >= 10 nodes": 0.11047882285993009
+    },
+    {
+     "rule": "direct preceding",
+     "pattern instances": 14437,
+     "median nodes": 3.0,
+     "largest": 40,
+     "share with > 3 nodes": 0.3534667867285447,
+     "share with > 3 distinct activities": 0.33455704093648264,
+     "share with >= 10 nodes": 0.17607536191729584
+    }
+   ],
+   "seconds": 11.473363199969754
+  },
+  "original_graphs_delta_minus_1": {
+   "delta_time": -1,
+   "n_nodes": 30929,
+   "n_nodes_flagged_parallel": 0,
+   "share_nodes_flagged_parallel": 0.0,
+   "n_edges": 29799,
+   "n_edges_of_the_chains": 29799,
+   "edges_per_chain_edge": 1.0,
+   "max_out_degree": 1,
+   "n_graphs_without_any_edge": 0,
+   "cases_where_parallel_flags_differ_from_block_rule": 0,
+   "step1_pattern_sizes": [
+    {
+     "rule": "direct following",
+     "pattern instances": 29799,
+     "median nodes": 2.0,
+     "largest": 2,
+     "share with > 3 nodes": 0.0,
+     "share with > 3 distinct activities": 0.0,
+     "share with >= 10 nodes": 0.0
+    },
+    {
+     "rule": "direct preceding",
+     "pattern instances": 29799,
+     "median nodes": 2.0,
+     "largest": 2,
+     "share with > 3 nodes": 0.0,
+     "share with > 3 distinct activities": 0.0,
+     "share with >= 10 nodes": 0.0
+    }
+   ],
+   "seconds": 11.55032330006361
+  }
+ },
+ {
+  "log": "f3",
+  "raw_log": {
+   "n_cases": 1121,
+   "n_events": 20534,
+   "n_consecutive_pairs": 19413,
+   "n_equal_timestamp_pairs": 17173,
+   "share_equal_timestamp_pairs": 0.8846134033894812,
+   "n_decreasing_timestamp_pairs": 0,
+   "distinct_time_of_day_values": [
+    "23:00"
+   ]
+  },
+  "filtered_log": {
+   "n_cases": 1111,
+   "n_events": 20227,
+   "n_consecutive_pairs": 19116,
+   "n_equal_timestamp_pairs": 16901,
+   "share_equal_timestamp_pairs": 0.8841284787612471,
+   "n_decreasing_timestamp_pairs": 0,
+   "distinct_time_of_day_values": [
+    "23:00"
+   ]
+  },
+  "blocks_filtered_log": {
+   "n_blocks": 3326,
+   "block_size_mean": 6.081479254359591,
+   "block_size_median": 2.0,
+   "block_size_p90": 23.0,
+   "block_size_max": 31,
+   "event_weighted_median_block_size": 22.0,
+   "n_events_in_blocks_ge_2": 18918,
+   "share_events_in_blocks_ge_2": 0.9352845206901667,
+   "n_events_in_blocks_ge_10": 14874,
+   "share_events_in_blocks_ge_10": 0.7353537351065408,
+   "share_of_parallel_events_in_blocks_ge_10": 0.7862353314303837,
+   "blocks_per_case_median": 2.0,
+   "trace_length_median": 21.0,
+   "n_cases_that_are_one_single_block": 401,
+   "n_cases_with_a_block_ge_10": 614,
+   "distribution": [
+    {
+     "block size": "1",
+     "blocks": 1309,
+     "share of blocks": 0.3935658448586891,
+     "events": 1309,
+     "share of events": 0.06471547930983339
+    },
+    {
+     "block size": "2",
+     "blocks": 906,
+     "share of blocks": 0.2723992784125075,
+     "events": 1812,
+     "share of events": 0.08958323033568992
+    },
+    {
+     "block size": "3",
+     "blocks": 191,
+     "share of blocks": 0.057426337943475646,
+     "events": 573,
+     "share of events": 0.028328471844564197
+    },
+    {
+     "block size": "4-5",
+     "blocks": 157,
+     "share of blocks": 0.04720384846662658,
+     "events": 680,
+     "share of events": 0.03361843081030306
+    },
+    {
+     "block size": "6-9",
+     "blocks": 132,
+     "share of blocks": 0.0396873120865905,
+     "events": 979,
+     "share of events": 0.04840065259306867
+    },
+    {
+     "block size": "10-19",
+     "blocks": 123,
+     "share of blocks": 0.03698135898977751,
+     "events": 1763,
+     "share of events": 0.08716072576259455
+    },
+    {
+     "block size": "20+",
+     "blocks": 508,
+     "share of blocks": 0.15273601924233313,
+     "events": 13111,
+     "share of events": 0.6481930093439462
+    }
+   ]
+  },
+  "original_graphs_delta_0": {
+   "delta_time": 0,
+   "n_nodes": 20227,
+   "n_nodes_flagged_parallel": 18918,
+   "share_nodes_flagged_parallel": 0.9352845206901667,
+   "n_edges": 25921,
+   "n_edges_of_the_chains": 19116,
+   "edges_per_chain_edge": 1.3559845155890353,
+   "max_out_degree": 29,
+   "n_graphs_without_any_edge": 401,
+   "cases_where_parallel_flags_differ_from_block_rule": 0,
+   "step1_pattern_sizes": [
+    {
+     "rule": "concurrent",
+     "pattern instances": 18918,
+     "median nodes": 22.0,
+     "largest": 31,
+     "share with > 3 nodes": 0.8739295908658421,
+     "share with > 3 distinct activities": 0.8651020192409345,
+     "share with >= 10 nodes": 0.7862353314303837
+    },
+    {
+     "rule": "direct following",
+     "pattern instances": 10129,
+     "median nodes": 2.0,
+     "largest": 30,
+     "share with > 3 nodes": 0.2037713495902853,
+     "share with > 3 distinct activities": 0.1774113930299141,
+     "share with >= 10 nodes": 0.0515351959719617
+    },
+    {
+     "rule": "direct preceding",
+     "pattern instances": 6937,
+     "median nodes": 3.0,
+     "largest": 31,
+     "share with > 3 nodes": 0.2734611503531786,
+     "share with > 3 distinct activities": 0.25342367017442696,
+     "share with >= 10 nodes": 0.10753928211042238
+    }
+   ],
+   "seconds": 8.788679799996316
+  },
+  "original_graphs_delta_minus_1": {
+   "delta_time": -1,
+   "n_nodes": 20227,
+   "n_nodes_flagged_parallel": 0,
+   "share_nodes_flagged_parallel": 0.0,
+   "n_edges": 19116,
+   "n_edges_of_the_chains": 19116,
+   "edges_per_chain_edge": 1.0,
+   "max_out_degree": 1,
+   "n_graphs_without_any_edge": 0,
+   "cases_where_parallel_flags_differ_from_block_rule": 0,
+   "step1_pattern_sizes": [
+    {
+     "rule": "direct following",
+     "pattern instances": 19116,
+     "median nodes": 2.0,
+     "largest": 2,
+     "share with > 3 nodes": 0.0,
+     "share with > 3 distinct activities": 0.0,
+     "share with >= 10 nodes": 0.0
+    },
+    {
+     "rule": "direct preceding",
+     "pattern instances": 19116,
+     "median nodes": 2.0,
+     "largest": 2,
+     "share with > 3 nodes": 0.0,
+     "share with > 3 distinct activities": 0.0,
+     "share with >= 10 nodes": 0.0
+    }
+   ],
+   "seconds": 7.927597600035369
+  }
+ }
+]

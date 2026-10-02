@@ -1,0 +1,1112 @@
+case:concept:name,Age,Diagnosis,Treatment code,Diagnosis code,Specialism code
+0,33,maligniteit cervix,TC103,M13,SC61
+1,39,maligniteit cervix,TC3101,DC822,SC7
+10,83,maligniteit cervix,TC113,M13,SC61
+100,69,Maligne neoplasma ovarium,TC3101,DC821,SC7
+1000,78,maligniteit endometrium,TC101,M14,SC7
+1001,64,Plav.celcarc. vulva: st II,TC803,M11,SC7
+1002,33,maligniteit endometrium,TC703,M14,SC61
+1003,41,"Plaveiselcelca, cervix st Ia1",TC503,M13,SC7
+1004,76,maligniteit endometrium,TC703,M14,SC7
+1005,99,"Plaveiselcelca, cervix (st onbekend)",TC13,DC106,SC61
+1006,62,Adenosq. ca: corpus uteri st IIa,TC23,DC106,SC61
+1007,50,"Plaveiselcelca, cervix st Ib",TC101,M13,SC7
+1008,54,Ongediff. adenoca. ovarium st IV,TC803,M16,SC7
+1009,47,Gynaecologische tumoren,TC13,DC106,SC61
+101,52,maligniteit cervix,TC101,M13,SC7
+1010,84,basaalcel carcinoom vulva,TC603,M11,SC7
+1011,57,"Plaveiselcelca, cervix st IIb",TC103,M13,SC61
+1012,52,Adenoca: corpus uteri st Ib,TC101,M14,SC7
+1013,68,Adenoca: corpus uteri st Ic,TC101,M14,SC61
+1014,45,Maligne nieuwvormingen ovarium (ov),TC803,M16,SC7
+1016,48,"Plaveiselcelca, cervix st IIa",TC101,M13,SC7
+1017,71,Mucineus adenoca. ovarium st IIIc,TC803,M16,SC7
+1018,82,Plav.celcarc. vulva: st I,TC803,M11,SC7
+1019,65,Gynaecologische tumoren,TC13,DC106,SC7
+102,51,maligniteit cervix,TC101,M13,SC7
+1020,37,Mucineus adenoca. ovarium st Ic,missing,M16,SC7
+1022,51,Recidieven maligniteit cervix uteri,TC103,M13,SC61
+1023,45,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1024,36,"Plaveiselcelca, cervix st IIb",TC113,M13,SC61
+1025,37,"Plaveiselcelca, cervix st Ib",TC803,M13,SC61
+1026,39,Recidieven maligniteit cervix uteri,TC813,M13,SC61
+1027,42,Recidieven maligniteit cervix uteri,TC113,M13,SC61
+1028,51,Maligne neoplasma adnexa uteri,TC4302,DC839,SC7
+1029,73,Plav.celcarc. vulva: st I,TC503,M11,SC7
+103,70,maligniteit cervix,TC61,DC106,SC61
+1030,57,Maligne neoplasma cervix,TC3101,DC822,SC7
+1031,41,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1032,48,Maligne neoplasma adnexa uteri,TC3302,DC839,SC7
+1033,74,Adenoca: corpus uteri st Ic,TC13,DC106,SC61
+1034,42,"Plaveiselcelca, cervix st Ib",TC113,M13,SC61
+1035,96,Maligne nieuwvormingen corpus uteri (ov),TC13,DC106,SC61
+1036,33,Adenoca:  cervix st Ib,TC803,M13,SC7
+1037,80,Sereus adenoca: ovarium st IIIb,TC803,M16,SC7
+1038,47,Maligne nieuwv. cervix uteri (ov),TC3101,DC822,SC13
+1039,40,Gynaecologische tumoren,TC113,DC106,SC61
+104,56,maligniteit cervix,TC101,M13,SC7
+1040,41,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1041,32,Maligne neoplasma cervix uteri,TC703,DC822,SC61
+1042,80,Recidieven corpus maligniteit uteri (nno),TC13,DC106,SC61
+1043,49,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+1044,31,"Plaveiselcelca, cervix st IIb",TC101,M13,SC61
+1045,58,"Plaveiselcelca, cervix st IIa",TC13,DC106,SC61
+1046,55,Adenoca: corpus uteri (st onbekend),TC101,M14,SC7
+1047,52,Adenoca: corpus uteri (st onbekend),TC101,M14,SC7
+1048,58,Plav.celcarc. vulva: st II,missing,M11,SC7
+1049,51,Clearcell ca. ovarium st Ia,TC803,M16,SC7
+105,73,maligniteit ovarium | tuba,TC803,M16,SC7
+1050,57,Adenoca: corpus uteri (st onbekend),TC104,M14,SC7
+1051,66,Metastasen maligniteit ovarium (nno),TC101,M16,SC7
+1052,32,Maligne neoplasma cervix uteri,TC3101,DC822,SC61
+1053,59,Plav.celcarc. vulva: st I,TC603,M11,SC7
+1054,79,Adenoca: corpus uteri st IVb,TC503,M14,SC7
+1055,70,Recidieven corpus maligniteit uteri (nno),TC101,M14,SC7
+1056,60,other,TC103,M12,SC7
+1057,69,Sereus adenoca: ovarium st IIIb,TC803,M16,SC7
+1058,63,Ongediff. adenoca. ovarium st IIIc,TC803,M16,SC7
+1059,35,Maligne neoplasma cervix uteri,TC9101,DC822,SC7
+106,49,Maligne neoplasma cervix uteri,TC9101,DC822,SC7
+1060,47,Adenoca:  cervix st Ib,TC803,M13,SC7
+1061,40,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1062,59,Sereus adenoca: ovarium st IIIc,TC4302,DC839,SC13
+1063,50,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+1064,79,Mucineus adenoca. ovarium st onb.,TC803,M16,SC7
+1065,66,other,TC101,M16,SC7
+1066,66,Adenoca: corpus uteri st IIb,TC103,M14,SC7
+1067,57,Sereus adenoca: ovarium st Ia,TC101,M16,SC7
+1068,63,other,TC104,M16,SC7
+1069,38,Plav.celcarc. vulva: st IVb,TC13,DC106,SC61
+107,46,maligniteit cervix,TC101,M13,SC7
+1070,59,Plav.celcarc. vulva: st II,TC803,M11,SC7
+1071,60,Maligne neoplasma cervix uteri,TC3101,DC822,SC7
+1072,70,Maligne neoplasma adnexa uteri,TC3101,DC839,SC7
+1073,27,"Plaveiselcelca, cervix st Ib",missing,M13,SC7
+1074,43,"Plaveiselcelca, cervix st IIa",TC813,M13,SC7
+1075,79,Sereus adenoca: ovarium st IV,TC101,M16,SC7
+1076,61,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+1078,67,Plav.celcarc. vulva: st II,TC803,M11,SC7
+1079,44,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+108,51,maligniteit cervix,TC101,M13,SC7
+1080,40,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1081,67,Recidieven corpus maligniteit uteri (nno),TC103,M14,SC7
+1082,79,maligne nieuwvormingen vulva (nno),TC101,M11,SC7
+1083,72,Adenoca. vagina st II,missing,M12,SC7
+1084,36,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1085,70,Adenoca: corpus uteri st IIb,TC4302,DC822,SC13
+1086,66,Adenoca: corpus uteri (st onbekend),TC703,M14,SC7
+1087,54,Adenoca:  cervix st Ib,TC101,M13,SC7
+1088,53,Recidieven maligniteit cervix uteri,TC103,M13,SC7
+1089,25,"Plaveiselcelca, cervix st Ia1",TC101,M13,SC7
+109,47,maligniteit ovarium | tuba,TC101,M16,SC7
+1090,73,Sereus adenoca: ovarium st IV,TC803,M16,SC7
+1091,67,Adenoca: corpus uteri st Ic,missing,M14,SC7
+1092,70,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1093,61,Clearcell ca. ovarium (st onbekend),TC803,M16,SC7
+1094,52,Endometrioid adenoca. ovarium st Ic,TC803,M16,SC7
+1095,60,"Plaveiselcelca, cervix st IIIb",TC503,M13,SC7
+1096,84,"Plaveiselcelca, cervix st IIa",TC503,M13,SC7
+1097,62,Adenoca: corpus uteri st IVa,TC613,M14,SC7
+1098,41,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1099,47,Maligne neoplasma cervix uteri,TC3101,DC822,SC7
+11,72,maligniteit ovarium | tuba,TC603,M16,SC7
+110,51,maligniteit vulva,TC803,M11,SC7
+1100,67,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+1101,69,Recidieven maligniteit ovarium,TC3301,DC839,SC13
+1102,52,"Plaveiselcelca, cervix st Ib",TC1101,DC822,SC13
+1103,78,other,TC101,M13,SC7
+1104,74,Maligne nieuwvormingen ovarium (ov),TC103,M16,SC7
+1105,66,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1106,29,"Plaveiselcelca, cervix st Ib",TC3301,DC822,SC13
+1107,74,Adenoca: corpus uteri st Ic,TC104,M14,SC7
+1108,85,Recidieven corpus maligniteit uteri (nno),missing,M14,SC7
+1109,71,Adenoca: corpus uteri st Ic,missing,M14,SC7
+111,77,maligniteit vulva,TC101,M11,SC7
+1110,46,Plav.celcarc. vulva: st II,TC603,M11,SC7
+1111,70,Plav.celcarc. vulva: st III2,TC806,M11,SC7
+1113,38,Recidieven maligniteit cervix uteri,TC103,DC822,SC13
+1114,35,Adenoca:  cervix st IIa,TC4302,DC822,SC13
+1115,44,"Plaveiselcelca, cervix st IVb",TC103,M13,SC7
+1116,46,Sereus adenoca: ovarium st IV,TC706,M16,SC7
+1117,54,Adenoca: corpus uteri st Ia,TC101,M14,SC7
+1118,41,"Plaveiselcelca, cervix st Ib",TC806,M13,SC7
+1119,47,Adenoca:  cervix st Ib,TC806,M13,SC7
+112,27,maligniteit cervix,TC813,M13,SC7
+1120,76,maligniteit ovarium | tuba,TC101,M16,SC7
+1121,57,Sereus adenoca: ovarium st IIIc,TC816,M16,SC7
+1122,85,maligniteit endometrium,TC101,M14,SC7
+1123,61,Adenoca: corpus uteri st Ic,TC101,M14,SC7
+1124,58,"Plaveiselcelca, cervix st Ib",TC113,M13,SC7
+1126,45,Sereus adenoca: ovarium st IIIc,missing,M16,SC7
+1127,53,maligniteit endometrium,TC101,M14,SC7
+1128,79,Plav.celcarc. vulva: st II,TC813,M11,SC7
+1129,68,Adenoca: corpus uteri st IIIb,TC101,M14,SC7
+113,45,Gynaecologische tumoren,TC61,DC106,SC7
+1130,47,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+1131,70,Adenoca: corpus uteri st IVb,TC101,M14,SC7
+1132,58,Recidieven maligniteit ovarium,missing,M16,SC7
+1133,30,Plav.celcarc. vulva: st I,TC101,M11,SC7
+1134,48,Sereus adenoca: ovarium st Ic,TC101,M16,SC7
+1135,75,Plav.celcarc. vulva: st II,TC113,M11,SC7
+1136,38,"Plaveiselcelca, cervix st Ib",missing,M13,SC7
+1137,58,Adenoca: corpus uteri st IIb,TC101,M14,SC7
+1138,55,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1139,29,Sereus adenoca: ovarium st Ia,TC803,M16,SC7
+114,82,maligniteit endometrium,TC101,M14,SC7
+1140,51,Plav.celcarc. vulva: st I,missing,M11,SC7
+1141,60,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+1142,52,"Plaveiselcelca, cervix st Ib",missing,M13,SC7
+115,62,maligniteit endometrium,TC103,M14,SC7
+116,56,maligniteit ovarium,TC103,DC821,SC13
+117,41,maligniteit cervix,TC101,M13,SC7
+118,64,maligniteit endometrium,TC603,M14,SC7
+119,57,Maligne neoplasma adnexa uteri,TC101,DC839,SC13
+12,41,Maligne neoplasma cervix uteri,other,DC106,SC13
+120,63,maligniteit ovarium | tuba,TC101,M16,SC7
+121,91,maligniteit vulva,TC101,M11,SC7
+122,56,maligniteit cervix,TC61,DC106,SC61
+123,48,maligniteit cervix,TC813,M13,SC7
+124,62,Gynaecologische tumoren,TC12,DC106,SC61
+125,45,Gynaecologische tumoren,TC61,DC106,SC7
+126,41,maligniteit cervix,TC603,M13,SC7
+127,58,maligniteit cervix,TC103,DC822,SC61
+128,72,Gynaecologische tumoren,TC13,DC106,SC61
+129,47,Gynaecologische tumoren,TC61,DC106,SC7
+13,30,Gynaecologische tumoren,TC11,DC106,SC7
+130,56,maligniteit ovarium | tuba,TC603,M16,SC7
+131,70,maligniteit ovarium,TC3101,DC821,SC13
+132,87,maligniteit vulva,TC101,M11,SC7
+133,70,maligniteit vulva,TC101,M11,SC7
+134,70,maligniteit cervix,TC113,M13,SC61
+135,54,Gynaecologische tumoren,TC61,DC106,SC7
+136,73,Gynaecologische tumoren,TC13,DC106,SC61
+137,24,maligniteit ovarium | tuba,TC101,M16,SC7
+138,31,maligniteit cervix,TC101,M13,SC7
+139,39,Maligne neoplasma cervix uteri,TC103,DC822,SC61
+14,84,maligniteit vulva,TC813,M11,SC7
+140,51,maligniteit endometrium,TC613,M14,SC7
+141,73,maligniteit vulva,TC101,M11,SC7
+142,34,maligniteit vulva,TC603,M11,SC7
+143,49,maligniteit vulva,TC101,M11,SC7
+144,44,maligniteit cervix,TC61,M13,SC61
+145,56,maligniteit cervix,TC101,M13,SC7
+146,52,maligniteit cervix,TC101,M13,SC7
+147,38,maligniteit cervix,TC101,M13,SC7
+148,69,maligniteit cervix,TC101,M13,SC7
+149,28,maligniteit ovarium | tuba,TC101,M16,SC7
+15,55,maligniteit vulva,TC101,M11,SC7
+150,63,maligniteit ovarium | tuba,TC101,M16,SC7
+151,75,maligniteit ovarium | tuba,TC101,M16,SC7
+152,74,maligniteit vulva,TC803,M11,SC7
+153,57,maligniteit cervix,TC101,M13,SC7
+154,44,maligniteit ovarium | tuba,TC101,M16,SC7
+155,46,Gynaecologische tumoren,TC61,DC106,SC7
+156,44,Gynaecologische tumoren,TC61,DC106,SC7
+157,60,maligniteit vulva,TC101,M11,SC7
+158,46,Gynaecologische tumoren,TC61,DC106,SC7
+159,54,Gynaecologische tumoren,TC61,DC106,SC7
+16,79,Gynaecologische tumoren,TC61,DC106,SC7
+160,47,maligniteit vagina,TC101,M12,SC7
+161,83,maligniteit vagina,TC113,M12,SC7
+162,39,maligniteit cervix,TC101,M13,SC7
+163,32,maligniteit cervix,TC803,M13,SC7
+164,67,maligniteit vulva,TC101,M11,SC7
+165,52,maligniteit vulva,TC101,M11,SC7
+166,82,maligniteit vulva,TC503,M11,SC7
+167,46,Gynaecologische tumoren,TC61,DC106,SC7
+168,35,maligniteit cervix,TC101,DC106,SC7
+169,31,maligniteit cervix,TC503,M13,SC7
+17,53,maligniteit ovarium | tuba,TC803,M16,SC7
+170,78,Gynaecologische tumoren,TC603,DC106,SC61
+171,76,maligniteit endometrium,TC101,M14,SC7
+172,58,maligniteit ovarium | tuba,TC101,M16,SC7
+173,50,maligniteit cervix,TC101,M13,SC7
+174,71,Gynaecologische tumoren,TC61,DC106,SC7
+175,45,maligniteit cervix,TC813,M13,SC7
+176,49,maligniteit cervix,TC101,M13,SC7
+177,38,Gynaecologische tumoren,TC61,DC106,SC7
+178,36,maligniteit cervix,TC101,M13,SC7
+179,70,maligniteit endometrium,TC101,M14,SC7
+18,73,maligniteit ovarium | tuba,TC803,M16,SC7
+180,66,maligniteit vulva,TC101,M11,SC7
+181,60,maligniteit ovarium | tuba,TC101,M16,SC7
+182,59,maligniteit endometrium,TC101,M14,SC7
+183,52,maligniteit ovarium | tuba,TC101,M16,SC7
+184,54,maligniteit cervix,TC101,M13,SC7
+185,84,maligniteit vulva,TC101,M11,SC7
+186,57,maligniteit cervix,TC101,M13,SC7
+187,85,maligniteit cervix,TC61,DC106,SC61
+188,51,maligniteit cervix,TC101,M13,SC7
+189,69,maligniteit ovarium | tuba,TC101,M16,SC7
+19,63,maligniteit vulva,TC101,M11,SC7
+190,61,Maligne neoplasma ovarium,TC102,DC821,SC13
+191,72,maligniteit vulva,TC101,M11,SC7
+192,79,Plav.celcarc. vulva: st I,TC101,M11,SC7
+193,84,Gynaecologische tumoren,TC61,DC106,SC7
+194,43,maligniteit cervix,TC813,DC822,SC61
+195,59,maligniteit ovarium | tuba,TC3101,DC822,SC13
+196,85,maligniteit vulva,TC101,M11,SC7
+197,45,maligniteit cervix,TC101,M13,SC7
+198,58,maligniteit cervix,TC103,M13,SC7
+199,26,maligniteit cervix,TC61,DC106,SC61
+2,52,maligniteit cervix,TC3201,DC822,SC7
+20,86,maligniteit cervix,TC113,DC822,SC61
+200,43,maligniteit cervix,TC510,M13,SC7
+201,76,Gynaecologische tumoren,TC61,DC106,SC61
+202,42,maligniteit cervix,TC101,M13,SC7
+203,49,maligniteit vulva,TC101,M11,SC7
+204,62,maligniteit cervix,TC101,M13,SC7
+205,69,maligniteit vulva,TC101,M11,SC7
+206,48,maligniteit endometrium,TC3101,DC823,SC7
+207,50,Gynaecologische tumoren,TC61,DC106,SC7
+208,42,Gynaecologische tumoren,TC61,DC106,SC7
+209,28,maligniteit ovarium,TC3101,DC821,SC7
+21,65,maligniteit vulva,TC101,M11,SC7
+210,64,maligniteit endometrium,TC3101,DC823,SC7
+211,57,maligniteit vulva,TC101,M11,SC7
+212,53,maligniteit vulva,TC101,M11,SC7
+213,76,maligniteit vulva,TC803,M11,SC7
+214,79,maligniteit vulva,TC101,M11,SC7
+215,44,maligniteit cervix,TC101,M13,SC7
+216,33,maligniteit cervix,TC101,M13,SC7
+217,70,maligniteit ovarium | tuba,TC101,M16,SC7
+218,65,Maligne neoplasma ovarium,TC3101,DC821,SC7
+219,53,maligniteit ovarium | tuba,TC101,M16,SC7
+22,66,maligniteit cervix,TC61,DC106,SC61
+220,63,maligniteit ovarium | tuba,TC101,M16,SC7
+221,53,maligniteit cervix,TC61,DC106,SC61
+222,61,maligniteit cervix,TC61,DC106,SC61
+223,70,Gynaecologische tumoren,TC13,DC106,SC61
+224,73,maligniteit vulva,TC101,M11,SC7
+225,54,Gynaecologische tumoren,TC61,DC106,SC7
+226,72,Gynaecologische tumoren,TC61,DC106,SC7
+227,40,maligniteit cervix,TC101,M13,SC7
+228,60,maligniteit ovarium,TC3201,DC821,SC7
+229,50,Maligne neoplasma cervix uteri,TC13,DC106,SC61
+23,40,maligniteit cervix,TC4401,DC822,SC61
+230,73,maligniteit vulva,TC101,M11,SC7
+231,86,maligniteit vulva,TC503,M11,SC7
+232,55,maligniteit endometrium,TC101,M14,SC7
+233,62,maligniteit ovarium,TC803,DC821,SC13
+234,83,maligniteit vulva,TC603,M11,SC7
+235,58,maligniteit vulva,TC101,M11,SC7
+236,48,maligniteit cervix,TC113,DC822,SC61
+237,46,maligniteit endometrium,TC101,M14,SC7
+238,73,Gynaecologische tumoren,TC103,DC106,SC61
+239,54,maligniteit ovarium | tuba,TC101,M16,SC7
+24,37,maligniteit cervix,TC13,DC106,SC61
+240,75,maligniteit vulva,TC101,M11,SC7
+241,43,Gynaecologische tumoren,TC101,DC106,SC61
+242,73,maligniteit endometrium,TC101,M14,SC7
+243,46,maligniteit myometrium,TC101,M15,SC7
+244,19,maligniteit ovarium | tuba,TC603,M16,SC7
+245,56,maligniteit cervix,TC101,M13,SC7
+246,36,Maligne neoplasma cervix uteri,TC813,DC822,SC61
+247,72,Maligne neoplasma vulva,TC103,DC839,SC61
+248,71,maligniteit cervix,TC113,M13,SC7
+249,87,maligniteit cervix,TC101,M13,SC7
+25,51,maligniteit cervix,TC101,M13,SC7
+250,68,maligniteit ovarium | tuba,TC803,M16,SC7
+251,35,maligniteit cervix,TC101,M13,SC7
+252,51,maligniteit cervix,TC101,M13,SC7
+253,51,Maligne neoplasma cervix uteri,TC3101,M13,SC61
+254,55,maligniteit vulva,TC101,M11,SC7
+255,43,maligniteit cervix,TC813,M13,SC7
+256,62,Gynaecologische tumoren,TC61,DC106,SC7
+257,39,maligniteit cervix,TC803,M13,SC7
+258,78,Gynaecologische tumoren,TC61,DC106,SC7
+259,51,maligniteit ovarium,TC102,DC821,SC13
+26,37,maligniteit cervix,TC101,M13,SC7
+260,82,maligniteit ovarium | tuba,TC103,M16,SC61
+261,42,maligniteit ovarium | tuba,TC101,M16,SC7
+262,83,maligniteit vulva,TC101,M11,SC7
+263,55,maligniteit endometrium,TC101,M14,SC7
+264,92,maligniteit ovarium | tuba,TC101,M16,SC7
+265,68,Gynaecologische tumoren,TC101,DC106,SC61
+267,72,maligniteit cervix,TC101,M13,SC7
+268,42,Gynaecologische tumoren,TC62,DC106,SC7
+269,41,maligniteit ovarium | tuba,TC101,M16,SC7
+27,72,maligniteit endometrium,TC103,M14,SC61
+270,54,Gynaecologische tumoren,TC803,DC106,SC61
+271,68,maligniteit endometrium,TC101,M14,SC7
+272,45,maligniteit ovarium | tuba,TC101,M16,SC7
+273,65,maligniteit vagina,TC101,M12,SC7
+274,45,maligniteit cervix,TC101,M13,SC7
+275,77,Gynaecologische tumoren,TC13,DC106,SC7
+276,39,maligniteit cervix,TC101,M13,SC7
+277,82,maligniteit vulva,TC101,M11,SC7
+278,50,Gynaecologische tumoren,TC61,DC106,SC7
+279,58,maligniteit endometrium,TC101,M14,SC7
+28,63,maligniteit ovarium | tuba,TC101,M16,SC7
+280,80,maligniteit vulva,TC101,M11,SC7
+281,53,maligniteit cervix,TC101,M13,SC7
+282,36,maligniteit cervix,TC101,M13,SC7
+283,45,Maligne neoplasma cervix uteri,TC61,DC822,SC61
+284,56,maligniteit ovarium | tuba,TC101,M16,SC7
+285,59,maligniteit vulva,TC101,M11,SC7
+286,48,maligniteit ovarium | tuba,TC803,M16,SC7
+287,67,maligniteit vulva,TC101,M11,SC7
+288,62,Gynaecologische tumoren,TC61,DC106,SC7
+289,69,maligniteit cervix,TC101,M13,SC7
+29,71,maligniteit ovarium | tuba,TC101,M16,SC7
+290,67,Gynaecologische tumoren,TC61,M14,SC61
+291,76,maligniteit endometrium,TC101,M14,SC7
+292,69,Adenoca: corpus uteri st Ic,TC101,M14,SC7
+293,59,maligniteit endometrium,TC101,M14,SC61
+294,31,maligniteit ovarium | tuba,TC101,M16,SC7
+295,33,Gynaecologische tumoren,TC61,DC106,SC7
+296,50,Maligne neoplasma cervix uteri,TC61,DC822,SC61
+297,59,maligniteit cervix,TC101,M13,SC7
+298,59,maligniteit ovarium | tuba,TC101,M16,SC7
+299,80,maligniteit vulva,TC603,M11,SC7
+3,56,maligniteit ovarium,TC9101,DC821,SC7
+30,55,maligniteit ovarium | tuba,TC803,DC821,SC7
+300,80,maligniteit vulva,TC101,M11,SC7
+301,54,maligniteit vulva,TC101,M11,SC7
+302,75,maligniteit ovarium,TC813,DC821,SC61
+303,54,maligniteit endometrium,TC103,M14,SC7
+304,60,maligniteit ovarium | tuba,TC101,M16,SC7
+305,84,maligniteit vulva,TC101,M11,SC7
+306,52,maligniteit cervix,TC603,M13,SC7
+307,47,Gynaecologische tumoren,TC61,DC106,SC7
+308,59,maligniteit ovarium | tuba,TC101,M16,SC7
+309,71,maligniteit ovarium | tuba,TC101,M16,SC7
+31,34,maligniteit cervix,TC101,M13,SC7
+310,55,maligniteit ovarium | tuba,TC803,M16,SC7
+311,74,maligniteit vulva,TC503,M11,SC7
+312,50,maligniteit cervix,TC101,M13,SC7
+313,46,maligniteit cervix,TC101,M13,SC7
+314,69,maligniteit endometrium,TC101,M14,SC7
+315,47,maligniteit ovarium | tuba,TC101,M16,SC7
+316,91,maligniteit vulva,TC101,M11,SC7
+317,41,maligniteit cervix,TC103,M13,SC7
+318,63,Gynaecologische tumoren,TC61,DC106,SC7
+319,80,Gynaecologische tumoren,TC61,DC106,SC7
+32,61,Gynaecologische tumoren,TC101,DC106,SC61
+320,39,maligniteit cervix,TC101,M13,SC7
+321,70,maligniteit ovarium | tuba,TC803,M16,SC7
+322,62,maligniteit ovarium | tuba,TC103,M16,SC7
+323,86,maligniteit vulva,TC503,M11,SC7
+324,52,maligniteit cervix,TC101,M13,SC7
+325,52,maligniteit cervix,TC101,M13,SC7
+326,45,maligniteit cervix,TC603,M13,SC7
+327,46,maligniteit cervix,TC803,M13,SC7
+328,46,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+329,71,maligniteit endometrium,TC101,M14,SC61
+33,38,maligniteit ovarium | tuba,TC101,M16,SC7
+330,70,Maligne neoplasma ovarium,TC101,DC821,SC13
+331,73,maligniteit vulva,TC101,M11,SC7
+332,85,Gynaecologische tumoren,TC101,DC106,SC61
+333,85,Maligne neoplasma vulva,TC3104,DC839,SC7
+334,42,maligniteit vagina,TC101,M12,SC7
+335,64,maligniteit ovarium | tuba,TC101,M16,SC7
+336,51,Maligne neoplasma cervix uteri,TC3101,M13,SC61
+337,67,maligniteit ovarium | tuba,TC101,M16,SC7
+338,37,maligniteit ovarium | tuba,TC101,M16,SC7
+339,67,Maligne neoplasma cervix uteri,TC813,DC822,SC61
+34,36,maligniteit myometrium,TC101,M15,SC7
+340,38,Maligne neoplasma cervix uteri,TC803,DC822,SC61
+341,57,maligniteit ovarium | tuba,TC603,M16,SC7
+342,76,maligniteit ovarium | tuba,TC803,M16,SC7
+343,64,maligniteit ovarium | tuba,TC101,M16,SC7
+344,86,maligniteit vulva,TC803,M11,SC7
+345,32,Maligne neoplasma cervix uteri,TC101,DC822,SC61
+346,73,maligniteit cervix,TC101,DC106,SC7
+347,35,maligniteit cervix,TC113,M13,SC7
+348,85,maligniteit vulva,TC101,M11,SC7
+349,87,maligniteit cervix,TC101,M13,SC7
+35,53,maligniteit vulva,TC603,M11,SC7
+350,53,maligniteit cervix,TC101,M13,SC7
+351,58,maligniteit endometrium,TC603,M14,SC61
+352,65,maligniteit cervix,TC101,M13,SC7
+353,43,maligniteit endometrium,TC101,M14,SC7
+354,42,Gynaecologische tumoren,TC13,M13,SC61
+355,63,maligniteit vulva,TC101,M11,SC7
+356,67,maligniteit vulva,TC813,M11,SC7
+357,36,Gynaecologische tumoren,TC61,DC106,SC61
+358,84,maligniteit vulva,TC813,M11,SC7
+359,58,maligniteit endometrium,TC101,M14,SC7
+36,83,Maligne neoplasma ovarium,TC3101,DC821,SC7
+360,66,Gynaecologische tumoren,TC613,DC106,SC61
+361,67,maligniteit cervix,TC101,M13,SC7
+362,48,maligniteit cervix,TC101,M13,SC7
+363,75,maligniteit endometrium,TC23,DC106,SC61
+364,39,maligniteit cervix,TC81,DC822,SC61
+365,79,Recidieven corpus maligniteit uteri (nno),TC101,M14,SC61
+366,27,Maligne nieuwvormingen ovarium (ov),TC101,M16,SC7
+367,69,maligniteit vulva,TC803,M11,SC7
+368,44,maligniteit cervix,TC101,M13,SC7
+369,74,Gynaecologische tumoren,TC61,DC106,SC7
+37,67,maligniteit endometrium,TC101,M14,SC7
+371,39,Maligne neoplasma cervix uteri,TC813,DC822,SC61
+372,35,maligniteit cervix,TC101,M13,SC7
+373,52,maligniteit cervix,TC101,M13,SC7
+374,45,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+375,37,maligniteit cervix,TC101,M13,SC7
+376,53,maligniteit cervix,TC813,M13,SC61
+377,54,Maligne neoplasma ovarium,TC3101,DC821,SC13
+378,54,Maligne neoplasma cervix uteri,TC3301,DC822,SC7
+379,53,Maligne neoplasma cervix uteri,TC61,DC822,SC61
+38,59,maligniteit ovarium | tuba,TC101,M16,SC7
+380,45,maligniteit cervix,TC101,M13,SC7
+381,51,Gynaecologische tumoren,TC103,DC106,SC61
+382,57,maligniteit ovarium | tuba,TC803,M16,SC7
+383,48,Maligne neoplasma cervix uteri,TC103,DC822,SC61
+384,51,maligniteit ovarium | tuba,TC101,M16,SC7
+385,43,maligniteit vulva,TC101,M11,SC7
+386,44,maligniteit cervix,TC3101,DC822,SC13
+387,58,maligniteit endometrium,TC3101,DC823,SC13
+388,62,maligniteit ovarium | tuba,TC3101,DC821,SC13
+389,51,maligniteit cervix,TC101,M13,SC7
+39,42,maligniteit ovarium | tuba,TC101,M16,SC7
+390,86,maligniteit vulva,TC101,M11,SC7
+391,89,Gynaecologische tumoren,TC61,DC106,SC7
+392,80,maligniteit vulva,TC101,M11,SC7
+393,49,Gynaecologische tumoren,TC61,DC106,SC7
+394,85,Gynaecologische tumoren,TC61,DC106,SC7
+395,44,Maligne neoplasma cervix uteri,TC103,DC822,SC61
+397,51,maligniteit ovarium | tuba,TC101,M16,SC7
+398,73,maligniteit vulva,TC101,M11,SC7
+399,85,maligniteit vulva,TC803,M11,SC7
+4,31,maligniteit ovarium | tuba,TC803,M16,SC7
+40,48,maligniteit vulva,TC101,M11,SC7
+400,59,maligniteit vulva,TC503,M11,SC7
+401,44,maligniteit cervix,TC101,M13,SC7
+402,43,maligniteit cervix,TC101,M13,SC7
+403,45,Gynaecologische tumoren,TC13,DC106,SC61
+404,82,Maligne neoplasma ovarium,TC3101,DC821,SC7
+405,70,maligniteit cervix,TC101,M13,SC7
+406,71,maligniteit ovarium | tuba,TC101,M16,SC7
+407,57,maligniteit myometrium,TC101,M15,SC7
+408,60,maligniteit ovarium | tuba,TC101,M16,SC7
+409,76,maligniteit vulva,TC101,M11,SC7
+41,77,maligniteit vulva,TC101,M11,SC7
+410,75,maligniteit cervix,TC101,M13,SC7
+411,69,maligniteit cervix,TC101,M13,SC7
+412,71,maligniteit vulva,TC101,M11,SC7
+413,65,maligniteit ovarium | tuba,TC803,M16,SC7
+414,43,maligniteit cervix,TC103,M13,SC7
+415,60,maligniteit ovarium | tuba,TC101,M16,SC7
+416,69,maligniteit vulva,TC101,M11,SC7
+417,74,maligniteit vulva,TC803,M11,SC7
+418,79,maligniteit vulva,TC101,M11,SC7
+419,87,maligniteit cervix,TC603,M13,SC7
+42,32,maligniteit cervix,TC101,M13,SC7
+420,40,Maligne neoplasma cervix uteri,TC3101,M13,SC61
+421,75,maligniteit cervix,TC101,M13,SC7
+422,67,maligniteit ovarium | tuba,TC703,M16,SC7
+423,80,maligniteit vulva,TC101,M11,SC7
+424,81,maligniteit vulva,TC101,M11,SC7
+425,47,maligniteit cervix,TC101,M13,SC7
+426,50,maligniteit endometrium,TC101,M14,SC7
+427,34,maligniteit cervix,TC101,M13,SC7
+428,87,maligniteit vulva,TC603,M11,SC7
+429,39,maligniteit cervix,TC101,M13,SC7
+43,60,maligniteit cervix,TC813,M13,SC7
+430,84,maligniteit ovarium | tuba,TC101,M16,SC7
+431,74,maligniteit cervix,TC101,M13,SC7
+432,82,maligniteit vulva,TC813,M11,SC7
+433,65,maligniteit vulva,TC803,M11,SC7
+434,52,maligniteit vulva,TC101,M11,SC7
+435,36,maligniteit cervix,TC101,M13,SC7
+436,73,maligniteit ovarium | tuba,TC101,M16,SC7
+437,54,maligniteit vulva,TC101,M11,SC7
+438,49,maligniteit cervix,TC101,M13,SC7
+439,61,maligniteit endometrium,TC101,M14,SC7
+44,65,maligniteit endometrium,TC101,M14,SC7
+440,44,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+441,31,Maligne neoplasma cervix uteri,TC3101,DC822,SC7
+442,62,maligniteit vulva,TC101,M11,SC7
+443,55,maligniteit cervix,TC61,DC106,SC61
+444,35,maligniteit cervix,TC503,M13,SC7
+445,62,maligniteit cervix,TC101,M13,SC7
+446,80,Maligne neoplasma cervix uteri,TC103,DC822,SC61
+447,57,Gynaecologische tumoren,TC13,M13,SC61
+448,83,maligniteit vulva,TC3303,DC839,SC13
+449,80,maligniteit ovarium | tuba,TC101,M16,SC7
+45,88,maligniteit cervix,TC101,M13,SC7
+450,36,maligniteit cervix,TC101,M13,SC7
+451,62,maligniteit cervix,TC101,M13,SC61
+452,38,maligniteit ovarium | tuba,TC101,M16,SC7
+453,71,maligniteit ovarium | tuba,TC3301,DC821,SC13
+454,64,maligniteit ovarium | tuba,TC101,M16,SC7
+455,73,maligniteit cervix,TC101,M13,SC7
+456,73,maligniteit vulva,TC101,M11,SC7
+457,35,maligniteit cervix,TC103,M13,SC61
+458,60,maligniteit vulva,TC101,M11,SC7
+459,86,maligniteit vulva,TC101,M11,SC7
+46,49,maligniteit endometrium,TC5201,DC823,SC13
+460,50,maligniteit cervix,TC101,M13,SC7
+461,71,maligniteit cervix,TC101,M13,SC7
+462,53,maligniteit cervix,TC101,M13,SC7
+463,44,maligniteit cervix,TC101,M13,SC7
+464,38,maligniteit cervix,TC3101,DC822,SC13
+465,80,maligniteit cervix,TC101,M13,SC7
+466,55,maligniteit cervix,TC803,M13,SC7
+467,30,maligniteit cervix,TC502,M13,SC7
+468,59,Maligne neoplasma cervix uteri,TC61,M13,SC61
+469,40,maligniteit cervix,TC101,M13,SC7
+47,74,maligniteit ovarium | tuba,TC12,DC106,SC61
+470,41,maligniteit vagina,TC101,M12,SC7
+471,29,maligniteit cervix,TC101,M13,SC7
+472,45,maligniteit cervix,TC101,M13,SC7
+473,39,maligniteit cervix,TC101,M13,SC7
+474,47,Metastasen corpus maligniteit uteri (nno),TC603,M14,SC7
+475,55,maligniteit ovarium | tuba,TC103,M16,SC7
+476,36,maligniteit ovarium | tuba,TC101,M16,SC7
+477,36,Maligne neoplasma cervix uteri,TC803,DC822,SC61
+478,30,maligniteit cervix,TC101,M13,SC7
+479,44,maligniteit cervix,TC101,M13,SC7
+48,65,maligniteit ovarium | tuba,TC803,M16,SC7
+480,67,maligniteit ovarium | tuba,TC101,M16,SC7
+481,60,maligniteit cervix,TC803,M13,SC7
+482,54,maligniteit endometrium,TC101,M14,SC7
+483,61,maligniteit cervix,TC3301,DC822,SC13
+484,42,maligniteit ovarium | tuba,TC101,M16,SC7
+485,81,maligniteit vulva,TC101,M11,SC7
+486,53,maligniteit vulva,TC101,M11,SC7
+488,44,maligniteit cervix,TC101,M13,SC7
+489,46,Maligne neoplasma cervix uteri,TC613,DC822,SC61
+49,35,Gynaecologische tumoren,TC61,DC106,SC7
+490,70,maligniteit endometrium,TC101,M14,SC7
+491,83,maligniteit ovarium | tuba,TC101,M16,SC7
+492,49,Mucineus adenoca. ovarium st IIIc,TC803,M16,SC7
+493,53,maligniteit cervix,TC101,M13,SC7
+494,32,maligniteit cervix,TC101,M13,SC7
+495,44,Maligne neoplasma ovarium,TC4401,DC821,SC13
+496,82,maligniteit vulva,TC803,M11,SC7
+497,52,maligniteit vulva,TC101,M11,SC7
+498,44,Gynaecologische tumoren,TC61,DC106,SC7
+499,55,maligniteit cervix,TC803,M13,SC7
+5,77,Gynaecologische tumoren,TC62,DC106,SC7
+50,84,maligniteit vagina,TC101,M12,SC7
+500,54,Gynaecologische tumoren,TC61,DC106,SC7
+501,70,maligniteit cervix,TC103,M13,SC7
+502,50,maligniteit ovarium | tuba,TC803,M16,SC7
+503,48,maligniteit cervix,TC101,M13,SC7
+505,35,Maligne nieuwvormingen ovarium (nno),TC101,M16,SC7
+506,35,maligniteit vulva,TC102,M11,SC7
+507,44,Maligne neoplasma cervix uteri,TC103,DC822,SC61
+508,35,maligniteit cervix,TC101,M13,SC7
+509,88,maligniteit cervix,TC103,M13,SC7
+51,36,maligniteit cervix,TC101,M13,SC7
+510,42,maligniteit cervix,TC101,M13,SC7
+511,69,Ongediff. adenoca. ovarium st IIIc,TC803,M16,SC7
+513,65,maligniteit vulva,TC101,M11,SC7
+514,58,maligniteit cervix,TC101,M13,SC7
+515,63,Gynaecologische tumoren,TC61,DC106,SC7
+516,51,maligniteit vulva,TC101,M11,SC7
+517,53,Maligne neoplasma cervix uteri,TC613,DC822,SC61
+518,54,Maligne neoplasma cervix uteri,TC613,DC822,SC61
+519,68,maligniteit ovarium,TC503,DC821,SC61
+52,54,maligniteit cervix,TC603,M13,SC7
+520,78,Plav.celcarc. vulva: st II,TC603,M11,SC7
+521,61,Cervixcarcinoom,TC803,DC822,SC61
+522,65,maligniteit ovarium | tuba,TC603,M16,SC7
+523,41,maligniteit cervix,TC101,M13,SC7
+524,60,maligniteit vagina,TC102,M12,SC7
+525,48,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+526,38,Maligne neoplasma cervix uteri,TC61,DC106,SC61
+527,59,maligniteit cervix,TC101,M13,SC7
+528,79,maligniteit endometrium,TC101,M14,SC7
+529,65,maligniteit endometrium,TC603,M14,SC7
+53,65,maligniteit cervix,TC101,M13,SC7
+530,56,maligniteit vulva,TC3101,DC839,SC13
+531,55,maligniteit cervix,TC803,M13,SC7
+532,34,Gynaecologische tumoren,TC61,M13,SC61
+533,62,maligniteit cervix,TC113,M13,SC61
+534,30,Maligne neoplasma cervix uteri,TC11,DC106,SC61
+535,47,Sarcoom corpus uteri: FIGO st II,TC603,M15,SC7
+536,61,Gynaecologische tumoren,TC11,DC106,SC61
+537,66,Maligne neoplasma ovarium,TC9101,DC821,SC7
+538,63,maligniteit vagina,TC113,M12,SC7
+539,36,maligniteit cervix,TC103,M13,SC61
+54,73,maligniteit cervix,TC9101,M13,SC61
+540,44,Gynaecologische tumoren,TC101,DC106,SC61
+541,42,maligniteit cervix,TC803,M13,SC7
+542,45,maligniteit cervix,other,M13,SC7
+543,41,Maligne neoplasma cervix uteri,TC3101,DC822,SC61
+544,83,maligniteit ovarium | tuba,TC101,M16,SC7
+545,68,maligniteit cervix,TC61,DC106,SC61
+546,54,maligniteit vulva,TC803,M11,SC7
+547,35,maligniteit cervix,TC3101,M13,SC13
+548,74,Plav.celcarc. vulva: st I,TC803,M11,SC7
+55,49,maligniteit cervix,TC101,M13,SC7
+550,70,Plaveiselcelca. vagina st II,TC113,M12,SC7
+551,59,Gynaecologische tumoren,TC101,DC106,SC61
+552,74,maligniteit endometrium,TC101,M14,SC7
+553,73,maligniteit ovarium | tuba,TC803,M16,SC7
+554,40,maligniteit ovarium | tuba,TC3101,DC821,SC13
+555,81,maligniteit ovarium | tuba,TC101,M16,SC7
+556,48,maligniteit ovarium | tuba,TC101,M16,SC7
+557,61,Maligne neoplasma ovarium,TC3101,DC821,SC7
+558,91,maligniteit cervix,TC101,M13,SC61
+559,46,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+56,76,maligniteit cervix,TC101,DC106,SC7
+560,41,maligniteit cervix,TC803,M13,SC7
+561,38,maligniteit cervix,TC101,M13,SC7
+562,44,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+563,50,maligniteit cervix,TC61,DC106,SC61
+564,65,maligniteit endometrium,TC12,DC106,SC61
+565,63,maligniteit myometrium,TC803,M15,SC61
+566,61,maligniteit cervix,TC101,M13,SC7
+567,40,maligniteit cervix,TC101,M13,SC7
+568,59,Gynaecologische tumoren,TC61,DC106,SC7
+569,48,maligniteit endometrium,TC101,M14,SC7
+57,39,maligniteit ovarium | tuba,TC101,M16,SC7
+570,46,maligniteit ovarium | tuba,TC101,M16,SC7
+571,36,Maligne neoplasma cervix uteri,TC803,DC822,SC61
+572,42,maligniteit cervix,TC803,M13,SC7
+573,38,maligniteit cervix,TC101,M13,SC7
+574,43,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+575,77,maligniteit endometrium,TC101,M14,SC7
+576,88,maligniteit endometrium,TC101,M14,SC7
+577,60,maligniteit ovarium | tuba,TC101,M16,SC7
+578,45,Gynaecologische tumoren,TC61,DC106,SC7
+579,39,maligniteit cervix,TC101,M13,SC7
+58,41,maligniteit cervix,TC803,M13,SC7
+580,86,Adenoca: corpus uteri st IVb,TC101,M14,SC7
+581,61,Gynaecologische tumoren,TC61,DC106,SC7
+582,43,Maligne neoplasma ovarium,TC803,DC821,SC13
+583,81,maligniteit vulva,TC101,M11,SC7
+584,48,maligniteit ovarium | tuba,TC101,M16,SC7
+585,56,Maligne neoplasma ovarium,TC803,DC821,SC61
+586,47,maligniteit ovarium | tuba,TC803,M16,SC7
+587,34,maligniteit ovarium | tuba,TC101,M16,SC7
+588,58,maligniteit vulva,TC101,M11,SC7
+589,44,maligniteit cervix,TC101,M13,SC7
+59,48,maligniteit ovarium | tuba,TC603,M16,SC7
+590,55,Maligne neoplasma cervix uteri,TC9101,DC822,SC7
+591,38,Maligne neoplasma cervix uteri,TC3301,DC822,SC61
+592,83,Maligne nieuwvormingen corpus uteri (ov),TC13,DC106,SC61
+593,42,maligniteit cervix,TC803,M13,SC7
+594,36,Plaveiselcelcarcinoom cervix (nno),TC103,M13,SC7
+595,46,Gynaecologische tumoren,TC62,DC106,SC61
+596,82,Plav.celcarc. vulva: st IVa,TC113,M11,SC61
+597,76,maligniteit ovarium | tuba,TC803,M16,SC7
+598,28,maligniteit vulva,TC101,M11,SC7
+599,61,Plav.celcarc. vulva: st I,TC803,M11,SC7
+6,42,maligniteit vagina,TC101,M12,SC7
+60,78,Gynaecologische tumoren,TC61,DC106,SC7
+600,74,Plaveiselcelcarinoom vulva (nno),TC103,M11,SC7
+601,44,maligniteit cervix,TC101,M13,SC7
+602,65,maligniteit endometrium,TC101,M14,SC7
+603,27,maligniteit ovarium | tuba,TC101,M16,SC7
+604,92,maligniteit vulva,TC101,M11,SC7
+605,51,maligniteit cervix,TC101,M13,SC7
+606,29,Maligne neoplasma cervix uteri,TC803,DC822,SC61
+607,62,Gynaecologische tumoren,TC61,DC106,SC7
+608,60,maligniteit endometrium,TC101,M14,SC7
+609,68,maligniteit vulva,TC101,M11,SC7
+61,84,maligniteit vulva,TC101,M11,SC7
+610,84,maligniteit vulva,TC803,M11,SC7
+611,38,maligniteit cervix,TC101,M13,SC7
+612,42,maligniteit cervix,TC101,M13,SC7
+613,59,maligniteit endometrium,TC101,M14,SC7
+614,63,maligniteit ovarium | tuba,TC101,M16,SC7
+615,53,maligniteit endometrium,TC101,M14,SC61
+616,86,maligniteit vulva,TC101,M11,SC7
+617,87,maligniteit vulva,TC803,M11,SC7
+618,52,maligniteit cervix,TC113,M13,SC7
+619,41,maligniteit cervix,TC803,M13,SC7
+620,50,Maligne neoplasma cervix uteri,TC3101,M14,SC61
+621,40,maligniteit ovarium | tuba,TC101,M16,SC7
+622,41,Maligne neoplasma cervix uteri,TC61,DC822,SC61
+623,46,maligniteit cervix,TC101,M13,SC7
+624,28,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+625,49,Maligne neoplasma cervix uteri,TC9102,DC822,SC61
+626,65,maligniteit endometrium,TC703,M14,SC7
+627,84,Plav.celcarc. vulva: st III1,TC603,M11,SC7
+628,34,Maligne neoplasma cervix uteri,TC3301,M13,SC61
+629,31,Maligne neoplasma cervix uteri,TC3301,M13,SC61
+63,71,maligniteit ovarium | tuba,TC101,M16,SC7
+630,69,Gynaecologische tumoren,TC61,DC106,SC7
+632,71,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+633,65,maligniteit endometrium,TC101,M14,SC7
+634,43,maligniteit endometrium,TC101,M14,SC7
+635,81,maligniteit vulva,TC803,M11,SC7
+636,78,Gynaecologische tumoren,TC23,DC106,SC61
+637,79,maligniteit vulva,TC603,M11,SC61
+638,59,maligniteit vulva,TC101,M11,SC7
+639,67,maligniteit cervix,TC101,M13,SC7
+64,56,maligniteit myometrium,TC103,M15,SC7
+640,34,maligniteit cervix,TC61,DC106,SC61
+641,74,maligniteit cervix,TC101,DC106,SC7
+642,78,Gynaecologische tumoren,TC61,DC106,SC7
+643,60,maligniteit cervix,TC101,M13,SC7
+644,74,maligniteit myometrium,TC603,M15,SC7
+645,58,maligniteit endometrium,TC803,M14,SC7
+646,46,maligniteit endometrium,TC101,M14,SC7
+647,78,maligniteit vulva,TC101,M11,SC7
+648,82,maligniteit vagina,TC101,M12,SC7
+649,40,maligniteit cervix,TC101,M13,SC7
+65,50,maligniteit cervix,TC803,M13,SC7
+650,42,maligniteit cervix,TC61,DC106,SC61
+651,73,Adenoca: corpus uteri st IIIa,TC803,M14,SC7
+652,63,maligniteit myometrium,TC101,M15,SC7
+653,71,maligniteit ovarium | tuba,TC9101,DC821,SC13
+654,40,maligniteit ovarium | tuba,TC101,M16,SC7
+655,71,maligniteit cervix,TC61,DC106,SC61
+656,51,maligniteit ovarium | tuba,TC101,M16,SC7
+657,67,maligniteit cervix,TC61,DC106,SC61
+658,69,Gynaecologische tumoren,TC101,DC106,SC61
+659,86,maligniteit vulva,TC101,M11,SC7
+66,58,maligniteit vulva,TC101,M11,SC7
+660,38,maligniteit cervix,TC101,M13,SC7
+661,45,other,TC803,M14,SC7
+662,47,maligniteit ovarium | tuba,TC101,M16,SC7
+663,61,maligniteit vulva,TC101,M11,SC7
+664,62,maligniteit cervix,TC101,M13,SC7
+665,60,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+666,53,maligniteit myometrium,TC803,M15,SC7
+667,38,Gynaecologische tumoren,TC13,DC106,SC61
+668,40,other,TC803,M13,SC7
+669,52,"Plaveiselcelca, cervix st IIa",TC813,M13,SC7
+67,43,maligniteit vulva,TC101,M11,SC7
+672,73,maligniteit cervix,TC101,M13,SC7
+673,89,Plav.celcarc. vulva: st III1,TC613,M11,SC7
+674,50,maligniteit cervix,TC101,M13,SC7
+675,44,Maligne neoplasma cervix uteri,TC3101,DC822,SC7
+676,53,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+677,72,Gynaecologische tumoren,TC61,DC106,SC7
+678,61,Maligne neoplasma ovarium,TC3101,DC821,SC13
+679,59,maligniteit endometrium,TC101,M14,SC7
+68,68,maligniteit vulva,TC101,M11,SC7
+680,68,maligniteit ovarium | tuba,TC803,M16,SC7
+681,63,Sereus adenoca: ovarium st IIIc,TC603,M16,SC7
+682,62,maligniteit vulva,TC101,M11,SC7
+683,36,maligniteit cervix,TC803,M13,SC7
+684,35,maligniteit cervix,TC503,M13,SC7
+685,27,maligniteit cervix,TC803,M13,SC7
+686,62,maligniteit endometrium,TC101,M14,SC7
+687,27,maligniteit ovarium | tuba,TC102,M16,SC7
+688,54,maligniteit cervix,TC101,M13,SC7
+689,58,maligniteit ovarium | tuba,TC101,M16,SC7
+69,65,maligniteit cervix,TC103,M13,SC7
+690,58,maligniteit myometrium,TC101,M15,SC7
+691,64,maligniteit endometrium,TC101,M14,SC7
+693,68,maligniteit vulva,TC101,M11,SC7
+694,64,"Plaveiselcelca, cervix st Ib",TC813,M13,SC7
+695,65,maligniteit ovarium | tuba,TC101,M16,SC7
+697,58,Maligne nieuwv. cervix uteri (ov),TC61,DC106,SC61
+698,39,"Plaveiselcelca, cervix st Ib",TC101,M13,SC7
+699,43,maligniteit myometrium,TC101,M15,SC7
+7,47,maligniteit cervix,TC61,DC822,SC61
+70,45,maligniteit cervix,TC101,M13,SC7
+700,86,maligniteit vulva,TC101,M11,SC7
+701,71,"Plaveiselcelca, cervix st Ib",TC101,M13,SC7
+702,51,maligniteit endometrium,TC101,M14,SC7
+703,63,Sereus adenoca: ovarium st IIIc,TC104,M16,SC7
+704,80,"Plaveiselcelca, cervix st IIIb",TC113,M13,SC7
+705,51,Recidieven maligniteit cervix uteri,TC101,M13,SC7
+706,57,maligniteit cervix,TC101,M13,SC7
+708,59,Gynaecologische tumoren,TC13,DC106,SC7
+709,27,maligniteit ovarium | tuba,TC101,M16,SC7
+71,63,maligniteit ovarium | tuba,TC101,M16,SC7
+710,70,maligniteit vagina,TC103,M12,SC7
+711,59,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+712,84,maligne nieuwvormingen vulva (nno),TC101,M11,SC7
+713,76,Adenoca: corpus uteri st IVb,TC3103,DC823,SC13
+714,20,maligniteit ovarium | tuba,TC101,M16,SC7
+715,39,other,TC101,M16,SC7
+717,48,Maligne neoplasma cervix uteri,TC61,DC822,SC61
+718,73,Maligne nieuwvormingen ovarium (ov),TC104,M16,SC7
+719,80,maligniteit vulva,TC101,M11,SC7
+72,70,maligniteit ovarium,TC3101,DC821,SC7
+720,68,Gynaecologische tumoren,TC603,DC106,SC61
+721,75,Metastasen maligniteit ovarium (nno),TC101,M16,SC7
+722,57,Ovariumcarcinoom,TC3101,DC821,SC7
+723,80,Maligne neoplasma cervix uteri,TC3201,M13,SC61
+724,31,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+725,44,Sereus adenoca: ovarium st IV,TC803,M16,SC7
+726,35,"Plaveiselcelca, cervix st Ib",TC503,M13,SC7
+727,68,Adenoca: corpus uteri st Ic,TC23,DC106,SC61
+728,83,Plav.celcarc. vulva: st III2,TC13,DC106,SC61
+729,64,Plav.celcarc. vulva: (st onbekend),TC101,M11,SC7
+73,73,maligniteit vulva,TC101,M11,SC7
+730,41,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+731,78,"Plaveiselcelca, cervix st IVb",TC113,M13,SC7
+732,47,maligniteit cervix,TC101,M13,SC7
+733,56,Recidieven (borderline) mal. ovarium (nno),TC104,M16,SC7
+734,53,maligniteit ovarium | tuba,TC603,M16,SC7
+735,57,Gynaecologische tumoren,TC61,DC106,SC7
+736,53,Gynaecologische tumoren,TC61,DC106,SC7
+737,37,Plaveiselcelcarcinoom cervix (nno),TC104,M13,SC7
+738,72,Adenoca: corpus uteri st Ic,TC23,DC106,SC61
+739,46,Maligne neoplasma cervix uteri,TC813,DC822,SC61
+74,43,Gynaecologische tumoren,TC61,DC106,SC7
+740,44,Maligne neoplasma cervix uteri,TC3101,M13,SC61
+741,57,Maligne neoplasma cervix uteri,TC803,DC822,SC61
+742,34,Maligne neoplasma cervix uteri,TC62,M13,SC61
+743,84,Plav.celcarc. vulva: st IVa,TC13,DC106,SC61
+744,67,Adenoca: corpus uteri st Ib,TC101,M14,SC61
+745,42,Maligne neoplasma ovarium,TC603,DC821,SC13
+747,72,maligniteit ovarium | tuba,TC101,M16,SC7
+748,76,Recidieven (borderline) mal. ovarium (nno),TC103,M16,SC13
+749,67,Maligne nieuwvormingen ovarium (nno),TC104,M16,SC7
+75,41,maligniteit cervix,TC61,DC106,SC61
+750,38,maligniteit cervix,TC803,M13,SC7
+751,67,maligniteit vulva,TC101,M11,SC7
+752,84,maligniteit vulva,TC101,M11,SC7
+753,40,maligniteit vagina,TC61,DC106,SC61
+754,40,maligniteit cervix,TC101,M13,SC7
+755,72,Metastasen corpus maligniteit uteri (nno),TC101,M14,SC7
+756,59,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+757,60,Maligne nieuwv. corpus uteri (nno),TC101,M14,SC61
+758,50,"Plaveiselcelca, cervix st Ia1",TC603,M13,SC7
+759,51,Plav.celcarc. vulva: st IVb,TC101,M11,SC7
+76,45,Recidieven (pre)maligniteit cervix uteri (ov),TC103,M13,SC13
+760,78,"Plaveiselcelca, cervix st IIIb",TC101,M13,SC7
+761,60,Gynaecologische tumoren,TC61,DC106,SC7
+762,49,maligniteit endometrium,TC61,DC106,SC61
+763,55,Maligne neoplasma ovarium,TC3101,DC821,SC7
+764,66,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+765,49,maligniteit cervix,TC101,M13,SC7
+766,48,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+767,71,maligniteit endometrium,TC103,M14,SC7
+768,47,"Plaveiselcelca, cervix st Ib",TC101,M13,SC7
+769,41,maligniteit cervix,TC101,M13,SC7
+77,71,maligniteit ovarium,TC803,DC821,SC13
+770,69,Niet epitheliale mal. nieuwv. ovarium st IIIa,TC101,M16,SC7
+771,66,maligniteit ovarium | tuba,TC803,M16,SC7
+772,84,Plav.celcarc. vulva: st I,TC803,M11,SC7
+773,58,Recidieven maligniteit ovarium,TC803,M16,SC7
+774,80,maligniteit vulva,TC101,M11,SC7
+775,74,maligniteit vulva,TC101,M11,SC7
+776,66,Adenoca: corpus uteri st IIIa,TC603,M14,SC7
+777,71,Adenoca: corpus uteri st IIa,TC101,M14,SC7
+778,66,"Plaveiselcelca, cervix st IIIb",TC101,M13,SC7
+779,36,Maligne nieuwv. cervix uteri (nno),TC101,M13,SC7
+78,69,Gynaecologische tumoren,TC61,DC106,SC7
+780,59,Adenoca: corpus uteri st Ic,TC101,M14,SC7
+781,40,Gynaecologische tumoren,TC61,DC106,SC7
+782,70,Adenoca: corpus uteri st IIb,TC713,M14,SC61
+783,65,Plav.celcarc. vulva: st II,TC813,M11,SC7
+784,79,Plav.celcarc. vulva: st II,TC613,M11,SC7
+785,67,maligniteit vulva,TC103,M11,SC7
+786,40,Maligne nieuwv. cervix uteri (nno),TC101,M13,SC7
+787,35,maligniteit cervix,TC101,M13,SC7
+788,50,Maligne neoplasma cervix uteri,TC81,M13,SC61
+789,55,maligniteit endometrium,TC101,M14,SC7
+79,86,maligniteit endometrium,TC103,M14,SC61
+790,78,other,TC101,M15,SC7
+791,82,Plaveiselcelca. vagina st III,TC101,M12,SC61
+792,66,Recidieven corpus maligniteit uteri (nno),TC13,DC106,SC61
+793,76,Plav.celcarc. vulva: st II,TC803,M11,SC7
+794,77,Adenoca: corpus uteri st Ia,TC101,M14,SC7
+795,41,Gynaecologische tumoren,TC13,M13,SC61
+796,45,Maligne neoplasma ovarium,TC3101,DC821,SC7
+797,53,Gynaecologische tumoren,TC61,DC106,SC7
+798,61,Recidieven corpus maligniteit uteri (nno),TC101,M14,SC7
+799,74,maligniteit endometrium,TC101,M14,SC7
+8,59,maligniteit vulva,TC603,M11,SC7
+80,64,maligniteit ovarium | tuba,TC101,M16,SC7
+800,60,maligniteit ovarium | tuba,TC3103,DC821,SC13
+801,29,Maligne neoplasma cervix uteri,TC81,DC822,SC61
+802,67,maligniteit ovarium | tuba,TC101,M16,SC7
+803,39,maligniteit ovarium | tuba,TC101,M16,SC7
+805,82,maligniteit vulva,TC101,M11,SC7
+806,40,maligniteit cervix,TC101,M13,SC7
+807,61,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+808,45,maligniteit endometrium,TC61,DC106,SC61
+809,61,Ovariacarcinoom,TC3101,DC821,SC7
+81,64,maligniteit vagina,TC113,M12,SC7
+810,70,Sereus adenoca: ovarium st IIIc,TC9101,DC821,SC13
+811,60,Adenoca: corpus uteri st Ib,TC613,M14,SC7
+812,57,"Plaveiselcelca, cervix st IIb",TC61,DC106,SC61
+813,68,Gynaecologische tumoren,TC23,DC106,SC7
+814,66,Maligne neoplasma adnexa uteri,TC3101,DC839,SC7
+815,32,Niet epitheliale mal. nieuwv. ovarium (nno),TC101,M16,SC7
+817,50,maligniteit cervix,TC113,M13,SC7
+818,85,maligniteit endometrium,TC13,DC106,SC61
+819,48,Mucineus adenoca. ovarium st IIc,TC613,M16,SC7
+82,48,maligniteit cervix,TC101,M13,SC7
+820,42,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+821,80,"Plaveiselcelca, cervix st IIb",TC113,M13,SC61
+822,73,Adenoca: corpus uteri st IIIb,TC101,M14,SC61
+823,70,maligniteit endometrium,TC23,DC106,SC61
+824,38,Maligne neoplasma cervix uteri,TC813,DC822,SC61
+825,83,Plav.celcarc. vulva: st I,TC803,M11,SC7
+826,71,Maligne neoplasma cervix uteri,TC3101,DC822,SC61
+827,75,Maligne nieuwvorming vulva (ov),TC103,M11,SC13
+828,37,"Plaveiselcelca, cervix st IIb",TC113,M13,SC61
+829,65,Sereus adenoca: ovarium st IIIc,TC9101,DC821,SC13
+83,33,Gynaecologische tumoren,TC61,DC106,SC7
+830,23,Maligne neoplasma ovarium,TC3101,DC821,SC7
+831,38,maligniteit cervix,TC101,M13,SC7
+832,67,Maligne neoplasma cervix uteri,TC113,DC822,SC61
+833,53,Maligne neoplasma cervix uteri,TC3101,M13,SC61
+834,58,Recidieven corpus maligniteit uteri (nno),TC101,M14,SC61
+835,50,Recidieven corpus maligniteit uteri (nno),TC101,M14,SC7
+836,71,Adenoca: corpus uteri st IIIb,TC703,M14,SC7
+837,65,maligniteit ovarium | tuba,TC803,M16,SC7
+838,72,maligne melanoom van de vulva,TC803,M11,SC7
+839,80,maligne nieuwvormingen vulva (nno),TC101,M11,SC7
+84,57,maligniteit ovarium | tuba,TC101,M16,SC7
+840,70,Adenoca: corpus uteri st IIIa,TC103,M14,SC13
+841,33,Maligne nieuwvormingen ovarium (nno),TC803,M16,SC7
+842,49,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+843,43,Sereus adenoca: ovarium st IIIc,TC3101,DC823,SC13
+844,63,Maligne nieuwvormingen ovarium (nno),TC101,M16,SC7
+845,87,Plav.celcarc. vulva: (st onbekend),TC803,M11,SC61
+846,54,Maligne neoplasma cervix uteri,TC3101,M13,SC61
+847,35,Adenoca:  cervix st Ib,TC503,M13,SC7
+848,62,Mucineus adenoca. ovarium st IIIc,TC3101,DC821,SC13
+849,76,Gynaecologische tumoren,TC61,DC106,SC7
+85,74,maligniteit vagina,TC101,M12,SC7
+850,44,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+851,34,"Plaveiselcelca, cervix st Ib",TC613,M13,SC61
+852,36,Niet epitheliale mal. nieuwv. ovarium st Ia,TC101,M16,SC7
+853,85,Gynaecologische tumoren,TC101,DC106,SC61
+854,74,"Plaveiselcelca, cervix st IVa",TC113,M13,SC61
+855,71,Sarcoom corpus uteri,TC803,M15,SC13
+856,30,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+857,47,Sarcoom corpus uteri: FIGO st onbek.,TC603,M15,SC7
+858,69,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+859,76,Adenoca: corpus uteri st IIIa,TC101,M14,SC7
+86,44,maligniteit cervix,TC101,M13,SC7
+860,72,Sereus adenoca: ovarium st IIIc,TC101,M16,SC7
+861,59,maligniteit cervix,TC101,M13,SC7
+862,34,Maligne neoplasma cervix uteri,TC3101,M13,SC61
+863,33,Sarcoom cervix (nno),TC503,M13,SC7
+864,41,"Plaveiselcelca, cervix st IIa",TC813,M13,SC7
+865,53,maligniteit cervix,TC101,M13,SC7
+866,55,Endometrioid adenoca. ovarium st IIIc,TC101,M16,SC7
+867,51,Maligne nieuwv. cervix uteri (nno),TC101,M13,SC7
+868,92,Recidieven corpus maligniteit uteri (nno),TC101,M14,SC61
+869,58,maligniteit ovarium | tuba,TC101,M16,SC7
+87,33,maligniteit cervix,TC3101,DC821,SC61
+870,69,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+871,68,Maligne nieuwvormingen ovarium (nno),TC803,M16,SC13
+872,67,Clearcel carcinoom corpus uteri (nno),TC803,M14,SC7
+873,83,Adenoca: corpus uteri st Ic,TC23,DC106,SC61
+874,53,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+875,52,Niet epitheliale mal. nieuwv. ovarium (nno),TC603,M16,SC7
+876,42,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+877,59,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+878,82,maligniteit ovarium | tuba,TC101,M16,SC7
+879,59,Recidieven maligniteit cervix uteri,TC61,DC106,SC61
+88,43,maligniteit cervix,TC103,M13,SC61
+880,58,Recidieven maligniteit ovarium,TC803,M16,SC7
+881,74,Plav.celcarc. vulva: st II,TC803,M11,SC7
+882,71,Maligne neoplasma cervix uteri,TC3101,M13,SC61
+883,87,Adenoca:  cervix st Ib,TC101,M13,SC7
+884,42,Adenoca:  cervix st Ib,TC803,M13,SC7
+885,59,Adenoca: corpus uteri st Ic,TC23,DC106,SC61
+886,39,Niet epitheliale mal. nieuwv. ovarium st onb.,TC3101,DC821,SC13
+887,70,Adenoca: corpus uteri st Ic,TC23,DC106,SC61
+888,65,Recidieven corpus maligniteit uteri (nno),TC13,DC106,SC61
+889,48,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+89,58,maligniteit ovarium | tuba,TC803,M16,SC7
+890,41,"Plaveiselcelca, cervix st Ia1",TC603,M13,SC7
+891,53,Plaveiselcelcarcinoom cervix (nno),TC813,M13,SC61
+892,46,Plav.celcarc. vulva: (st onbekend),TC803,M11,SC7
+893,38,Adenoca: corpus uteri st Ia,TC803,M14,SC7
+894,30,Plaveiselcelcarcinoom cervix (nno),TC113,M13,SC61
+895,78,Plav.celcarc. vulva: st III1,TC803,M11,SC7
+896,67,Adenoca: corpus uteri st Ib,TC613,M14,SC7
+897,47,Maligne neoplasma cervix uteri,TC803,DC822,SC61
+898,51,Recidieven corpus maligniteit uteri (nno),TC101,M14,SC7
+9,71,maligniteit ovarium | tuba,TC101,M16,SC7
+90,63,maligniteit ovarium | tuba,TC803,DC821,SC7
+901,68,Gynaecologische tumoren,TC13,DC106,SC7
+902,74,"Plaveiselcelca, cervix st IVb",TC113,M13,SC61
+903,57,Mucineus adenoca. ovarium st IIIc,TC101,M16,SC7
+904,70,Adenoca: corpus uteri st IVb,TC103,M14,SC61
+905,73,Maligne nieuwvormingen ovarium (nno),TC101,M16,SC7
+906,51,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+907,37,"Plaveiselcelca, cervix st Ia1",TC503,M13,SC7
+909,72,Clearcel ca: corpus uteri st Ib,TC101,M14,SC61
+91,61,maligniteit ovarium | tuba,TC101,M16,SC7
+910,72,maligniteit cervix,TC1101,M13,SC61
+912,51,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+913,41,Adenoca:  cervix st Ib,TC803,M13,SC7
+914,56,Adenoca: corpus uteri st Ib,TC101,M14,SC7
+915,66,Recidieven corpus maligniteit uteri (nno),TC103,M14,SC7
+916,64,"Plaveiselcelca, cervix st IIIb",TC113,M13,SC61
+917,32,Sereus adenoca: ovarium st IIIc,TC9101,DC821,SC13
+918,81,Adenocarcinoom corpus uteri (nno),TC603,M14,SC7
+919,36,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+92,58,maligniteit vulva,TC803,M11,SC7
+920,83,other,TC606,M14,SC7
+921,48,Sarcoom corpus uteri: FIGO st IVB,TC3201,DC823,SC13
+922,30,Adenoca: cervix st Ia1,TC503,M13,SC7
+923,35,"Plaveiselcelca, cervix st IIa",TC803,M13,SC7
+924,54,Maligne nieuwv. cervix uteri (nno),TC101,M13,SC7
+925,29,Maligne nieuwvormingen ovarium (nno),TC101,M16,SC7
+926,54,Adenoca: corpus uteri st Ic,TC101,M14,SC7
+927,65,maligniteit endometrium,TC101,M14,SC7
+928,50,"Plaveiselcelca, cervix st Ib",TC803,M13,SC7
+929,36,Clearcell carcinoom ovarium (nno),TC803,M16,SC7
+93,43,maligniteit cervix,TC813,M13,SC7
+930,52,Cervixcarcinoom,TC1101,M13,SC61
+931,54,Adenoca: corpus uteri st Ib,TC101,M14,SC7
+932,70,Sarcoom corpus uteri: FIGO st III,TC102,M15,SC7
+933,65,maligne nieuwvormingen vulva (nno),TC613,M11,SC7
+934,79,"Plaveiselcelca, cervix st IIIb",TC113,M13,SC7
+935,62,Cervixcarcinoom,TC3102,M13,SC61
+936,75,Plav.celcarc. vulva: st II,TC803,M11,SC7
+937,63,Maligne nieuwv. cervix uteri (nno),TC803,M13,SC7
+938,68,Sarcoom corpus uteri,TC603,M15,SC7
+939,46,other,TC104,M13,SC7
+94,57,maligniteit ovarium | tuba,TC101,M16,SC7
+940,85,"Plaveiselcelca, cervix st Ib",TC113,M13,SC61
+941,70,Adenoca: corpus uteri st Ib,TC613,M14,SC7
+942,68,Adenoca: corpus uteri st IVa,TC3101,DC823,SC13
+943,72,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+944,46,maligniteit ovarium | tuba,TC101,M16,SC7
+945,78,maligne melanoom van de vulva,TC14,DC106,SC61
+946,59,Sereus adenoca: ovarium st IV,TC803,M16,SC7
+947,63,Adenoca: corpus uteri st Ic,TC23,DC106,SC61
+948,72,"Plaveiselcelca, cervix st Ib",TC113,M13,SC61
+949,55,Maligne nieuwvormingen ovarium (ov),TC803,M16,SC7
+95,55,maligniteit endometrium,TC13,M14,SC61
+950,63,"Plaveiselcelca, cervix st IIIb",TC101,M13,SC7
+951,64,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+952,67,Adenoca: corpus uteri st Ic,TC101,M14,SC61
+953,72,Adenoca: corpus uteri st Ib,TC101,M14,SC7
+954,51,Recidieven borderline maligniteit ovarium,TC1101,DC839,SC13
+955,24,Adenoca:  cervix st Ib,TC803,M13,SC7
+956,55,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+957,60,Sereus adenoca: ovarium st IV,TC803,M16,SC7
+958,63,Plav.celcarc. vulva: st I,TC603,M11,SC7
+959,66,Maligne nieuwvormingen ovarium (ov),TC803,M16,SC7
+96,57,maligniteit vulva,TC603,M11,SC7
+960,79,Sereus adenoca: ovarium st IV,TC1101,DC839,SC13
+961,37,Maligne nieuwv. cervix uteri (ov),TC813,M13,SC7
+962,52,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+963,27,"Plaveiselcelca, cervix st IIIb",TC113,M13,SC7
+964,76,maligniteit endometrium,TC101,M14,SC7
+965,60,Clearcel ca: corpus uteri st Ib,TC606,M14,SC7
+966,70,Clearcel ca: corpus uteri st IIIb,TC803,M14,SC7
+968,67,Adenoca: corpus uteri st IVb,TC101,M14,SC7
+969,64,Maligne nieuwv. corpus uteri (nno),TC613,M14,SC7
+97,71,maligniteit cervix,TC61,DC822,SC61
+970,81,other,TC103,M12,SC61
+971,74,"Plaveiselcelca, cervix st IIIb",TC113,M13,SC61
+972,38,"Plaveiselcelca, cervix st IIb",TC113,M13,SC61
+974,51,Recidieven maligniteit ovarium,TC1101,DC839,SC13
+975,86,Plav.celcarc. vulva: st III2,TC803,M11,SC7
+976,80,maligne melanoom van de vulva,TC603,M11,SC7
+977,63,Sereus adenoca: ovarium st onb.,TC813,M16,SC7
+978,63,Sereus adenoca: ovarium st Ic,TC813,M16,SC7
+979,29,"Plaveiselcelca, cervix st IIIb",TC113,M13,SC61
+98,28,Gynaecologische tumoren,TC13,DC106,SC7
+980,62,Recidieven corpus maligniteit uteri (nno),TC101,M14,SC61
+981,58,Sereus adenoca: ovarium st IIIc,TC103,M16,SC7
+982,50,Adenoca: corpus uteri st Ic,TC603,M14,SC61
+983,65,Adenoca: corpus uteri st Ib,TC101,M14,SC7
+984,51,"Plaveiselcelca, cervix st IIa",TC103,M13,SC61
+985,81,Adenoca: corpus uteri (st onbekend),TC23,DC106,SC61
+986,74,Sereus adenoca: ovarium st IIIc,TC803,M16,SC7
+987,67,Sereus adenoca: ovarium st IIIb,TC103,M16,SC7
+988,51,"Plaveiselcelca, cervix st IIIb",TC113,M13,SC61
+989,55,Sereus adenoca: ovarium st IIIc,TC3101,DC839,SC13
+99,58,maligniteit ovarium | tuba,TC101,DC821,SC7
+990,83,maligniteit ovarium | tuba,TC101,M16,SC7
+991,62,Adenoca: corpus uteri st Ic,TC23,DC106,SC61
+995,19,Niet epitheliale mal. nieuwv. ovarium st IIIc,TC803,M16,SC7
+996,52,Maligne nieuwvormingen ovarium (ov),TC101,M16,SC7
+997,53,Sereus adenoca: ovarium st IIIc,TC101,M16,SC7
+998,37,Maligne neoplasma adnexa uteri,TC3101,DC839,SC7
+999,86,"Plaveiselcelca, cervix st Ib",TC101,M13,SC61

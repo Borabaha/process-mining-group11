@@ -1,0 +1,23 @@
+{
+  "faithful_single_full_f1": {
+    "status": "PASS",
+    "seconds": 4114.31,
+    "details": {
+      "scored_cases": 904,
+      "activities": 164,
+      "n_repeats": 2,
+      "values_compared": 328,
+      "values_nonzero_in_original": 243,
+      "guard_rows": {
+        "none": 286,
+        "fewer_than_3_cases": 34,
+        "one_allowed_position": 8
+      },
+      "baseline_f1": 0.9966821542445573,
+      "max_abs_diff": 0.0,
+      "largest_original_importance": 0.07321029881324814,
+      "seconds_per_iteration_original": 12.502160824999985,
+      "seconds_per_iteration_engine": 0.007536422561360069
+    }
+  }
+}

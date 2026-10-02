@@ -1,0 +1,44 @@
+{
+  "activities_absent_from_held_out_fold": 27,
+  "activities_with_one_allowed_position": 4,
+  "encoder_transform_of_empty_list": [
+    0,
+    5939
+  ],
+  "itemset_absent_from_scored_fold": {
+    "status": "ok",
+    "importance": [
+      0.0,
+      0.0
+    ],
+    "n_traces_changed": [
+      0,
+      0
+    ]
+  },
+  "activity_with_a_single_allowed_position": {
+    "status": "ok",
+    "importance": [
+      0.0,
+      0.0
+    ],
+    "n_traces_changed": [
+      0,
+      0
+    ]
+  },
+  "unknown_activity_name": {
+    "status": "CRASH",
+    "error": "ValueError: not activities of the log: 'no_such_activity'. Activity names are lower case without spaces, '-' and '_' (see normalise_activity).",
+    "where": "  File \"C:\\Users\\Bohabara\\Desktop\\process mining\\project\\experiments\\engine.py\", line 604, in validate_itemsets"
+  },
+  "string_instead_of_list": {
+    "status": "CRASH",
+    "error": "TypeError: itemset 0 is the string 'ac410100'; pass a collection of activity names, e.g. ['ac410100']",
+    "where": "  File \"C:\\Users\\Bohabara\\Desktop\\process mining\\project\\experiments\\engine.py\", line 589, in validate_itemsets"
+  },
+  "single_activity_grid_held_out": {
+    "activities": 164,
+    "crashing": 0
+  }
+}

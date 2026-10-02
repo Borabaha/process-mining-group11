@@ -1,0 +1,114 @@
+{
+  "f1": {
+    "itemsets": 10,
+    "itemset_sizes": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3,
+      3
+    ],
+    "rows_builder": 1500,
+    "rows_matched": 1500,
+    "max_abs_diff_baseline": 2.220446049250313e-16,
+    "max_abs_diff_importance": 1.0061396160665481e-16,
+    "held_out_f1_per_fold": [
+      0.9064,
+      0.9248,
+      0.9021,
+      0.9284,
+      0.8853
+    ],
+    "fixed_test_baseline_equals_my_held_out_f1": true,
+    "mean_importance": {
+      "faithful_train": 0.0628,
+      "fixed_test": 0.0048,
+      "fixed_train": 0.0341
+    },
+    "share_above_zero": {
+      "faithful_train": 1.0,
+      "fixed_test": 0.578,
+      "fixed_train": 1.0
+    },
+    "std_of_itemset_means_fixed_test": 0.00425,
+    "mean_within_itemset_std_fixed_test": 0.01127
+  },
+  "f2": {
+    "itemsets": 10,
+    "itemset_sizes": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3,
+      3
+    ],
+    "rows_builder": 1500,
+    "rows_matched": 1500,
+    "max_abs_diff_baseline": 2.220446049250313e-16,
+    "max_abs_diff_importance": 9.974659986866641e-17,
+    "held_out_f1_per_fold": [
+      0.9202,
+      0.876,
+      0.9135,
+      0.8862,
+      0.855
+    ],
+    "fixed_test_baseline_equals_my_held_out_f1": true,
+    "mean_importance": {
+      "faithful_train": 0.149,
+      "fixed_test": 0.0199,
+      "fixed_train": 0.0786
+    },
+    "share_above_zero": {
+      "faithful_train": 1.0,
+      "fixed_test": 0.788,
+      "fixed_train": 1.0
+    },
+    "std_of_itemset_means_fixed_test": 0.01159,
+    "mean_within_itemset_std_fixed_test": 0.01967
+  },
+  "f3": {
+    "itemsets": 5,
+    "itemset_sizes": [
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "rows_builder": 750,
+    "rows_matched": 750,
+    "max_abs_diff_baseline": 1.1102230246251565e-16,
+    "max_abs_diff_importance": 1.1102230246251565e-16,
+    "held_out_f1_per_fold": [
+      0.9411,
+      0.9327,
+      0.9399,
+      0.9269,
+      0.9165
+    ],
+    "fixed_test_baseline_equals_my_held_out_f1": true,
+    "mean_importance": {
+      "faithful_train": 0.2473,
+      "fixed_test": 0.0099,
+      "fixed_train": 0.0328
+    },
+    "share_above_zero": {
+      "faithful_train": 1.0,
+      "fixed_test": 0.752,
+      "fixed_train": 1.0
+    },
+    "std_of_itemset_means_fixed_test": 0.00482,
+    "mean_within_itemset_std_fixed_test": 0.0125
+  }
+}

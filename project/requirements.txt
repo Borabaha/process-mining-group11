@@ -1,0 +1,12 @@
+# Python 3.12 (tested with 3.12.10 on Windows 10 x64). Do NOT use Python 3.14 / pandas 3.
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+xgboost==3.4.1
+mlxtend==0.25.0
+networkx==3.7
+paretoset==1.2.5
+pm4py==2.7.23.8
+matplotlib==3.11.2
+PyYAML==6.0.3

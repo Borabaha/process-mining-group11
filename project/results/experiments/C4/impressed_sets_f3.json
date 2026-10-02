@@ -1,0 +1,862 @@
+{
+ "log": "f3",
+ "n_cases": 1111,
+ "n_activities": 156,
+ "settings": {
+  "max_gap": 3,
+  "steps": 2,
+  "k": 10,
+  "objectives": [
+   "IG",
+   "coverage",
+   "CD"
+  ],
+  "distinct": false
+ },
+ "seconds": {
+  "load_log_and_distance": 0.2787884999997914,
+  "fit": 2.4163765001576394,
+  "projection": 0.9217228000052273
+ },
+ "steps": [
+  {
+   "step": 0,
+   "n_candidates": 156,
+   "front_size": 7,
+   "front_extendable": 7
+  },
+  {
+   "step": 1,
+   "n_candidates": 1031,
+   "front_size": 23,
+   "front_extendable": 11
+  },
+  {
+   "step": 2,
+   "n_candidates": 861,
+   "front_size": 39,
+   "front_extendable": 12
+  }
+ ],
+ "n_patterns_evaluated": 1946,
+ "n_candidate_sets": {
+  "1": 156,
+  "2": 378,
+  "3": 347
+ },
+ "first_front_size": {
+  "1": 7,
+  "2": 14,
+  "3": 9
+ },
+ "layers_used": {
+  "1": 2,
+  "2": 1,
+  "3": 2
+ },
+ "n_candidate_sets_front_patterns_only": {
+  "1": 7,
+  "2": 13,
+  "3": 9
+ },
+ "recount_check": {
+  "patterns_checked": 300,
+  "patterns_with_different_counts": 0
+ },
+ "selection": {
+  "1": [
+   [
+    "ac419100"
+   ],
+   [
+    "ac370000"
+   ],
+   [
+    "ac415100"
+   ],
+   [
+    "ac10307"
+   ],
+   [
+    "ac355427"
+   ],
+   [
+    "ac388170"
+   ],
+   [
+    "387070a"
+   ],
+   [
+    "ac370402"
+   ],
+   [
+    "370488g"
+   ],
+   [
+    "370488e"
+   ]
+  ],
+  "2": [
+   [
+    "ac370000",
+    "ac370402"
+   ],
+   [
+    "370401c",
+    "ac370000"
+   ],
+   [
+    "ac370000",
+    "ac370403"
+   ],
+   [
+    "ac411100",
+    "ac419100"
+   ],
+   [
+    "ac411100",
+    "ac415100"
+   ],
+   [
+    "ac415100",
+    "ac419100"
+   ],
+   [
+    "ac10307",
+    "ac411100"
+   ],
+   [
+    "ac10307",
+    "ac419100"
+   ],
+   [
+    "ac10307",
+    "ac415100"
+   ],
+   [
+    "ac355201",
+    "ac415100"
+   ]
+  ],
+  "3": [
+   [
+    "ac411100",
+    "ac415100",
+    "ac419100"
+   ],
+   [
+    "ac10307",
+    "ac411100",
+    "ac419100"
+   ],
+   [
+    "ac370000",
+    "ac411100",
+    "ac415100"
+   ],
+   [
+    "ac355201",
+    "ac415100",
+    "ac419100"
+   ],
+   [
+    "ac355201",
+    "ac411100",
+    "ac419100"
+   ],
+   [
+    "ac355427",
+    "ac415100",
+    "ac419100"
+   ],
+   [
+    "370407",
+    "ac10307",
+    "ac370000"
+   ],
+   [
+    "376400",
+    "ac370000",
+    "ac411100"
+   ],
+   [
+    "ac410500",
+    "ac411100",
+    "ac415100"
+   ],
+   [
+    "ac379999",
+    "ac415100",
+    "ac419100"
+   ]
+  ]
+ },
+ "sets": {
+  "1": [
+   {
+    "activities": [
+     "ac419100"
+    ],
+    "rank": 1,
+    "layer": 1,
+    "IG": 0.16431166808827544,
+    "coverage": 0.6804680468046804,
+    "CD": 0.6695731052984574,
+    "set_support": 0.6804680468046804,
+    "source_pattern": "ac419100",
+    "source_pattern_labels": [
+     "ac419100"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 3
+   },
+   {
+    "activities": [
+     "ac370000"
+    ],
+    "rank": 2,
+    "layer": 1,
+    "IG": 0.15073265442775924,
+    "coverage": 0.6345634563456346,
+    "CD": 0.6385722845264298,
+    "set_support": 0.6345634563456346,
+    "source_pattern": "ac370000",
+    "source_pattern_labels": [
+     "ac370000"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 6
+   },
+   {
+    "activities": [
+     "ac415100"
+    ],
+    "rank": 3,
+    "layer": 1,
+    "IG": 0.03212664273503936,
+    "coverage": 0.20882088208820881,
+    "CD": 0.6157957465379937,
+    "set_support": 0.20882088208820881,
+    "source_pattern": "ac415100",
+    "source_pattern_labels": [
+     "ac415100"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 4
+   },
+   {
+    "activities": [
+     "ac10307"
+    ],
+    "rank": 4,
+    "layer": 1,
+    "IG": 0.011460167551835189,
+    "coverage": 0.13051305130513052,
+    "CD": 0.6009043335475119,
+    "set_support": 0.13051305130513052,
+    "source_pattern": "ac10307",
+    "source_pattern_labels": [
+     "ac10307"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 1
+   },
+   {
+    "activities": [
+     "ac355427"
+    ],
+    "rank": 5,
+    "layer": 1,
+    "IG": 0.0016763216714789815,
+    "coverage": 0.0306030603060306,
+    "CD": 0.5987451526571631,
+    "set_support": 0.0306030603060306,
+    "source_pattern": "ac355427",
+    "source_pattern_labels": [
+     "ac355427"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 2
+   },
+   {
+    "activities": [
+     "ac388170"
+    ],
+    "rank": 6,
+    "layer": 1,
+    "IG": 0.0009576166283753323,
+    "coverage": 0.0036003600360036,
+    "CD": 0.5759039069557362,
+    "set_support": 0.0036003600360036,
+    "source_pattern": "ac388170",
+    "source_pattern_labels": [
+     "ac388170"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 1
+   },
+   {
+    "activities": [
+     "387070a"
+    ],
+    "rank": 7,
+    "layer": 1,
+    "IG": 0.0004783137004528929,
+    "coverage": 0.0018001800180018,
+    "CD": 0.5465768710550044,
+    "set_support": 0.0018001800180018,
+    "source_pattern": "387070a",
+    "source_pattern_labels": [
+     "387070a"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 1
+   },
+   {
+    "activities": [
+     "ac370402"
+    ],
+    "rank": 8,
+    "layer": 2,
+    "IG": 0.12175917293906668,
+    "coverage": 0.459045904590459,
+    "CD": 0.6643484307200418,
+    "set_support": 0.459045904590459,
+    "source_pattern": "ac370402",
+    "source_pattern_labels": [
+     "ac370402"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 1
+   },
+   {
+    "activities": [
+     "370488g"
+    ],
+    "rank": 9,
+    "layer": 2,
+    "IG": 0.11937605423904452,
+    "coverage": 0.47884788478847884,
+    "CD": 0.6612382721700625,
+    "set_support": 0.47884788478847884,
+    "source_pattern": "370488g",
+    "source_pattern_labels": [
+     "370488g"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 1
+   },
+   {
+    "activities": [
+     "370488e"
+    ],
+    "rank": 10,
+    "layer": 2,
+    "IG": 0.11660509600471615,
+    "coverage": 0.47974797479747977,
+    "CD": 0.6614124934269039,
+    "set_support": 0.47974797479747977,
+    "source_pattern": "370488e",
+    "source_pattern_labels": [
+     "370488e"
+    ],
+    "source_pattern_edges": [],
+    "step": 0,
+    "n_patterns_for_set": 1
+   }
+  ],
+  "2": [
+   {
+    "activities": [
+     "ac370000",
+     "ac370402"
+    ],
+    "rank": 1,
+    "layer": 1,
+    "IG": 0.12168764111479012,
+    "coverage": 0.45724572457245727,
+    "CD": 0.6647068300231128,
+    "set_support": 0.459045904590459,
+    "source_pattern": "ac370000 ~> ac370402",
+    "source_pattern_labels": [
+     "ac370000",
+     "ac370402"
+    ],
+    "source_pattern_edges": [
+     "eventual"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 4
+   },
+   {
+    "activities": [
+     "370401c",
+     "ac370000"
+    ],
+    "rank": 2,
+    "layer": 1,
+    "IG": 0.11600030547894434,
+    "coverage": 0.47074707470747074,
+    "CD": 0.6624843264265553,
+    "set_support": 0.47074707470747074,
+    "source_pattern": "ac370000 ~> 370401c",
+    "source_pattern_labels": [
+     "ac370000",
+     "370401c"
+    ],
+    "source_pattern_edges": [
+     "eventual"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 4
+   },
+   {
+    "activities": [
+     "ac370000",
+     "ac370403"
+    ],
+    "rank": 3,
+    "layer": 1,
+    "IG": 0.11579723342196604,
+    "coverage": 0.46894689468946893,
+    "CD": 0.6620717655096132,
+    "set_support": 0.47794779477947796,
+    "source_pattern": "ac370000 ~> ac370403",
+    "source_pattern_labels": [
+     "ac370000",
+     "ac370403"
+    ],
+    "source_pattern_edges": [
+     "eventual"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 4
+   },
+   {
+    "activities": [
+     "ac411100",
+     "ac419100"
+    ],
+    "rank": 4,
+    "layer": 1,
+    "IG": 0.07151649104170243,
+    "coverage": 0.38433843384338434,
+    "CD": 0.6432939247024666,
+    "set_support": 0.4302430243024302,
+    "source_pattern": "ac411100 -> ac419100",
+    "source_pattern_labels": [
+     "ac411100",
+     "ac419100"
+    ],
+    "source_pattern_edges": [
+     "direct"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 25
+   },
+   {
+    "activities": [
+     "ac411100",
+     "ac415100"
+    ],
+    "rank": 5,
+    "layer": 1,
+    "IG": 0.02040852952567079,
+    "coverage": 0.1395139513951395,
+    "CD": 0.5983651302469969,
+    "set_support": 0.18091809180918092,
+    "source_pattern": "ac411100 ~> ac415100",
+    "source_pattern_labels": [
+     "ac411100",
+     "ac415100"
+    ],
+    "source_pattern_edges": [
+     "eventual"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 7
+   },
+   {
+    "activities": [
+     "ac415100",
+     "ac419100"
+    ],
+    "rank": 6,
+    "layer": 1,
+    "IG": 0.015141437876262568,
+    "coverage": 0.0702070207020702,
+    "CD": 0.5965972584208306,
+    "set_support": 0.19891989198919893,
+    "source_pattern": "ac415100 ~> ac419100",
+    "source_pattern_labels": [
+     "ac415100",
+     "ac419100"
+    ],
+    "source_pattern_edges": [
+     "eventual"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 12
+   },
+   {
+    "activities": [
+     "ac10307",
+     "ac411100"
+    ],
+    "rank": 7,
+    "layer": 1,
+    "IG": 0.010722151705152902,
+    "coverage": 0.0612061206120612,
+    "CD": 0.5802198832553156,
+    "set_support": 0.1224122412241224,
+    "source_pattern": "ac10307 -> ac411100 ~> ac411100",
+    "source_pattern_labels": [
+     "ac10307",
+     "ac411100",
+     "ac411100"
+    ],
+    "source_pattern_edges": [
+     "direct",
+     "eventual"
+    ],
+    "step": 2,
+    "n_patterns_for_set": 8
+   },
+   {
+    "activities": [
+     "ac10307",
+     "ac419100"
+    ],
+    "rank": 8,
+    "layer": 1,
+    "IG": 0.0101282282733451,
+    "coverage": 0.09000900090009001,
+    "CD": 0.5861551434223541,
+    "set_support": 0.11611161116111611,
+    "source_pattern": "ac10307 ~> ac419100",
+    "source_pattern_labels": [
+     "ac10307",
+     "ac419100"
+    ],
+    "source_pattern_edges": [
+     "eventual"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 3
+   },
+   {
+    "activities": [
+     "ac10307",
+     "ac415100"
+    ],
+    "rank": 9,
+    "layer": 1,
+    "IG": 0.0031268326955473866,
+    "coverage": 0.011701170117011701,
+    "CD": 0.5715487950119097,
+    "set_support": 0.05310531053105311,
+    "source_pattern": "ac10307 ~> ac415100",
+    "source_pattern_labels": [
+     "ac10307",
+     "ac415100"
+    ],
+    "source_pattern_edges": [
+     "eventual"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 4
+   },
+   {
+    "activities": [
+     "ac355201",
+     "ac415100"
+    ],
+    "rank": 10,
+    "layer": 1,
+    "IG": 0.003126832695547376,
+    "coverage": 0.011701170117011701,
+    "CD": 0.5496132828919714,
+    "set_support": 0.026102610261026102,
+    "source_pattern": "ac355201 ~> ac415100",
+    "source_pattern_labels": [
+     "ac355201",
+     "ac415100"
+    ],
+    "source_pattern_edges": [
+     "eventual"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 4
+   }
+  ],
+  "3": [
+   {
+    "activities": [
+     "ac411100",
+     "ac415100",
+     "ac419100"
+    ],
+    "rank": 1,
+    "layer": 1,
+    "IG": 0.01339978918502842,
+    "coverage": 0.08640864086408641,
+    "CD": 0.5822171079638752,
+    "set_support": 0.17281728172817282,
+    "source_pattern": "ac411100 -> ac419100 -> ac415100",
+    "source_pattern_labels": [
+     "ac411100",
+     "ac419100",
+     "ac415100"
+    ],
+    "source_pattern_edges": [
+     "direct",
+     "direct"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 36
+   },
+   {
+    "activities": [
+     "ac10307",
+     "ac411100",
+     "ac419100"
+    ],
+    "rank": 2,
+    "layer": 1,
+    "IG": 0.009043512475226483,
+    "coverage": 0.0612061206120612,
+    "CD": 0.5817514875077548,
+    "set_support": 0.11611161116111611,
+    "source_pattern": "ac10307 ~> ac419100 -> ac411100",
+    "source_pattern_labels": [
+     "ac10307",
+     "ac419100",
+     "ac411100"
+    ],
+    "source_pattern_edges": [
+     "eventual",
+     "direct"
+    ],
+    "step": 2,
+    "n_patterns_for_set": 9
+   },
+   {
+    "activities": [
+     "ac370000",
+     "ac411100",
+     "ac415100"
+    ],
+    "rank": 3,
+    "layer": 1,
+    "IG": 0.002884803496718307,
+    "coverage": 0.010801080108010801,
+    "CD": 0.5716162420382166,
+    "set_support": 0.10801080108010801,
+    "source_pattern": "ac411100 -> ac415100 -> ac370000",
+    "source_pattern_labels": [
+     "ac411100",
+     "ac415100",
+     "ac370000"
+    ],
+    "source_pattern_edges": [
+     "direct",
+     "direct"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 1
+   },
+   {
+    "activities": [
+     "ac355201",
+     "ac415100",
+     "ac419100"
+    ],
+    "rank": 4,
+    "layer": 1,
+    "IG": 0.0026430268255573236,
+    "coverage": 0.009900990099009901,
+    "CD": 0.5490570247933885,
+    "set_support": 0.026102610261026102,
+    "source_pattern": "ac355201 ~> ac419100 -> ac415100",
+    "source_pattern_labels": [
+     "ac355201",
+     "ac419100",
+     "ac415100"
+    ],
+    "source_pattern_edges": [
+     "eventual",
+     "direct"
+    ],
+    "step": 2,
+    "n_patterns_for_set": 4
+   },
+   {
+    "activities": [
+     "ac355201",
+     "ac411100",
+     "ac419100"
+    ],
+    "rank": 5,
+    "layer": 1,
+    "IG": 0.002401502152494097,
+    "coverage": 0.009000900090009001,
+    "CD": 0.548738646684832,
+    "set_support": 0.027002700270027002,
+    "source_pattern": "ac355201 -> ac411100 -> ac419100",
+    "source_pattern_labels": [
+     "ac355201",
+     "ac411100",
+     "ac419100"
+    ],
+    "source_pattern_edges": [
+     "direct",
+     "direct"
+    ],
+    "step": 2,
+    "n_patterns_for_set": 7
+   },
+   {
+    "activities": [
+     "ac355427",
+     "ac415100",
+     "ac419100"
+    ],
+    "rank": 6,
+    "layer": 1,
+    "IG": 0.0014120693914183554,
+    "coverage": 0.012601260126012601,
+    "CD": 0.5711174957676781,
+    "set_support": 0.018001800180018002,
+    "source_pattern": "ac355427 ~> ac419100 -> ac415100",
+    "source_pattern_labels": [
+     "ac355427",
+     "ac419100",
+     "ac415100"
+    ],
+    "source_pattern_edges": [
+     "eventual",
+     "direct"
+    ],
+    "step": 2,
+    "n_patterns_for_set": 3
+   },
+   {
+    "activities": [
+     "370407",
+     "ac10307",
+     "ac370000"
+    ],
+    "rank": 7,
+    "layer": 1,
+    "IG": 0.0013120346886984994,
+    "coverage": 0.0009000900090009,
+    "CD": 0.5091891891891892,
+    "set_support": 0.037803780378037805,
+    "source_pattern": "ac10307 -> ac370000 -> 370407",
+    "source_pattern_labels": [
+     "ac10307",
+     "ac370000",
+     "370407"
+    ],
+    "source_pattern_edges": [
+     "direct",
+     "direct"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 1
+   },
+   {
+    "activities": [
+     "376400",
+     "ac370000",
+     "ac411100"
+    ],
+    "rank": 8,
+    "layer": 1,
+    "IG": 0.0013120346886984994,
+    "coverage": 0.0009000900090009,
+    "CD": 0.5091891891891892,
+    "set_support": 0.037803780378037805,
+    "source_pattern": "ac411100 ~> ac411100 -> ac370000 -> 376400",
+    "source_pattern_labels": [
+     "ac411100",
+     "ac411100",
+     "ac370000",
+     "376400"
+    ],
+    "source_pattern_edges": [
+     "eventual",
+     "direct",
+     "direct"
+    ],
+    "step": 2,
+    "n_patterns_for_set": 5
+   },
+   {
+    "activities": [
+     "ac410500",
+     "ac411100",
+     "ac415100"
+    ],
+    "rank": 9,
+    "layer": 1,
+    "IG": 0.0004783137004528929,
+    "coverage": 0.0018001800180018,
+    "CD": 0.5274233543733093,
+    "set_support": 0.0072007200720072,
+    "source_pattern": "ac410500 -> ac415100 -> ac411100",
+    "source_pattern_labels": [
+     "ac410500",
+     "ac415100",
+     "ac411100"
+    ],
+    "source_pattern_edges": [
+     "direct",
+     "direct"
+    ],
+    "step": 1,
+    "n_patterns_for_set": 2
+   },
+   {
+    "activities": [
+     "ac379999",
+     "ac415100",
+     "ac419100"
+    ],
+    "rank": 10,
+    "layer": 2,
+    "IG": 0.010564090660478014,
+    "coverage": 0.05130513051305131,
+    "CD": 0.6021640201071939,
+    "set_support": 0.11611161116111611,
+    "source_pattern": "ac379999 ~> ac419100 -> ac415100",
+    "source_pattern_labels": [
+     "ac379999",
+     "ac419100",
+     "ac415100"
+    ],
+    "source_pattern_edges": [
+     "eventual",
+     "direct"
+    ],
+    "step": 2,
+    "n_patterns_for_set": 3
+   }
+  ]
+ },
+ "sets_shared_with_apriori_top_k": {
+  "1": 4,
+  "2": 0,
+  "3": 0
+ },
+ "apriori_min_support": 0.4
+}

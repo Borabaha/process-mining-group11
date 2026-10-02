@@ -1,0 +1,56 @@
+{
+  "dataset": "f2",
+  "fold_seed": 7,
+  "fold": 2,
+  "train_cases": 904,
+  "test_cases": 226,
+  "make_folds_equals_sklearn_directly": true,
+  "itemsets": {
+    "3": [
+      "ac419100",
+      "ac379999"
+    ],
+    "4": [
+      "370407",
+      "ac370000"
+    ],
+    "5": [
+      "370407",
+      "ac370000",
+      "ac379999"
+    ],
+    "6": [
+      "370407",
+      "ac379999"
+    ],
+    "7": [
+      "ac370000",
+      "ac370419"
+    ]
+  },
+  "single": {
+    "100": [
+      "ac419100"
+    ]
+  },
+  "n_repeats": 3,
+  "values_compared": 17,
+  "max_abs_diff": 0.0,
+  "max_abs_diff_below_1e-12": true,
+  "values_nonzero": 17,
+  "end_to_end_engine_only_max_abs_diff": 0.0,
+  "timing": {
+    "apriori_4th_to_8th": {
+      "iterations": 15,
+      "original_s_per_iteration": 28.050514246663077,
+      "engine_s_per_iteration": 0.09717116000441213,
+      "baseline_equal": true
+    },
+    "single_activity": {
+      "iterations": 2,
+      "original_s_per_iteration": 16.821287950035185,
+      "engine_s_per_iteration": 0.11011874990072101,
+      "baseline_equal": true
+    }
+  }
+}

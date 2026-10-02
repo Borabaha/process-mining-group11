@@ -1,0 +1,326 @@
+{
+  "event_log_f1": {
+    "status": "PASS",
+    "seconds": 1.62,
+    "details": {
+      "cases": 1130,
+      "activities": 164,
+      "events": 23853,
+      "max_len": 36,
+      "l_max": 24.0,
+      "label_1_cases": 454
+    }
+  },
+  "encoder_f1": {
+    "status": "PASS",
+    "seconds": 11.22,
+    "details": {
+      "shape": [
+        1130,
+        5939
+      ],
+      "observed_columns": 2450,
+      "never_observed_columns": 3489,
+      "ones": 40680,
+      "dtype": "int8"
+    }
+  },
+  "event_log_f2": {
+    "status": "PASS",
+    "seconds": 1.34,
+    "details": {
+      "cases": 1130,
+      "activities": 207,
+      "events": 30929,
+      "max_len": 40,
+      "l_max": 31.0,
+      "label_1_cases": 886
+    }
+  },
+  "encoder_f2": {
+    "status": "PASS",
+    "seconds": 20.22,
+    "details": {
+      "shape": [
+        1130,
+        8319
+      ],
+      "observed_columns": 3289,
+      "never_observed_columns": 5030,
+      "ones": 45200,
+      "dtype": "int8"
+    }
+  },
+  "event_log_f3": {
+    "status": "PASS",
+    "seconds": 1.0,
+    "details": {
+      "cases": 1111,
+      "activities": 156,
+      "events": 20227,
+      "max_len": 31,
+      "l_max": 22.0,
+      "label_1_cases": 259
+    }
+  },
+  "encoder_f3": {
+    "status": "PASS",
+    "seconds": 8.18,
+    "details": {
+      "shape": [
+        1111,
+        4866
+      ],
+      "observed_columns": 2049,
+      "never_observed_columns": 2817,
+      "ones": 34441,
+      "dtype": "int8"
+    }
+  },
+  "same_model_f1": {
+    "status": "PASS",
+    "seconds": 29.22,
+    "details": {
+      "cases_compared": 1130,
+      "max_abs_diff_hash": 0.0,
+      "max_abs_diff_sorted": 0.0
+    }
+  },
+  "reencoding_f1": {
+    "status": "PASS",
+    "seconds": 18.8,
+    "details": {
+      "changed_traces": 300,
+      "subset_traces": 126,
+      "subset_longest_trace": 20,
+      "log_longest_trace": 36
+    }
+  },
+  "find_occurrences_f1": {
+    "status": "PASS",
+    "seconds": 2.48,
+    "details": {
+      "synthetic_pairs": 3000,
+      "real_pairs": 3000
+    }
+  },
+  "fixed_properties_f1": {
+    "status": "PASS",
+    "seconds": 0.41,
+    "details": {
+      "allowed_from_log_all_cases": {
+        "feasible_checked": 2000,
+        "size_2": 966,
+        "multi_occurrence": 280,
+        "identical_to_original": 156,
+        "moved_events": 4655,
+        "other_events": 38644,
+        "other_events_shifted": 20546,
+        "other_events_unobserved": 1067,
+        "size_3": 551,
+        "size_1": 483
+      },
+      "allowed_from_train_on_test_cases": {
+        "feasible_checked": 1000,
+        "size_2": 457,
+        "multi_occurrence": 152,
+        "identical_to_original": 80,
+        "moved_events": 2310,
+        "other_events": 19783,
+        "other_events_shifted": 10486,
+        "other_events_unobserved": 786,
+        "size_1": 287,
+        "size_3": 256,
+        "infeasible": 4,
+        "infeasible_confirmed_by_bruteforce": 4
+      }
+    }
+  },
+  "uniform_draw_f1": {
+    "status": "PASS",
+    "seconds": 55.81,
+    "details": {
+      "property_trials": {
+        "feasible_checked": 2000,
+        "size_3": 584,
+        "multi_occurrence": 270,
+        "identical_to_original": 142,
+        "moved_events": 4649,
+        "other_events": 39293,
+        "other_events_shifted": 18440,
+        "other_events_unobserved": 972,
+        "size_1": 512,
+        "size_2": 904
+      },
+      "uniformity": {
+        "size_1": {
+          "trace_length": 18,
+          "feasible_tuples": 18,
+          "draws": 20000,
+          "degrees_of_freedom": 17,
+          "chi2_uniform": 13.2,
+          "tuples_never_drawn_uniform": 0,
+          "chi2_sequential": 13.2,
+          "tuples_never_drawn_sequential": 0
+        },
+        "size_2": {
+          "trace_length": 36,
+          "feasible_tuples": 598,
+          "draws": 20000,
+          "degrees_of_freedom": 597,
+          "chi2_uniform": 588.4,
+          "tuples_never_drawn_uniform": 0,
+          "chi2_sequential": 23130.0,
+          "tuples_never_drawn_sequential": 0
+        },
+        "size_3": {
+          "trace_length": 36,
+          "feasible_tuples": 6759,
+          "draws": 135180,
+          "degrees_of_freedom": 6758,
+          "chi2_uniform": 6718.7,
+          "tuples_never_drawn_uniform": 0,
+          "chi2_sequential": 1641519.1,
+          "tuples_never_drawn_sequential": 13
+        }
+      }
+    }
+  },
+  "shifted_event_count": {
+    "status": "PASS",
+    "seconds": 0.0,
+    "details": {
+      "example_1": [
+        2,
+        1
+      ],
+      "example_2": [
+        3,
+        1
+      ]
+    }
+  },
+  "determinism_f1": {
+    "status": "PASS",
+    "seconds": 5.09,
+    "details": {
+      "rows_compared_fixed": 9,
+      "rows_compared_faithful": 9,
+      "fixed_importance_seed_2023": [
+        0.013245,
+        -0.000225,
+        0.004111,
+        -0.00931,
+        0.008671,
+        0.008671,
+        -0.009122,
+        -0.013661,
+        -0.022381
+      ],
+      "fixed_importance_seed_7": [
+        0.008918,
+        0.0,
+        0.013245,
+        0.004111,
+        0.008918,
+        0.004111,
+        -0.000434,
+        0.004111,
+        -0.004568
+      ]
+    }
+  },
+  "no_accumulation_f1": {
+    "status": "PASS",
+    "seconds": 1.62,
+    "details": {
+      "permute_calls_checked": 1104,
+      "fixed_last_itemset_alone_equals_after_others": true,
+      "faithful_last_itemset_alone": [
+        0.0243689260143497,
+        0.02435593532768765,
+        0.01993904253118295
+      ],
+      "faithful_last_itemset_after_others": [
+        0.07359494889089657,
+        0.07473342863429555,
+        0.07354869468984637
+      ]
+    }
+  },
+  "edge_cases_f1": {
+    "status": "PASS",
+    "seconds": 0.3,
+    "details": {
+      "activities_absent_from_held_out_fold": 27,
+      "activities_with_one_allowed_position": 4,
+      "error_messages": {
+        "trace_too_long": "ValueError: a trace has 37 events; the encoder was built for traces of at most 36 events",
+        "unknown_activity": "ValueError: activity 'no_such_activity' is unknown to the encoder",
+        "rows_traces_mismatch": "ValueError: 1 rows for 5 traces"
+      }
+    }
+  },
+  "single_activity_grid_f1": {
+    "status": "PASS",
+    "seconds": 6.8,
+    "details": {
+      "allowed_from_log": {
+        "rows": 328,
+        "rows_without_changed_trace": 68,
+        "activities_in_no_scored_trace": 27,
+        "infeasible_traces": 0,
+        "rows_with_nonzero_importance": 89,
+        "seconds": 3.53
+      },
+      "allowed_from_train": {
+        "rows": 328,
+        "rows_without_changed_trace": 67,
+        "activities_in_no_scored_trace": 27,
+        "infeasible_traces": 20,
+        "rows_with_nonzero_importance": 85,
+        "seconds": 2.93
+      }
+    }
+  },
+  "single_activity_grid_f3": {
+    "status": "PASS",
+    "seconds": 13.13,
+    "details": {
+      "allowed_from_log": {
+        "rows": 312,
+        "rows_without_changed_trace": 83,
+        "activities_in_no_scored_trace": 31,
+        "infeasible_traces": 0,
+        "rows_with_nonzero_importance": 63,
+        "seconds": 3.11
+      },
+      "allowed_from_train": {
+        "rows": 312,
+        "rows_without_changed_trace": 72,
+        "activities_in_no_scored_trace": 31,
+        "infeasible_traces": 8,
+        "rows_with_nonzero_importance": 66,
+        "seconds": 2.79
+      }
+    }
+  },
+  "input_validation_f1": {
+    "status": "PASS",
+    "seconds": 2.94,
+    "details": {
+      "itemsets_is_a_string": "TypeError: itemsets must be a collection of activity collections",
+      "itemset_is_a_string": "TypeError: itemset 0 is the string 'ac410100'; pass a collection of activity names, e.g. ['ac410100']",
+      "unknown_activity": "ValueError: not activities of the log: 'no_such_activity'. Activity names are lower case without spaces, '-' and '_' (see normalise_activity).",
+      "name_not_normalised": "ValueError: not activities of the log: 'AC410100' (did you mean 'ac410100'?). Activity names are lower case without spaces, '-' and '_' (see normalise_activity).",
+      "empty_itemset": "ValueError: itemset 0 is empty",
+      "fold_missing_or_positional": [
+        "LocationPermutationImportance.compute() missing 1 required keyword-only argument: 'fold'",
+        "LocationPermutationImportance.compute() takes 7 positional arguments but 8 were given"
+      ],
+      "faithful_absent_itemset": "ValueError: no scored trace can be permuted for ['370407c']; the original crashes here too (index_encoding of an empty frame)",
+      "model_fitted_on_other_column_order": "ValueError: the model's feature names differ from encoder.feature_names (same columns, different order); fit the model on encoder.transform(...) of this encoder",
+      "model_with_other_feature_count": "ValueError: the model was fitted on 50 features, the encoder produces 5939"
+    }
+  }
+}

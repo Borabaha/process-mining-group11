@@ -1,0 +1,144 @@
+{
+  "settings": {
+    "dataset": "C:\\Users\\Bohabara\\Desktop\\process mining\\project\\external\\PermutationLocationImportance\\datasets\\BPIC11_f1_trunc36.csv",
+    "case_id": "case:concept:name",
+    "activity": "concept:name",
+    "timestamp": "time:timestamp",
+    "outcome": "label",
+    "outcome_type": "binary",
+    "delta_time": -1.0,
+    "max_gap_between_events": 3,
+    "max_extension_step": 2,
+    "test_data_percentage": 0.2,
+    "numerical_attributes": [
+      "Age"
+    ],
+    "categorical_attributes": [
+      "Diagnosis",
+      "Treatment code",
+      "Diagnosis code",
+      "Specialism code"
+    ],
+    "pareto_features": [
+      "Outcome_Interest",
+      "Frequency_Interest",
+      "Case_Distance_Interest"
+    ],
+    "pareto_sense": [
+      "Max",
+      "Max",
+      "Min"
+    ],
+    "log_prep": "gui",
+    "max_cases": 120
+  },
+  "code_dir": "C:\\Users\\Bohabara\\Desktop\\process mining\\project\\external\\InteractivePatternDetection",
+  "python": "3.12.10",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "networkx": "3.7",
+    "pm4py": "2.7.23.8",
+    "paretoset": "1.2.5"
+  },
+  "completed": true,
+  "preparation_seconds": {
+    "load_and_format_log": 0.092971800127998,
+    "patient_data_and_activity_counts": 0.8348425999283791,
+    "pairwise_case_distances": 0.07506049983203411
+  },
+  "n_events": 2592,
+  "n_cases": 120,
+  "n_activities": 127,
+  "n_case_pairs": 7140,
+  "auto_stepwise_ppd_seconds": 186.59223650000058,
+  "train_X_shape": [
+    96,
+    68
+  ],
+  "test_X_shape": [
+    24,
+    68
+  ],
+  "timings": {
+    "stage_wall_seconds": {
+      "step0": 6.083459800109267,
+      "step1": 73.25945489993319,
+      "step2": 107.21685600001365,
+      "step3": 0.032385499915108085,
+      "after_return (open)": 0.010177799966186285
+    },
+    "inclusive_seconds_per_function": {
+      "step0": {
+        "frequency_measuring_patterns": 0.013874499825760722,
+        "predictive_measuring_patterns": 0.13307349989190698,
+        "similarity_measuring_patterns": 0.6640696001704782,
+        "create_pattern_attributes": 0.8138669999316335,
+        "paretoset": 5.2580417999997735
+      },
+      "step1": {
+        "Trace_graph_generator": 0.18329959991388023,
+        "create_embedded_pattern_in_trace": 0.23564139753580093,
+        "update_pattern_dict": 39.12945590377785,
+        "Pattern_extension": 39.821840298362076,
+        "frequency_measuring_patterns": 0.11705619981512427,
+        "predictive_measuring_patterns": 0.9567620998714119,
+        "similarity_measuring_patterns": 29.859145200112835,
+        "create_pattern_attributes": 30.958809699863195,
+        "paretoset": 0.00044959993101656437
+      },
+      "step2": {
+        "create_embedded_pattern_in_trace": 0.141149599570781,
+        "update_pattern_dict": 7.0778589099645615,
+        "Single_Pattern_Extender": 89.4376447997056,
+        "frequency_measuring_patterns": 0.0456169000826776,
+        "predictive_measuring_patterns": 0.35389110003598034,
+        "similarity_measuring_patterns": 17.290967100067064,
+        "create_pattern_attributes": 17.6984090001788,
+        "paretoset": 0.0003262001555413008
+      }
+    },
+    "calls_per_function": {
+      "step0": {
+        "frequency_measuring_patterns": 1,
+        "predictive_measuring_patterns": 1,
+        "similarity_measuring_patterns": 1,
+        "create_pattern_attributes": 1,
+        "paretoset": 1
+      },
+      "step1": {
+        "Trace_graph_generator": 120,
+        "create_embedded_pattern_in_trace": 1796,
+        "update_pattern_dict": 4892,
+        "Pattern_extension": 342,
+        "frequency_measuring_patterns": 1,
+        "predictive_measuring_patterns": 1,
+        "similarity_measuring_patterns": 1,
+        "create_pattern_attributes": 1,
+        "paretoset": 1
+      },
+      "step2": {
+        "create_embedded_pattern_in_trace": 980,
+        "update_pattern_dict": 3377,
+        "Single_Pattern_Extender": 13,
+        "frequency_measuring_patterns": 1,
+        "predictive_measuring_patterns": 1,
+        "similarity_measuring_patterns": 1,
+        "create_pattern_attributes": 1,
+        "paretoset": 1
+      }
+    },
+    "candidates_per_step": [
+      127,
+      805,
+      324
+    ],
+    "front_size_per_step": [
+      12,
+      32,
+      22
+    ]
+  }
+}

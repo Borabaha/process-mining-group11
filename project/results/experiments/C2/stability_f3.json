@@ -1,0 +1,71 @@
+{
+  "dataset": "f3",
+  "fold_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seconds_total": 2140.3110261999536,
+  "variants": {
+    "faithful_train": {
+      "n_seeds": 10,
+      "n_repeats": 10,
+      "mean_importance": 0.24581665854602644,
+      "spread_between_itemset_means": 0.019768242299610588,
+      "std_between_repeats_same_fold": 0.01830077192685347,
+      "std_between_folds_same_seed": 0.014765417782134502,
+      "std_between_seed_means": 0.0053849885059632065,
+      "mean_ci95_half_width": 0.0038521887163134316,
+      "itemsets_with_interval_above_zero": 5,
+      "n_itemsets": 5,
+      "spearman_between_two_seeds_10_repeats": 0.9111111111111108,
+      "spearman_between_two_seeds_all_repeats": 0.9111111111111108,
+      "spearman_between_two_halves_of_the_seeds": 0.9999999999999999,
+      "share_of_itemset_pairs_ordered": 0.9
+    },
+    "fixed_train": {
+      "n_seeds": 10,
+      "n_repeats": 30,
+      "mean_importance": 0.03243970025196796,
+      "spread_between_itemset_means": 0.008436796094697161,
+      "std_between_repeats_same_fold": 0.0039413299480833145,
+      "std_between_folds_same_seed": 0.005761504827195591,
+      "std_between_seed_means": 0.001642710809361559,
+      "mean_ci95_half_width": 0.001175124521989451,
+      "itemsets_with_interval_above_zero": 5,
+      "n_itemsets": 5,
+      "spearman_between_two_seeds_10_repeats": 0.9444444444444441,
+      "spearman_between_two_seeds_all_repeats": 0.9444444444444443,
+      "spearman_between_two_halves_of_the_seeds": 0.8999999999999998,
+      "share_of_itemset_pairs_ordered": 0.9
+    },
+    "fixed_test": {
+      "n_seeds": 10,
+      "n_repeats": 30,
+      "mean_importance": 0.010479455050806878,
+      "spread_between_itemset_means": 0.005040293584588337,
+      "std_between_repeats_same_fold": 0.0077798519593953765,
+      "std_between_folds_same_seed": 0.010175916688674435,
+      "std_between_seed_means": 0.003351070812646085,
+      "mean_ci95_half_width": 0.0023972116482231043,
+      "itemsets_with_interval_above_zero": 5,
+      "n_itemsets": 5,
+      "spearman_between_two_seeds_10_repeats": 0.7511111111111111,
+      "spearman_between_two_seeds_all_repeats": 0.8377777777777778,
+      "spearman_between_two_halves_of_the_seeds": 0.8999999999999998,
+      "share_of_itemset_pairs_ordered": 0.9
+    }
+  },
+  "spearman_between_settings": {
+    "faithful_train vs fixed_train": -0.09999999999999999,
+    "faithful_train vs fixed_test": -0.09999999999999999,
+    "fixed_train vs fixed_test": 0.9999999999999999
+  }
+}

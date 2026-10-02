@@ -1,0 +1,23 @@
+{
+  "faithful_single_equality_f3": {
+    "status": "PASS",
+    "seconds": 797.81,
+    "details": {
+      "scored_cases": 200,
+      "activities": 156,
+      "n_repeats": 2,
+      "values_compared": 312,
+      "values_nonzero_in_original": 110,
+      "guard_rows": {
+        "fewer_than_3_cases": 172,
+        "none": 134,
+        "one_allowed_position": 6
+      },
+      "baseline_f1": 1.0,
+      "max_abs_diff": 0.0,
+      "largest_original_importance": 0.24915236097435678,
+      "seconds_per_iteration_original": 2.515776367949095,
+      "seconds_per_iteration_engine": 0.01159654775610528
+    }
+  }
+}

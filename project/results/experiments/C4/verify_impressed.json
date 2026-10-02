@@ -1,0 +1,2093 @@
+{
+ "checks": [
+  {
+   "check": "1.1 single activity with repeats, gap 2: 14 hand-computed children with instances",
+   "status": "PASS",
+   "detail": "missing=[] extra=[] wrong_instances=[]"
+  },
+  {
+   "check": "1.2 first/last event: only 'a -> b', no context, nothing from a 1-event trace",
+   "status": "PASS",
+   "detail": "{'a -> b': {(0, 1)}} {'a -> b': {(0, 1)}}"
+  },
+  {
+   "check": "1.3 gap limit: 4 events in between is outside gap 3 and inside gap 4 (found from both ends, once)",
+   "status": "PASS",
+   "detail": "gap3 ok=True gap4 ok=True"
+  },
+  {
+   "check": "1.4 2-node parent, gap 2: 8 hand-computed children, no context pattern, pattern at trace end",
+   "status": "PASS",
+   "detail": "missing=[] extra=[]"
+  },
+  {
+   "check": "1.5 'a -> a' in <a,a,a,a>, gap 1: children counted once each",
+   "status": "PASS",
+   "detail": "{'a -> a -> a': {(0, 1, 2), (1, 2, 3)}, 'a -> a ~> a': {(0, 1, 3)}, 'a ~> a -> a': {(0, 2, 3)}}"
+  },
+  {
+   "check": "1.6 a parent with an eventual edge is never extended",
+   "status": "PASS",
+   "detail": "raised=True"
+  },
+  {
+   "check": "1.7 count_instances: 'a ~> a' in <a,a,a,a> is 2 (gap 1) and 3 (gap 2)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "1.8 random toy logs: instances from extension == plain enumeration of ALL instances (Def. 5 with gap)",
+   "status": "PASS",
+   "detail": "5171 patterns, 0 wrong via extension, 0 wrong via count_instances"
+  },
+  {
+   "check": "1.9 interest values by hand: IG 0.143841 nats (count as category), coverage 0.5, CD 0.2333 (mean)",
+   "status": "PASS",
+   "detail": "module IG=0.143841 cov=0.5 CD=0.233333; presence-only IG would be 0.056633; the paper's printed CD formula (sum/|L|) would give 0.3500"
+  },
+  {
+   "check": "1.10 pattern in ALL cases: CD = undefined_cd (1.0), IG = 0",
+   "status": "PASS",
+   "detail": "CD=1.0 IG=0.0"
+  },
+  {
+   "check": "1.11 case distance by hand: (2*mismatch share + min-max |age diff|)/3",
+   "status": "PASS",
+   "detail": "[[0. 0.3333 1. ] [0.3333 0. 0.5 ] [1. 0.5 0. ]]"
+  },
+  {
+   "check": "2.0 case_distance.pairwise_case_distance == own loop implementation (200 cases)",
+   "status": "PASS",
+   "detail": "max abs diff 0.00e+00"
+  },
+  {
+   "check": "2.1 original Trace_graph_generator(delta_time=-1) gives chains equal to our traces",
+   "status": "PASS",
+   "detail": "200/200 (13.2 s)"
+  },
+  {
+   "check": "2.2 Pattern_extension, fresh dictionary per core: same child patterns, same cases, uniform count factor",
+   "status": "PASS",
+   "detail": "patterns original/ours [(44, 44), (58, 58), (46, 46), (69, 69), (36, 36), (191, 191)]; factors {'1.0': 437, '2.0': 7}; original 11.6 s"
+  },
+  {
+   "check": "2.3 shared dictionary (step 1 of the automatic mode): same patterns, same cases, uniform factor",
+   "status": "PASS",
+   "detail": "428/428 patterns; factors {'1.0': 405, '2.0': 23}; original 52.4 s, ours 0.017 s"
+  },
+  {
+   "check": "2.4 Single_Pattern_Extender (step 2): same children, same cases, uniform count factor",
+   "status": "PASS",
+   "detail": "9 parents, children original/ours 148/148; factors {'1.0': 136, '2.0': 12}; original 2.0 s; parents ['ac370701 -> 370712b -> 370715a', '370488g -> 370712b -> 370715a', 'ac370711 -> 370712b -> 370715a', 'ac370419 -> ac370442 -> ac370443', '370488g -> ac372417', 'ac10307 -> ac411100 -> ac419100', '370488g -> 370712b', 'ac411100 -> ac10307', '370488e -> 370488g -> ac372417']"
+  },
+  {
+   "check": "2.5 interest values of 30 patterns: original create_pattern_attributes vs score_patterns",
+   "status": "PASS",
+   "detail": "max abs diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}; original 0.3 s; ranges IG 0.0000-0.0970, coverage 0.005-0.575, CD 0.5180-0.7605; 9 three-node, 23 with an eventual edge"
+  },
+  {
+   "check": "2.6 the same 30 patterns: own contingency-table IG and double-loop CD vs score_patterns",
+   "status": "PASS",
+   "detail": "max abs diff {'IG': np.float64(6.192962809237201e-16), 'CD': np.float64(1.9984014443252818e-15)}"
+  },
+  {
+   "check": "2b [C3 ORIGINAL code, raw f1]: 1140 cases, every step: same patterns as the stored run, same IG/coverage/CD on the 912 training cases",
+   "status": "PASS",
+   "detail": "step 0: 176 rows (176 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 4, front 13 reproduced True, ours(distinct=False, NaN->1) 13 with 0/0 extra rows tying, count ratios [0.0, 1.0], instance-list ratios None || step 1: 2109 rows (2109 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 190, front 51 reproduced True, ours(distinct=False, NaN->1) 53 with 2/2 extra rows tying, count ratios [0.0, 1.0, 2.0], instance-list ratios [1.0, 2.0]"
+  },
+  {
+   "check": "2b [C3 ORIGINAL code, raw f1]: stored Pareto fronts reproduced from our values with the original's paretoset call",
+   "status": "PASS",
+   "detail": "[13, 51]"
+  },
+  {
+   "check": "2b [C3 patched copy, f1 2024-filtered]: 1130 cases, every step: same patterns as the stored run, same IG/coverage/CD on the 904 training cases",
+   "status": "PASS",
+   "detail": "step 0: 164 rows (164 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 2, front 13 reproduced True, ours(distinct=False, NaN->1) 13 with 0/0 extra rows tying, count ratios [0.0, 1.0], instance-list ratios None || step 1: 2041 rows (2041 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 176, front 48 reproduced True, ours(distinct=False, NaN->1) 51 with 3/3 extra rows tying, count ratios [0.0, 1.0, 2.0], instance-list ratios [1.0, 2.0] || step 2: 1178 rows (1169 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 58, front 57 reproduced True, ours(distinct=False, NaN->1) 69 with 12/12 extra rows tying, count ratios [0.0, 1.0, 2.0, 4.0], instance-list ratios [1.0, 2.0, 4.0]"
+  },
+  {
+   "check": "2b [C3 patched copy, f1 2024-filtered]: stored Pareto fronts reproduced from our values with the original's paretoset call",
+   "status": "PASS",
+   "detail": "[13, 48, 57]"
+  },
+  {
+   "check": "2b [C3 patched copy, f2 2024-filtered]: 1130 cases, every step: same patterns as the stored run, same IG/coverage/CD on the 904 training cases",
+   "status": "PASS",
+   "detail": "step 0: 207 rows (207 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 1, front 31 reproduced True, ours(distinct=False, NaN->1) 31 with 0/0 extra rows tying, count ratios [0.0, 1.0], instance-list ratios None || step 1: 4996 rows (4996 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 488, front 93 reproduced True, ours(distinct=False, NaN->1) 96 with 3/3 extra rows tying, count ratios [0.0, 1.0, 2.0], instance-list ratios [1.0, 2.0] || step 2: 2603 rows (2583 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 204, front 125 reproduced True, ours(distinct=False, NaN->1) 137 with 12/12 extra rows tying, count ratios [0.0, 1.0, 2.0, 4.0], instance-list ratios [1.0, 2.0, 4.0]"
+  },
+  {
+   "check": "2b [C3 patched copy, f2 2024-filtered]: stored Pareto fronts reproduced from our values with the original's paretoset call",
+   "status": "PASS",
+   "detail": "[31, 93, 125]"
+  },
+  {
+   "check": "2b [C3 patched copy, f3 2024-filtered]: 1111 cases, every step: same patterns as the stored run, same IG/coverage/CD on the 888 training cases",
+   "status": "PASS",
+   "detail": "step 0: 156 rows (156 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 1, front 14 reproduced True, ours(distinct=False, NaN->1) 14 with 0/0 extra rows tying, count ratios [0.0, 1.0], instance-list ratios None || step 1: 1161 rows (1161 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 125, front 42 reproduced True, ours(distinct=False, NaN->1) 44 with 2/2 extra rows tying, count ratios [0.0, 1.0, 2.0], instance-list ratios [1.0, 2.0] || step 2: 874 rows (872 distinct), max diff {'IG': 0.0, 'coverage': 0.0, 'CD': 0.0}, NaN CD 78, front 52 reproduced True, ours(distinct=False, NaN->1) 59 with 7/7 extra rows tying, count ratios [0.0, 1.0, 2.0], instance-list ratios [1.0, 2.0]"
+  },
+  {
+   "check": "2b [C3 patched copy, f3 2024-filtered]: stored Pareto fronts reproduced from our values with the original's paretoset call",
+   "status": "PASS",
+   "detail": "[14, 42, 52]"
+  },
+  {
+   "check": "3.1 toy projection by hand: A->A is length 1, dedupe by set, 4-activity set dropped, 4-node/3-activity set kept, ties ordered by name",
+   "status": "PASS",
+   "detail": "[(('A',), 1, 1, 1, 'A -> A', 2), (('B',), 1, 2, 1, 'B', 1), (('C',), 1, 3, 1, 'C', 1), (('D',), 1, 4, 2, 'D', 1), (('A', 'B'), 2, 1, 1, 'A -> B', 2), (('C', 'D'), 2, 2, 1, 'C -> D', 1), (('A', 'B', 'C'), 3, 1, 1, 'A -> B -> A -> C', 1)]"
+  },
+  {
+   "check": "3.2 toy select(): k=3 per length, sorted activity lists, fewer than k is allowed",
+   "status": "PASS",
+   "detail": "{1: [['A'], ['B'], ['C']], 2: [['A', 'B'], ['C', 'D']], 3: [['A', 'B', 'C']]}"
+  },
+  {
+   "check": "3.3 pareto_layers / pareto_front (distinct=False) == own peeling on 200 random tables with many ties",
+   "status": "PASS",
+   "detail": "0 disagreements"
+  },
+  {
+   "check": "3.4 f1: inputs from own loader == builder's loader (traces, labels, distance matrix)",
+   "status": "PASS",
+   "detail": "1130 cases, attributes constant per case: True"
+  },
+  {
+   "check": "3.5 f1: counts and interest values of 250 sampled evaluated patterns == own",
+   "status": "PASS",
+   "detail": "wrong counts 0, max diff {'IG': np.float64(1.1919718684305636e-15), 'coverage': 0.0, 'CD': np.float64(4.440892098500626e-16)}"
+  },
+  {
+   "check": "3.6 f1: step fronts == own dominance; step s candidates == children of the step s-1 front",
+   "status": "PASS",
+   "detail": "fronts True, candidates True; [{'step': 0, 'n_candidates': 164, 'front_size': 7, 'front_extendable': 7}, {'step': 1, 'n_candidates': 1204, 'front_size': 26, 'front_extendable': 16}, {'step': 2, 'n_candidates': 851, 'front_size': 50, 'front_extendable': 17}]"
+  },
+  {
+   "check": "3.7 f1: selected k=10 per length == own projection + non-dominated sorting + tie-break",
+   "status": "PASS",
+   "detail": "{1: True, 2: True, 3: True}"
+  },
+  {
+   "check": "3.8 f1: selection == stored impressed_sets_f1.json; lengths; one row per set",
+   "status": "PASS",
+   "detail": "stored {1: True, 2: True, 3: True}, candidate sets 1024 (expected 1024)"
+  },
+  {
+   "check": "3.9 f1: second fit gives the identical table and selection",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "3.10 f1: overlap of the top 10 with 'layer the patterns, then dedupe by set'",
+   "status": "INFO",
+   "detail": "{1: 9, 2: 10, 3: 9}; sets owning a first-front pattern that the selector puts below layer 1: {1: 0, 2: 5, 3: 1}; near-ties below 1e-12: 30; selection unchanged after rounding objectives to 10 decimals: {1: True, 2: True, 3: False}"
+  },
+  {
+   "check": "3.11 f1: of the 10 selected sets per length, how many have their source pattern / any of their patterns on an IMPresseD step front",
+   "status": "INFO",
+   "detail": "source pattern on a step front {1: 7, 2: 8, 3: 7}; any pattern of the set {1: 7, 2: 9, 3: 7}"
+  },
+  {
+   "check": "3.12 f1: cases the 2024 permutation could shuffle per selected set (whole set in the trace)",
+   "status": "INFO",
+   "detail": "{1: [334, 729, 787, 258, 141, 36, 3, 516, 668, 24], 2: [299, 299, 440, 591, 608, 215, 241, 119, 132, 33], 3: [288, 196, 112, 63, 33, 39, 24, 19, 5, 15]}; sets with fewer than 15 such cases: {1: 1, 2: 0, 3: 1}; cases containing the SOURCE PATTERN: {1: [334, 729, 792, 258, 141, 36, 3, 519, 668, 24], 2: [283, 279, 407, 590, 598, 153, 122, 101, 68, 16], 3: [169, 89, 58, 16, 12, 11, 14, 3, 2, 2]}"
+  },
+  {
+   "check": "3.4 f2: inputs from own loader == builder's loader (traces, labels, distance matrix)",
+   "status": "PASS",
+   "detail": "1130 cases, attributes constant per case: True"
+  },
+  {
+   "check": "3.5 f2: counts and interest values of 250 sampled evaluated patterns == own",
+   "status": "PASS",
+   "detail": "wrong counts 0, max diff {'IG': np.float64(1.2388094022819374e-15), 'coverage': 0.0, 'CD': np.float64(4.440892098500626e-16)}"
+  },
+  {
+   "check": "3.6 f2: step fronts == own dominance; step s candidates == children of the step s-1 front",
+   "status": "PASS",
+   "detail": "fronts True, candidates True; [{'step': 0, 'n_candidates': 207, 'front_size': 7, 'front_extendable': 7}, {'step': 1, 'n_candidates': 1634, 'front_size': 44, 'front_extendable': 21}, {'step': 2, 'n_candidates': 1175, 'front_size': 64, 'front_extendable': 18}]"
+  },
+  {
+   "check": "3.7 f2: selected k=10 per length == own projection + non-dominated sorting + tie-break",
+   "status": "PASS",
+   "detail": "{1: True, 2: True, 3: True}"
+  },
+  {
+   "check": "3.8 f2: selection == stored impressed_sets_f2.json; lengths; one row per set",
+   "status": "PASS",
+   "detail": "stored {1: True, 2: True, 3: True}, candidate sets 1473 (expected 1473)"
+  },
+  {
+   "check": "3.9 f2: second fit gives the identical table and selection",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "3.10 f2: overlap of the top 10 with 'layer the patterns, then dedupe by set'",
+   "status": "INFO",
+   "detail": "{1: 8, 2: 10, 3: 10}; sets owning a first-front pattern that the selector puts below layer 1: {1: 0, 2: 6, 3: 3}; near-ties below 1e-12: 25; selection unchanged after rounding objectives to 10 decimals: {1: True, 2: True, 3: True}"
+  },
+  {
+   "check": "3.11 f2: of the 10 selected sets per length, how many have their source pattern / any of their patterns on an IMPresseD step front",
+   "status": "INFO",
+   "detail": "source pattern on a step front {1: 7, 2: 7, 3: 7}; any pattern of the set {1: 7, 2: 9, 3: 7}"
+  },
+  {
+   "check": "3.12 f2: cases the 2024 permutation could shuffle per selected set (whole set in the trace)",
+   "status": "INFO",
+   "detail": "{1: [339, 413, 793, 1059, 145, 344, 3, 780, 14, 4], 2: [294, 331, 309, 307, 412, 385, 604, 619, 334, 724], 3: [288, 292, 290, 330, 259, 385, 148, 88, 154, 412]}; sets with fewer than 15 such cases: {1: 3, 2: 0, 3: 0}; cases containing the SOURCE PATTERN: {1: [339, 413, 793, 236, 145, 344, 3, 780, 14, 4], 2: [182, 202, 281, 284, 371, 256, 603, 609, 56, 574], 3: [173, 169, 151, 174, 104, 298, 78, 16, 56, 51]}"
+  },
+  {
+   "check": "3.4 f3: inputs from own loader == builder's loader (traces, labels, distance matrix)",
+   "status": "PASS",
+   "detail": "1111 cases, attributes constant per case: True"
+  },
+  {
+   "check": "3.5 f3: counts and interest values of 250 sampled evaluated patterns == own",
+   "status": "PASS",
+   "detail": "wrong counts 0, max diff {'IG': np.float64(1.19522447494802e-15), 'coverage': 0.0, 'CD': np.float64(4.440892098500626e-16)}"
+  },
+  {
+   "check": "3.6 f3: step fronts == own dominance; step s candidates == children of the step s-1 front",
+   "status": "PASS",
+   "detail": "fronts True, candidates True; [{'step': 0, 'n_candidates': 156, 'front_size': 7, 'front_extendable': 7}, {'step': 1, 'n_candidates': 1031, 'front_size': 23, 'front_extendable': 11}, {'step': 2, 'n_candidates': 861, 'front_size': 39, 'front_extendable': 12}]"
+  },
+  {
+   "check": "3.7 f3: selected k=10 per length == own projection + non-dominated sorting + tie-break",
+   "status": "PASS",
+   "detail": "{1: True, 2: True, 3: True}"
+  },
+  {
+   "check": "3.8 f3: selection == stored impressed_sets_f3.json; lengths; one row per set",
+   "status": "PASS",
+   "detail": "stored {1: True, 2: True, 3: True}, candidate sets 881 (expected 881)"
+  },
+  {
+   "check": "3.9 f3: second fit gives the identical table and selection",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "check": "3.10 f3: overlap of the top 10 with 'layer the patterns, then dedupe by set'",
+   "status": "INFO",
+   "detail": "{1: 5, 2: 8, 3: 7}; sets owning a first-front pattern that the selector puts below layer 1: {1: 0, 2: 5, 3: 5}; near-ties below 1e-12: 26; selection unchanged after rounding objectives to 10 decimals: {1: True, 2: False, 3: True}"
+  },
+  {
+   "check": "3.11 f3: of the 10 selected sets per length, how many have their source pattern / any of their patterns on an IMPresseD step front",
+   "status": "INFO",
+   "detail": "source pattern on a step front {1: 7, 2: 7, 3: 5}; any pattern of the set {1: 7, 2: 10, 3: 6}"
+  },
+  {
+   "check": "3.12 f3: cases the 2024 permutation could shuffle per selected set (whole set in the trace)",
+   "status": "INFO",
+   "detail": "{1: [756, 702, 232, 142, 34, 4, 2, 510, 532, 533], 2: [510, 523, 531, 433, 200, 221, 136, 129, 59, 29], 3: [187, 122, 120, 29, 30, 20, 42, 42, 8, 129]}; sets with fewer than 15 such cases: {1: 2, 2: 0, 3: 1}; cases containing the SOURCE PATTERN: {1: [756, 705, 232, 145, 34, 4, 2, 510, 532, 533], 2: [508, 523, 521, 427, 155, 78, 68, 100, 13, 13], 3: [96, 68, 12, 11, 10, 14, 1, 1, 2, 57]}"
+  },
+  {
+   "check": "4.1 labels enter only through IG: extension/count functions take no labels; with permuted labels step-0 candidates, counts, coverage and CD are unchanged and IG changes",
+   "status": "PASS",
+   "detail": "functions with a label parameter: []; max IG at step 0 real 0.3675 vs permuted 0.0055; step-1 candidates real 1204 vs permuted 1618 (labels steer WHICH patterns are extended, by design)"
+  },
+  {
+   "check": "4.2 mining scope is the caller's choice: fit() on an 80 % subset runs and uses only those cases",
+   "status": "PASS",
+   "detail": "default runner (c4_run_selector.run_log) passes ALL cases = whole-log mining incl. labels of every case; top-10 overlap whole log vs one random 80 % subset: {1: 8, 2: 7, 3: 8} of 10; held-out cases 226"
+  },
+  {
+   "check": "4.3 shuffled case order (f1): same selected sets in the same order",
+   "status": "PASS",
+   "detail": "sets {1: True, 2: True, 3: True}, incl. layer/source {1: True, 2: True, 3: True}; evaluated patterns 2109 vs 2109 (only in one: 0); max value diff {'IG': 0.0, 'coverage': 0.0, 'CD': 3.3306690738754696e-16}; on_front flags that differ: 0"
+  },
+  {
+   "check": "4.4 two fresh processes with PYTHONHASHSEED 1 and 2 give this process's selection",
+   "status": "PASS",
+   "detail": "identical"
+  },
+  {
+   "check": "5.1 the builder's own unit tests pass",
+   "status": "PASS",
+   "detail": "Ran 34 tests in 9.697s | | OK"
+  },
+  {
+   "check": "5.2 impressed_chain.py: no line over 120 characters, no absolute path",
+   "status": "PASS",
+   "detail": "530 lines; long []; absolute []; lines over 99: 15"
+  },
+  {
+   "check": "5.3 calling select() before fit()",
+   "status": "INFO",
+   "detail": "AttributeError: 'ImpressedChainSelector' object has no attribute 'patterns_'"
+  },
+  {
+   "check": "5.4 fit() with a distance matrix of the wrong size",
+   "status": "INFO",
+   "detail": "no error raised for a 3x3 distance matrix with 2 cases"
+  }
+ ],
+ "summary": {
+  "PASS": 53,
+  "FAIL": 0,
+  "INFO": 11
+ },
+ "results": {
+  "toy_random_patterns": 5171,
+  "part2": {
+   "cores": [
+    "ac370442",
+    "ac370443",
+    "370488g",
+    "370712b",
+    "ac370403",
+    "ac411100"
+   ],
+   "n_events": 4360,
+   "n_activities": 139,
+   "A": [
+    {
+     "core": "ac370442",
+     "n_original": 44,
+     "n_ours": 44,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 43,
+      "2.0": 1
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "core": "ac370443",
+     "n_original": 58,
+     "n_ours": 58,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 57,
+      "2.0": 1
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "core": "370488g",
+     "n_original": 46,
+     "n_ours": 46,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 45,
+      "2.0": 1
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "core": "370712b",
+     "n_original": 69,
+     "n_ours": 69,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 68,
+      "2.0": 1
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "core": "ac370403",
+     "n_original": 36,
+     "n_ours": 36,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 35,
+      "2.0": 1
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "core": "ac411100",
+     "n_original": 191,
+     "n_ours": 191,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 189,
+      "2.0": 2
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    }
+   ],
+   "B": {
+    "n_original": 428,
+    "n_ours": 428,
+    "n_duplicate_original_ids": 0,
+    "only_original": [],
+    "only_ours": [],
+    "count_factor_original_over_ours": {
+     "1.0": 405,
+     "2.0": 23
+    },
+    "n_factor_differs_between_cases": 0,
+    "n_presence_mismatch": 0
+   },
+   "C": [
+    {
+     "parent": "ac370701 -> 370712b -> 370715a",
+     "parent_id": "370712b_26",
+     "parent_instances_original": 9,
+     "parent_instances_ours": 9,
+     "n_original": 35,
+     "n_ours": 35,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 35
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "parent": "370488g -> 370712b -> 370715a",
+     "parent_id": "370712b_29",
+     "parent_instances_original": 3,
+     "parent_instances_ours": 3,
+     "n_original": 12,
+     "n_ours": 12,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 12
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "parent": "ac370711 -> 370712b -> 370715a",
+     "parent_id": "370712b_19",
+     "parent_instances_original": 12,
+     "parent_instances_ours": 12,
+     "n_original": 17,
+     "n_ours": 17,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 17
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "parent": "ac370419 -> ac370442 -> ac370443",
+     "parent_id": "ac370442_15",
+     "parent_instances_original": 10,
+     "parent_instances_ours": 10,
+     "n_original": 28,
+     "n_ours": 28,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 28
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "parent": "370488g -> ac372417",
+     "parent_id": "370488g_13",
+     "parent_instances_original": 3,
+     "parent_instances_ours": 3,
+     "n_original": 13,
+     "n_ours": 13,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 13
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "parent": "ac10307 -> ac411100 -> ac419100",
+     "parent_id": "ac411100_37",
+     "parent_instances_original": 18,
+     "parent_instances_ours": 18,
+     "n_original": 12,
+     "n_ours": 12,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 12
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "parent": "370488g -> 370712b",
+     "parent_id": "370488g_18",
+     "parent_instances_original": 6,
+     "parent_instances_ours": 3,
+     "n_original": 12,
+     "n_ours": 12,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "2.0": 12
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "parent": "ac411100 -> ac10307",
+     "parent_id": "ac411100_78",
+     "parent_instances_original": 4,
+     "parent_instances_ours": 4,
+     "n_original": 5,
+     "n_ours": 5,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 5
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    },
+    {
+     "parent": "370488e -> 370488g -> ac372417",
+     "parent_id": "370488g_17",
+     "parent_instances_original": 3,
+     "parent_instances_ours": 3,
+     "n_original": 14,
+     "n_ours": 14,
+     "n_duplicate_original_ids": 0,
+     "only_original": [],
+     "only_ours": [],
+     "count_factor_original_over_ours": {
+      "1.0": 14
+     },
+     "n_factor_differs_between_cases": 0,
+     "n_presence_mismatch": 0
+    }
+   ],
+   "D": {
+    "max_abs_diff_vs_original": {
+     "IG": 0.0,
+     "coverage": 0.0,
+     "CD": 0.0
+    },
+    "max_abs_diff_vs_naive": {
+     "IG": 6.192962809237201e-16,
+     "CD": 1.9984014443252818e-15
+    }
+   }
+  },
+  "part2b_c3": {
+   "C3 ORIGINAL code, raw f1": {
+    "0": {
+     "ok": true,
+     "n_rows": 176,
+     "n_distinct_patterns": 176,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 4,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0
+     ],
+     "stored_front_size": 13,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 13,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 0,
+     "extra_rows_that_tie_with_a_stored_front_row": 0,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "our_extension_seconds": 0.0
+    },
+    "1": {
+     "ok": true,
+     "n_rows": 2109,
+     "n_distinct_patterns": 2109,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 190,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0,
+      2.0
+     ],
+     "stored_front_size": 51,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 53,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 2,
+     "extra_rows_that_tie_with_a_stored_front_row": 2,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "instance_list_ratio_values": [
+      1.0,
+      2.0
+     ],
+     "our_extension_seconds": 0.132
+    }
+   },
+   "C3 patched copy, f1 2024-filtered": {
+    "0": {
+     "ok": true,
+     "n_rows": 164,
+     "n_distinct_patterns": 164,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 2,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0
+     ],
+     "stored_front_size": 13,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 13,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 0,
+     "extra_rows_that_tie_with_a_stored_front_row": 0,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "our_extension_seconds": 0.0
+    },
+    "1": {
+     "ok": true,
+     "n_rows": 2041,
+     "n_distinct_patterns": 2041,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 176,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0,
+      2.0
+     ],
+     "stored_front_size": 48,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 51,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 3,
+     "extra_rows_that_tie_with_a_stored_front_row": 3,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "instance_list_ratio_values": [
+      1.0,
+      2.0
+     ],
+     "our_extension_seconds": 0.108
+    },
+    "2": {
+     "ok": true,
+     "n_rows": 1178,
+     "n_distinct_patterns": 1169,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 58,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0,
+      2.0,
+      4.0
+     ],
+     "stored_front_size": 57,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 69,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 12,
+     "extra_rows_that_tie_with_a_stored_front_row": 12,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "instance_list_ratio_values": [
+      1.0,
+      2.0,
+      4.0
+     ],
+     "our_extension_seconds": 0.119
+    }
+   },
+   "C3 patched copy, f2 2024-filtered": {
+    "0": {
+     "ok": true,
+     "n_rows": 207,
+     "n_distinct_patterns": 207,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 1,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0
+     ],
+     "stored_front_size": 31,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 31,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 0,
+     "extra_rows_that_tie_with_a_stored_front_row": 0,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "our_extension_seconds": 0.0
+    },
+    "1": {
+     "ok": true,
+     "n_rows": 4996,
+     "n_distinct_patterns": 4996,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 488,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0,
+      2.0
+     ],
+     "stored_front_size": 93,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 96,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 3,
+     "extra_rows_that_tie_with_a_stored_front_row": 3,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "instance_list_ratio_values": [
+      1.0,
+      2.0
+     ],
+     "our_extension_seconds": 0.659
+    },
+    "2": {
+     "ok": true,
+     "n_rows": 2603,
+     "n_distinct_patterns": 2583,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 204,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0,
+      2.0,
+      4.0
+     ],
+     "stored_front_size": 125,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 137,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 12,
+     "extra_rows_that_tie_with_a_stored_front_row": 12,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "instance_list_ratio_values": [
+      1.0,
+      2.0,
+      4.0
+     ],
+     "our_extension_seconds": 0.248
+    }
+   },
+   "C3 patched copy, f3 2024-filtered": {
+    "0": {
+     "ok": true,
+     "n_rows": 156,
+     "n_distinct_patterns": 156,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 1,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0
+     ],
+     "stored_front_size": 14,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 14,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 0,
+     "extra_rows_that_tie_with_a_stored_front_row": 0,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "our_extension_seconds": 0.0
+    },
+    "1": {
+     "ok": true,
+     "n_rows": 1161,
+     "n_distinct_patterns": 1161,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 125,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0,
+      2.0
+     ],
+     "stored_front_size": 42,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 44,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 2,
+     "extra_rows_that_tie_with_a_stored_front_row": 2,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "instance_list_ratio_values": [
+      1.0,
+      2.0
+     ],
+     "our_extension_seconds": 0.054
+    },
+    "2": {
+     "ok": true,
+     "n_rows": 874,
+     "n_distinct_patterns": 872,
+     "max_abs_diff": {
+      "IG": 0.0,
+      "coverage": 0.0,
+      "CD": 0.0
+     },
+     "nan_pattern_equal": true,
+     "n_nan_cd": 78,
+     "case_support_equal": true,
+     "pattern_frequency_ratio_values": [
+      0.0,
+      1.0,
+      2.0
+     ],
+     "stored_front_size": 52,
+     "stored_front_reproduced_from_our_values": true,
+     "front_size_our_rules": 59,
+     "stored_front_is_subset_of_ours": true,
+     "extra_front_rows": 7,
+     "extra_rows_that_tie_with_a_stored_front_row": 7,
+     "pareto_front_distinct_false_equals_own_dominance": true,
+     "instance_list_ratio_values": [
+      1.0,
+      2.0
+     ],
+     "our_extension_seconds": 0.048
+    }
+   }
+  },
+  "part3": {
+   "f1": {
+    "fit_seconds": 5.68,
+    "n_patterns": 2109,
+    "inputs_equal_builder_loader": true,
+    "case_attributes_constant_per_case": true,
+    "sample_patterns_recounted": 250,
+    "patterns_with_wrong_counts": 0,
+    "max_abs_diff_scores_vs_own": {
+     "IG": 1.1919718684305636e-15,
+     "coverage": 0.0,
+     "CD": 4.440892098500626e-16
+    },
+    "step_fronts_equal_own_dominance": true,
+    "step_candidates_equal_children_of_previous_front": true,
+    "selection_equal_own_implementation": {
+     "1": true,
+     "2": true,
+     "3": true
+    },
+    "selection_equal_stored_json": {
+     "1": true,
+     "2": true,
+     "3": true
+    },
+    "lengths_ok": true,
+    "one_row_per_set_and_sizes_1_to_3": true,
+    "n_candidate_sets": 1024,
+    "n_candidate_sets_expected": 1024,
+    "refit_identical": true,
+    "overlap_with_pattern_level_layering_top10": {
+     "1": 9,
+     "2": 10,
+     "3": 9
+    },
+    "sets_with_a_first_front_pattern_but_not_in_layer_1": {
+     "1": 0,
+     "2": 5,
+     "3": 1
+    },
+    "near_equal_objective_values_below_1e-12": 30,
+    "selection_unchanged_after_rounding_objectives_to_10_decimals": {
+     "1": true,
+     "2": true,
+     "3": false
+    },
+    "selected_sets_whose_source_pattern_is_on_a_step_front": {
+     "1": 7,
+     "2": 8,
+     "3": 7
+    },
+    "selected_sets_with_any_pattern_on_a_step_front": {
+     "1": 7,
+     "2": 9,
+     "3": 7
+    },
+    "eligible_cases_per_selected_set": {
+     "1": [
+      334,
+      729,
+      787,
+      258,
+      141,
+      36,
+      3,
+      516,
+      668,
+      24
+     ],
+     "2": [
+      299,
+      299,
+      440,
+      591,
+      608,
+      215,
+      241,
+      119,
+      132,
+      33
+     ],
+     "3": [
+      288,
+      196,
+      112,
+      63,
+      33,
+      39,
+      24,
+      19,
+      5,
+      15
+     ]
+    },
+    "cases_with_source_pattern_per_selected_set": {
+     "1": [
+      334,
+      729,
+      792,
+      258,
+      141,
+      36,
+      3,
+      519,
+      668,
+      24
+     ],
+     "2": [
+      283,
+      279,
+      407,
+      590,
+      598,
+      153,
+      122,
+      101,
+      68,
+      16
+     ],
+     "3": [
+      169,
+      89,
+      58,
+      16,
+      12,
+      11,
+      14,
+      3,
+      2,
+      2
+     ]
+    },
+    "selected": {
+     "1": [
+      {
+       "set": [
+        "376400"
+       ],
+       "layer": 1,
+       "source": "376400"
+      },
+      {
+       "set": [
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac419100"
+      },
+      {
+       "set": [
+        "ac370000"
+       ],
+       "layer": 1,
+       "source": "ac370000"
+      },
+      {
+       "set": [
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac415100"
+      },
+      {
+       "set": [
+        "ac10307"
+       ],
+       "layer": 1,
+       "source": "ac10307"
+      },
+      {
+       "set": [
+        "ac355427"
+       ],
+       "layer": 1,
+       "source": "ac355427"
+      },
+      {
+       "set": [
+        "337419c"
+       ],
+       "layer": 1,
+       "source": "337419c"
+      },
+      {
+       "set": [
+        "ac411100"
+       ],
+       "layer": 2,
+       "source": "ac411100"
+      },
+      {
+       "set": [
+        "370407"
+       ],
+       "layer": 2,
+       "source": "370407"
+      },
+      {
+       "set": [
+        "ac378449"
+       ],
+       "layer": 2,
+       "source": "ac378449"
+      }
+     ],
+     "2": [
+      {
+       "set": [
+        "370715a",
+        "376400"
+       ],
+       "layer": 1,
+       "source": "370715a ~> 376400"
+      },
+      {
+       "set": [
+        "370712b",
+        "376400"
+       ],
+       "layer": 1,
+       "source": "370712b ~> 376400"
+      },
+      {
+       "set": [
+        "ac411100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac411100 -> ac419100"
+      },
+      {
+       "set": [
+        "370401c",
+        "ac370000"
+       ],
+       "layer": 1,
+       "source": "ac370000 ~> 370401c"
+      },
+      {
+       "set": [
+        "ac370000",
+        "ac370403"
+       ],
+       "layer": 1,
+       "source": "ac370000 ~> ac370403"
+      },
+      {
+       "set": [
+        "ac411100",
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac411100 ~> ac415100"
+      },
+      {
+       "set": [
+        "ac415100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac419100 -> ac415100"
+      },
+      {
+       "set": [
+        "ac10307",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac10307 ~> ac419100"
+      },
+      {
+       "set": [
+        "ac10307",
+        "ac411100"
+       ],
+       "layer": 1,
+       "source": "ac10307 -> ac411100 ~> ac411100"
+      },
+      {
+       "set": [
+        "ac355201",
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac355201 ~> ac415100"
+      }
+     ],
+     "3": [
+      {
+       "set": [
+        "376400",
+        "377498a",
+        "ac372417"
+       ],
+       "layer": 1,
+       "source": "ac372417 -> 376400 -> 377498a"
+      },
+      {
+       "set": [
+        "ac411100",
+        "ac415100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac411100 -> ac419100 -> ac415100"
+      },
+      {
+       "set": [
+        "ac10307",
+        "ac411100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac10307 -> ac411100 -> ac419100 -> ac411100"
+      },
+      {
+       "set": [
+        "ac356134",
+        "ac411100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac411100 -> ac419100 ~> ac356134"
+      },
+      {
+       "set": [
+        "ac355201",
+        "ac415100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac355201 ~> ac419100 -> ac415100"
+      },
+      {
+       "set": [
+        "ac355201",
+        "ac411100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac355201 -> ac411100 -> ac419100"
+      },
+      {
+       "set": [
+        "ac355427",
+        "ac411100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac355427 -> ac411100 -> ac419100"
+      },
+      {
+       "set": [
+        "376400",
+        "ac370000",
+        "ac411100"
+       ],
+       "layer": 1,
+       "source": "ac411100 -> ac370000 -> 376400"
+      },
+      {
+       "set": [
+        "376400",
+        "ac370419",
+        "ac378452"
+       ],
+       "layer": 1,
+       "source": "ac370419 ~> 376400 -> ac378452"
+      },
+      {
+       "set": [
+        "ac410500",
+        "ac411100",
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac410500 -> ac415100 -> ac411100"
+      }
+     ]
+    }
+   },
+   "f2": {
+    "fit_seconds": 6.59,
+    "n_patterns": 2893,
+    "inputs_equal_builder_loader": true,
+    "case_attributes_constant_per_case": true,
+    "sample_patterns_recounted": 250,
+    "patterns_with_wrong_counts": 0,
+    "max_abs_diff_scores_vs_own": {
+     "IG": 1.2388094022819374e-15,
+     "coverage": 0.0,
+     "CD": 4.440892098500626e-16
+    },
+    "step_fronts_equal_own_dominance": true,
+    "step_candidates_equal_children_of_previous_front": true,
+    "selection_equal_own_implementation": {
+     "1": true,
+     "2": true,
+     "3": true
+    },
+    "selection_equal_stored_json": {
+     "1": true,
+     "2": true,
+     "3": true
+    },
+    "lengths_ok": true,
+    "one_row_per_set_and_sizes_1_to_3": true,
+    "n_candidate_sets": 1473,
+    "n_candidate_sets_expected": 1473,
+    "refit_identical": true,
+    "overlap_with_pattern_level_layering_top10": {
+     "1": 8,
+     "2": 10,
+     "3": 10
+    },
+    "sets_with_a_first_front_pattern_but_not_in_layer_1": {
+     "1": 0,
+     "2": 6,
+     "3": 3
+    },
+    "near_equal_objective_values_below_1e-12": 25,
+    "selection_unchanged_after_rounding_objectives_to_10_decimals": {
+     "1": true,
+     "2": true,
+     "3": true
+    },
+    "selected_sets_whose_source_pattern_is_on_a_step_front": {
+     "1": 7,
+     "2": 7,
+     "3": 7
+    },
+    "selected_sets_with_any_pattern_on_a_step_front": {
+     "1": 7,
+     "2": 9,
+     "3": 7
+    },
+    "eligible_cases_per_selected_set": {
+     "1": [
+      339,
+      413,
+      793,
+      1059,
+      145,
+      344,
+      3,
+      780,
+      14,
+      4
+     ],
+     "2": [
+      294,
+      331,
+      309,
+      307,
+      412,
+      385,
+      604,
+      619,
+      334,
+      724
+     ],
+     "3": [
+      288,
+      292,
+      290,
+      330,
+      259,
+      385,
+      148,
+      88,
+      154,
+      412
+     ]
+    },
+    "cases_with_source_pattern_per_selected_set": {
+     "1": [
+      339,
+      413,
+      793,
+      236,
+      145,
+      344,
+      3,
+      780,
+      14,
+      4
+     ],
+     "2": [
+      182,
+      202,
+      281,
+      284,
+      371,
+      256,
+      603,
+      609,
+      56,
+      574
+     ],
+     "3": [
+      173,
+      169,
+      151,
+      174,
+      104,
+      298,
+      78,
+      16,
+      56,
+      51
+     ]
+    },
+    "selected": {
+     "1": [
+      {
+       "set": [
+        "376400"
+       ],
+       "layer": 1,
+       "source": "376400"
+      },
+      {
+       "set": [
+        "378619a"
+       ],
+       "layer": 1,
+       "source": "378619a"
+      },
+      {
+       "set": [
+        "ac370000"
+       ],
+       "layer": 1,
+       "source": "ac370000"
+      },
+      {
+       "set": [
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac419100 ~> ac419100"
+      },
+      {
+       "set": [
+        "ac10307"
+       ],
+       "layer": 1,
+       "source": "ac10307"
+      },
+      {
+       "set": [
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac415100"
+      },
+      {
+       "set": [
+        "ac337441"
+       ],
+       "layer": 1,
+       "source": "ac337441"
+      },
+      {
+       "set": [
+        "ac379999"
+       ],
+       "layer": 2,
+       "source": "ac379999"
+      },
+      {
+       "set": [
+        "ac378431"
+       ],
+       "layer": 2,
+       "source": "ac378431"
+      },
+      {
+       "set": [
+        "378490e"
+       ],
+       "layer": 2,
+       "source": "378490e"
+      }
+     ],
+     "2": [
+      {
+       "set": [
+        "376400",
+        "377498a"
+       ],
+       "layer": 1,
+       "source": "376400 -> 377498a"
+      },
+      {
+       "set": [
+        "376400",
+        "378619a"
+       ],
+       "layer": 1,
+       "source": "376400 ~> 378619a"
+      },
+      {
+       "set": [
+        "370712b",
+        "376400"
+       ],
+       "layer": 1,
+       "source": "370712b ~> 376400"
+      },
+      {
+       "set": [
+        "370715a",
+        "376400"
+       ],
+       "layer": 1,
+       "source": "370715a ~> 376400"
+      },
+      {
+       "set": [
+        "378619a",
+        "ac379999"
+       ],
+       "layer": 1,
+       "source": "378619a -> ac379999"
+      },
+      {
+       "set": [
+        "378619a",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "378619a ~> ac419100"
+      },
+      {
+       "set": [
+        "370401c",
+        "ac370000"
+       ],
+       "layer": 1,
+       "source": "ac370000 ~> 370401c"
+      },
+      {
+       "set": [
+        "ac370000",
+        "ac370403"
+       ],
+       "layer": 1,
+       "source": "ac370000 ~> ac370403"
+      },
+      {
+       "set": [
+        "376400",
+        "ac379999"
+       ],
+       "layer": 1,
+       "source": "376400 ~> ac379999"
+      },
+      {
+       "set": [
+        "ac379999",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac379999 ~> ac419100"
+      }
+     ],
+     "3": [
+      {
+       "set": [
+        "376400",
+        "377498a",
+        "378619a"
+       ],
+       "layer": 1,
+       "source": "376400 -> 377498a ~> 378619a"
+      },
+      {
+       "set": [
+        "376400",
+        "377498a",
+        "ac372417"
+       ],
+       "layer": 1,
+       "source": "ac372417 -> 376400 -> 377498a"
+      },
+      {
+       "set": [
+        "376400",
+        "377498a",
+        "ac379999"
+       ],
+       "layer": 1,
+       "source": "376400 -> 377498a ~> ac379999"
+      },
+      {
+       "set": [
+        "376400",
+        "378619a",
+        "ac379999"
+       ],
+       "layer": 1,
+       "source": "376400 ~> 378619a -> ac379999"
+      },
+      {
+       "set": [
+        "376400",
+        "377498a",
+        "ac370606"
+       ],
+       "layer": 1,
+       "source": "ac370606 ~> 376400 -> 377498a"
+      },
+      {
+       "set": [
+        "378619a",
+        "ac379999",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "378619a -> ac379999 ~> ac419100"
+      },
+      {
+       "set": [
+        "378619a",
+        "387042a",
+        "ac379999"
+       ],
+       "layer": 1,
+       "source": "378619a -> ac379999 ~> 387042a"
+      },
+      {
+       "set": [
+        "376400",
+        "378619a",
+        "ac411100"
+       ],
+       "layer": 1,
+       "source": "376400 -> 378619a ~> ac411100"
+      },
+      {
+       "set": [
+        "387042a",
+        "ac410100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac410100 -> ac419100 -> 387042a"
+      },
+      {
+       "set": [
+        "378619a",
+        "ac370000",
+        "ac379999"
+       ],
+       "layer": 1,
+       "source": "378619a -> ac379999 ~> ac370000"
+      }
+     ]
+    }
+   },
+   "f3": {
+    "fit_seconds": 6.63,
+    "n_patterns": 1946,
+    "inputs_equal_builder_loader": true,
+    "case_attributes_constant_per_case": true,
+    "sample_patterns_recounted": 250,
+    "patterns_with_wrong_counts": 0,
+    "max_abs_diff_scores_vs_own": {
+     "IG": 1.19522447494802e-15,
+     "coverage": 0.0,
+     "CD": 4.440892098500626e-16
+    },
+    "step_fronts_equal_own_dominance": true,
+    "step_candidates_equal_children_of_previous_front": true,
+    "selection_equal_own_implementation": {
+     "1": true,
+     "2": true,
+     "3": true
+    },
+    "selection_equal_stored_json": {
+     "1": true,
+     "2": true,
+     "3": true
+    },
+    "lengths_ok": true,
+    "one_row_per_set_and_sizes_1_to_3": true,
+    "n_candidate_sets": 881,
+    "n_candidate_sets_expected": 881,
+    "refit_identical": true,
+    "overlap_with_pattern_level_layering_top10": {
+     "1": 5,
+     "2": 8,
+     "3": 7
+    },
+    "sets_with_a_first_front_pattern_but_not_in_layer_1": {
+     "1": 0,
+     "2": 5,
+     "3": 5
+    },
+    "near_equal_objective_values_below_1e-12": 26,
+    "selection_unchanged_after_rounding_objectives_to_10_decimals": {
+     "1": true,
+     "2": false,
+     "3": true
+    },
+    "selected_sets_whose_source_pattern_is_on_a_step_front": {
+     "1": 7,
+     "2": 7,
+     "3": 5
+    },
+    "selected_sets_with_any_pattern_on_a_step_front": {
+     "1": 7,
+     "2": 10,
+     "3": 6
+    },
+    "eligible_cases_per_selected_set": {
+     "1": [
+      756,
+      702,
+      232,
+      142,
+      34,
+      4,
+      2,
+      510,
+      532,
+      533
+     ],
+     "2": [
+      510,
+      523,
+      531,
+      433,
+      200,
+      221,
+      136,
+      129,
+      59,
+      29
+     ],
+     "3": [
+      187,
+      122,
+      120,
+      29,
+      30,
+      20,
+      42,
+      42,
+      8,
+      129
+     ]
+    },
+    "cases_with_source_pattern_per_selected_set": {
+     "1": [
+      756,
+      705,
+      232,
+      145,
+      34,
+      4,
+      2,
+      510,
+      532,
+      533
+     ],
+     "2": [
+      508,
+      523,
+      521,
+      427,
+      155,
+      78,
+      68,
+      100,
+      13,
+      13
+     ],
+     "3": [
+      96,
+      68,
+      12,
+      11,
+      10,
+      14,
+      1,
+      1,
+      2,
+      57
+     ]
+    },
+    "selected": {
+     "1": [
+      {
+       "set": [
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac419100"
+      },
+      {
+       "set": [
+        "ac370000"
+       ],
+       "layer": 1,
+       "source": "ac370000"
+      },
+      {
+       "set": [
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac415100"
+      },
+      {
+       "set": [
+        "ac10307"
+       ],
+       "layer": 1,
+       "source": "ac10307"
+      },
+      {
+       "set": [
+        "ac355427"
+       ],
+       "layer": 1,
+       "source": "ac355427"
+      },
+      {
+       "set": [
+        "ac388170"
+       ],
+       "layer": 1,
+       "source": "ac388170"
+      },
+      {
+       "set": [
+        "387070a"
+       ],
+       "layer": 1,
+       "source": "387070a"
+      },
+      {
+       "set": [
+        "ac370402"
+       ],
+       "layer": 2,
+       "source": "ac370402"
+      },
+      {
+       "set": [
+        "370488g"
+       ],
+       "layer": 2,
+       "source": "370488g"
+      },
+      {
+       "set": [
+        "370488e"
+       ],
+       "layer": 2,
+       "source": "370488e"
+      }
+     ],
+     "2": [
+      {
+       "set": [
+        "ac370000",
+        "ac370402"
+       ],
+       "layer": 1,
+       "source": "ac370000 ~> ac370402"
+      },
+      {
+       "set": [
+        "370401c",
+        "ac370000"
+       ],
+       "layer": 1,
+       "source": "ac370000 ~> 370401c"
+      },
+      {
+       "set": [
+        "ac370000",
+        "ac370403"
+       ],
+       "layer": 1,
+       "source": "ac370000 ~> ac370403"
+      },
+      {
+       "set": [
+        "ac411100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac411100 -> ac419100"
+      },
+      {
+       "set": [
+        "ac411100",
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac411100 ~> ac415100"
+      },
+      {
+       "set": [
+        "ac415100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac415100 ~> ac419100"
+      },
+      {
+       "set": [
+        "ac10307",
+        "ac411100"
+       ],
+       "layer": 1,
+       "source": "ac10307 -> ac411100 ~> ac411100"
+      },
+      {
+       "set": [
+        "ac10307",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac10307 ~> ac419100"
+      },
+      {
+       "set": [
+        "ac10307",
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac10307 ~> ac415100"
+      },
+      {
+       "set": [
+        "ac355201",
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac355201 ~> ac415100"
+      }
+     ],
+     "3": [
+      {
+       "set": [
+        "ac411100",
+        "ac415100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac411100 -> ac419100 -> ac415100"
+      },
+      {
+       "set": [
+        "ac10307",
+        "ac411100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac10307 ~> ac419100 -> ac411100"
+      },
+      {
+       "set": [
+        "ac370000",
+        "ac411100",
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac411100 -> ac415100 -> ac370000"
+      },
+      {
+       "set": [
+        "ac355201",
+        "ac415100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac355201 ~> ac419100 -> ac415100"
+      },
+      {
+       "set": [
+        "ac355201",
+        "ac411100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac355201 -> ac411100 -> ac419100"
+      },
+      {
+       "set": [
+        "ac355427",
+        "ac415100",
+        "ac419100"
+       ],
+       "layer": 1,
+       "source": "ac355427 ~> ac419100 -> ac415100"
+      },
+      {
+       "set": [
+        "370407",
+        "ac10307",
+        "ac370000"
+       ],
+       "layer": 1,
+       "source": "ac10307 -> ac370000 -> 370407"
+      },
+      {
+       "set": [
+        "376400",
+        "ac370000",
+        "ac411100"
+       ],
+       "layer": 1,
+       "source": "ac411100 ~> ac411100 -> ac370000 -> 376400"
+      },
+      {
+       "set": [
+        "ac410500",
+        "ac411100",
+        "ac415100"
+       ],
+       "layer": 1,
+       "source": "ac410500 -> ac415100 -> ac411100"
+      },
+      {
+       "set": [
+        "ac379999",
+        "ac415100",
+        "ac419100"
+       ],
+       "layer": 2,
+       "source": "ac379999 ~> ac419100 -> ac415100"
+      }
+     ]
+    }
+   }
+  },
+  "part4": {
+   "overlap_whole_vs_80pct": {
+    "1": 8,
+    "2": 7,
+    "3": 8
+   },
+   "functions_with_label_parameter": [],
+   "case_order": {
+    "same_sets": {
+     "1": true,
+     "2": true,
+     "3": true
+    },
+    "same_incl_layer_source": {
+     "1": true,
+     "2": true,
+     "3": true
+    },
+    "patterns_only_in_one_run": 0,
+    "max_value_diff": {
+     "IG": 0.0,
+     "coverage": 0.0,
+     "CD": 3.3306690738754696e-16
+    },
+    "on_front_flags_differ": 0
+   }
+  }
+ }
+}
