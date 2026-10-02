@@ -1,0 +1,32 @@
+[
+  {
+    "log": "f1",
+    "pilot_rows": 57000,
+    "c9_rows": 57000,
+    "matched_rows": 57000,
+    "max_abs_diff_baseline": 4.93657337230502e-11,
+    "max_abs_diff_importance": 4.3657202852820376e-11,
+    "max_abs_diff_n_traces_with_itemset": 0.0,
+    "max_abs_diff_n_traces_changed": 0.0
+  },
+  {
+    "log": "f2",
+    "pilot_rows": 56000,
+    "c9_rows": 56000,
+    "matched_rows": 56000,
+    "max_abs_diff_baseline": 4.951761223281892e-11,
+    "max_abs_diff_importance": 4.999758940193999e-11,
+    "max_abs_diff_n_traces_with_itemset": 0.0,
+    "max_abs_diff_n_traces_changed": 0.0
+  },
+  {
+    "log": "f3",
+    "pilot_rows": 56000,
+    "c9_rows": 56000,
+    "matched_rows": 56000,
+    "max_abs_diff_baseline": 4.875899684009255e-11,
+    "max_abs_diff_importance": 4.999961555895993e-11,
+    "max_abs_diff_n_traces_with_itemset": 0.0,
+    "max_abs_diff_n_traces_changed": 0.0
+  }
+]

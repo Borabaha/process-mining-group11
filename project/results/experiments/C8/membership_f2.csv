@@ -1,0 +1,43 @@
+group,setting,n_itemsets_in_group,mean_in_group,mean_other_itemsets,difference
+contains 370407,A_faithful_train,3,0.145379,0.151872,-0.006493
+contains 370407,B_fixed_train,3,0.082126,0.080443,0.001684
+contains 370407,C_fixed_test,3,0.028181,0.020876,0.007305
+contains 370407,D_faithful_train_reversed,3,0.178039,0.164311,0.013728
+contains 370407,E_original_shuffle_no_accumulation,3,0.084257,0.081739,0.002518
+contains 370407,F_fixed_shuffle_with_accumulation,3,0.146193,0.152510,-0.006317
+contains ac370000,A_faithful_train,7,0.149377,0.151201,-0.001824
+contains ac370000,B_fixed_train,7,0.090109,0.059572,0.030537
+contains ac370000,C_fixed_test,7,0.028272,0.010926,0.017346
+contains ac370000,D_faithful_train_reversed,7,0.180986,0.139132,0.041853
+contains ac370000,E_original_shuffle_no_accumulation,7,0.092213,0.059818,0.032395
+contains ac370000,F_fixed_shuffle_with_accumulation,7,0.149908,0.152265,-0.002358
+contains ac370419,A_faithful_train,2,0.166042,0.145895,0.020147
+contains ac370419,B_fixed_train,2,0.075158,0.082395,-0.007237
+contains ac370419,C_fixed_test,2,0.024428,0.022728,0.001701
+contains ac370419,D_faithful_train_reversed,2,0.117397,0.181188,-0.063791
+contains ac370419,E_original_shuffle_no_accumulation,2,0.076838,0.083908,-0.007070
+contains ac370419,F_fixed_shuffle_with_accumulation,2,0.171424,0.145413,0.026011
+contains ac370443,A_faithful_train,1,0.172541,0.147411,0.025130
+contains ac370443,B_fixed_train,1,0.088129,0.080150,0.007979
+contains ac370443,C_fixed_test,1,0.032589,0.022010,0.010579
+contains ac370443,D_faithful_train_reversed,1,0.152467,0.170203,-0.017737
+contains ac370443,E_original_shuffle_no_accumulation,1,0.089824,0.081680,0.008144
+contains ac370443,F_fixed_shuffle_with_accumulation,1,0.177654,0.147610,0.030044
+contains ac379999,A_faithful_train,6,0.147335,0.153809,-0.006474
+contains ac379999,B_fixed_train,6,0.075636,0.088915,-0.013279
+contains ac379999,C_fixed_test,6,0.017568,0.031317,-0.013749
+contains ac379999,D_faithful_train_reversed,6,0.164664,0.174077,-0.009413
+contains ac379999,E_original_shuffle_no_accumulation,6,0.076846,0.090967,-0.014122
+contains ac379999,F_fixed_shuffle_with_accumulation,6,0.147487,0.155306,-0.007819
+contains ac419100,A_faithful_train,3,0.141558,0.153510,-0.011952
+contains ac419100,B_fixed_train,3,0.077783,0.082304,-0.004520
+contains ac419100,C_fixed_test,3,0.015070,0.026496,-0.011426
+contains ac419100,D_faithful_train_reversed,3,0.188356,0.159890,0.028466
+contains ac419100,E_original_shuffle_no_accumulation,3,0.078478,0.084215,-0.005737
+contains ac419100,F_fixed_shuffle_with_accumulation,3,0.139116,0.155543,-0.016427
+size 3 (against size 2),A_faithful_train,2,0.148299,0.150331,-0.002032
+size 3 (against size 2),B_fixed_train,2,0.091900,0.078210,0.013690
+size 3 (against size 2),C_fixed_test,2,0.026576,0.022191,0.004386
+size 3 (against size 2),D_faithful_train_reversed,2,0.186370,0.163944,0.022426
+size 3 (against size 2),E_original_shuffle_no_accumulation,2,0.094190,0.079570,0.014620
+size 3 (against size 2),F_fixed_shuffle_with_accumulation,2,0.149205,0.150967,-0.001762

@@ -1,0 +1,47 @@
+{
+  "dataset": "f2",
+  "fold_seed": 0,
+  "train_cases": 904,
+  "n_activities": 207,
+  "n_repeats": 1,
+  "complete": true,
+  "activities_covered": 207,
+  "seconds_sum_measured": 1807.973588399822,
+  "seconds_per_activity_all": {
+    "n": 207,
+    "median": 9.922909699846059,
+    "mean": 8.73417192463682,
+    "min": 0.0,
+    "max": 13.934001999907196
+  },
+  "seconds_per_activity_by_kind": {
+    "instant (one allowed position)": {
+      "n": 5,
+      "median": 0.0,
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "scored": {
+      "n": 176,
+      "median": 10.004493749933317,
+      "mean": 10.13161988750587,
+      "min": 8.7221665000543,
+      "max": 13.934001999907196
+    },
+    "skipped (fewer than 3 cases)": {
+      "n": 26,
+      "median": 0.9389095000224188,
+      "mean": 0.9541726230303399,
+      "min": 0.8795568998903036,
+      "max": 1.044931699987501
+    }
+  },
+  "system_load_before_percent": 13.28125,
+  "load_during_run": {
+    "seconds": 1808.620323299896,
+    "own_cores": 1.10323217056383,
+    "system_percent": 32.382009658663854,
+    "others_percent": 23.188408237298603
+  }
+}

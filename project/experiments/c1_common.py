@@ -175,7 +175,8 @@ class IterationClock:
 # --------------------------------------------------------------------------
 # Activity sets
 # --------------------------------------------------------------------------
-def load_itemsets(log: EventLog, dataset: str, strategy: str) -> dict[int, list[list[str]]]:
+def load_itemsets(log: EventLog, dataset: str,
+                  strategy: str) -> dict[int, list[list[str]]]:
     """``{size: [activity list, ...]}`` with ``TOP_K`` sets per size.
 
     ``strategy='apriori'``: the per-size Apriori selector of experiment C7
@@ -195,9 +196,11 @@ def load_itemsets(log: EventLog, dataset: str, strategy: str) -> dict[int, list[
         raise ValueError("strategy must be 'apriori' or 'impressed'")
     for size in SIZES:
         if len(selected.get(size, [])) < TOP_K:
-            raise ValueError(f"{dataset}/{strategy}: fewer than {TOP_K} sets of size {size}")
+            raise ValueError(
+                f"{dataset}/{strategy}: fewer than {TOP_K} sets of size {size}")
         if any(len(set(items)) != size for items in selected[size]):
-            raise ValueError(f"{dataset}/{strategy}: a set of size {size} has another size")
+            raise ValueError(
+                f"{dataset}/{strategy}: a set of size {size} has another size")
     return {size: [list(items) for items in selected[size][:TOP_K]] for size in SIZES}
 
 

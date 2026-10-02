@@ -1,0 +1,665 @@
+{
+  "dataset": "f2",
+  "itemsets": "original",
+  "n_folds": 5,
+  "settings": {
+    "fixed_test": {
+      "n_seeds": 10,
+      "n_repeats_run": 10,
+      "n_folds": 5,
+      "n_itemsets": 10,
+      "variance_sources": {
+        "std_between_repeats_same_fold": 0.013513970881562394,
+        "std_between_fold_means_same_seed": 0.01231162092762983,
+        "std_between_seed_means": 0.005291979278601225,
+        "share_values_above_zero": 0.8568,
+        "share_values_equal_zero": 0.0108,
+        "share_values_below_zero": 0.1324,
+        "share_cells_not_measurable": 0.0
+      },
+      "baseline_mean_all_seeds": 0.8910465878782848,
+      "baseline_std_between_seed_means": 0.006218815929845181,
+      "between_seeds": {
+        "3": {
+          "primary_first_block": {
+            "n": 10,
+            "spearman_mean": 0.8739393939393938,
+            "spearman_min": 0.7818181818181817,
+            "spearman_max": 0.9878787878787878,
+            "kendall_mean": 0.7511111111111111,
+            "kendall_min": 0.6,
+            "kendall_max": 0.9555555555555554,
+            "top_overlap_mean": 0.8
+          },
+          "all_seeds_all_blocks": {
+            "n": 135,
+            "spearman_mean": 0.8462850729517395,
+            "spearman_min": 0.6727272727272726,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.6977777777777777,
+            "kendall_min": 0.4666666666666666,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.8222222222222221,
+            "spearman_mean_bootstrap_95": [
+              0.8289216113606357,
+              0.8651143009037745
+            ]
+          }
+        },
+        "5": {
+          "primary_first_block": {
+            "n": 10,
+            "spearman_mean": 0.9115151515151515,
+            "spearman_min": 0.8424242424242423,
+            "spearman_max": 0.9636363636363635,
+            "kendall_mean": 0.7955555555555555,
+            "kendall_min": 0.7333333333333333,
+            "kendall_max": 0.8666666666666666,
+            "top_overlap_mean": 1.0
+          },
+          "all_seeds_all_blocks": {
+            "n": 90,
+            "spearman_mean": 0.8887542087542085,
+            "spearman_min": 0.7333333333333332,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.7555555555555554,
+            "kendall_min": 0.5111111111111111,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.8592592592592592,
+            "spearman_mean_bootstrap_95": [
+              0.8682539682539682,
+              0.9053267813267813
+            ]
+          }
+        },
+        "10": {
+          "primary_first_block": {
+            "n": 10,
+            "spearman_mean": 0.9503030303030302,
+            "spearman_min": 0.9030303030303028,
+            "spearman_max": 0.9878787878787878,
+            "kendall_mean": 0.8666666666666666,
+            "kendall_min": 0.7777777777777777,
+            "kendall_max": 0.9555555555555554,
+            "top_overlap_mean": 1.0
+          },
+          "all_seeds_all_blocks": {
+            "n": 45,
+            "spearman_mean": 0.9348148148148148,
+            "spearman_min": 0.8666666666666665,
+            "spearman_max": 0.9878787878787878,
+            "kendall_mean": 0.8281481481481481,
+            "kendall_min": 0.6888888888888888,
+            "kendall_max": 0.9555555555555554,
+            "top_overlap_mean": 0.8814814814814813,
+            "spearman_mean_bootstrap_95": [
+              0.9132854864433809,
+              0.9553584626755357
+            ]
+          }
+        }
+      },
+      "seed_groups": {
+        "seeds 0-4, 5 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9115151515151515,
+          "spearman_min": 0.8424242424242423,
+          "spearman_max": 0.9636363636363635,
+          "kendall_mean": 0.7955555555555555,
+          "kendall_min": 0.7333333333333333,
+          "kendall_max": 0.8666666666666666,
+          "top_overlap_mean": 1.0
+        },
+        "seeds 0-4, 10 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9503030303030302,
+          "spearman_min": 0.9030303030303028,
+          "spearman_max": 0.9878787878787878,
+          "kendall_mean": 0.8666666666666666,
+          "kendall_min": 0.7777777777777777,
+          "kendall_max": 0.9555555555555554,
+          "top_overlap_mean": 1.0
+        },
+        "seeds 5-9, 5 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9103030303030302,
+          "spearman_min": 0.8303030303030302,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.7955555555555553,
+          "kendall_min": 0.6444444444444444,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8666666666666666
+        },
+        "seeds 5-9, 10 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9333333333333333,
+          "spearman_min": 0.8909090909090909,
+          "spearman_max": 0.9878787878787878,
+          "kendall_mean": 0.8222222222222222,
+          "kendall_min": 0.7333333333333333,
+          "kendall_max": 0.9555555555555554,
+          "top_overlap_mean": 0.8
+        }
+      },
+      "same_folds": {
+        "3": {
+          "n": 30,
+          "spearman_mean": 0.864242424242424,
+          "spearman_min": 0.6969696969696969,
+          "spearman_max": 0.9757575757575757,
+          "kendall_mean": 0.7125925925925928,
+          "kendall_min": 0.5555555555555555,
+          "kendall_max": 0.911111111111111,
+          "top_overlap_mean": 0.8333333333333334
+        },
+        "5": {
+          "n": 10,
+          "spearman_mean": 0.9042424242424241,
+          "spearman_min": 0.8181818181818182,
+          "spearman_max": 0.9636363636363635,
+          "kendall_mean": 0.7644444444444443,
+          "kendall_min": 0.6444444444444444,
+          "kendall_max": 0.911111111111111,
+          "top_overlap_mean": 0.8
+        }
+      },
+      "pooled_seeds": {
+        "1x5": {
+          "n": 300,
+          "spearman_mean": 0.8892525252525252,
+          "spearman_min": 0.7333333333333332,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.7539259259259258,
+          "kendall_min": 0.5111111111111111,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8433333333333334
+        },
+        "2x5": {
+          "n": 300,
+          "spearman_mean": 0.9266262626262625,
+          "spearman_min": 0.7454545454545454,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.8117037037037036,
+          "kendall_min": 0.5555555555555555,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8833333333333333
+        },
+        "3x5": {
+          "n": 300,
+          "spearman_mean": 0.9531313131313129,
+          "spearman_min": 0.8060606060606059,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.8672592592592592,
+          "kendall_min": 0.6,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.9344444444444444
+        },
+        "5x5": {
+          "n": 300,
+          "spearman_mean": 0.9689292929292928,
+          "spearman_min": 0.9030303030303028,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9038518518518519,
+          "kendall_min": 0.7333333333333333,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.9777777777777777
+        },
+        "1x10": {
+          "n": 300,
+          "spearman_mean": 0.9353131313131312,
+          "spearman_min": 0.8666666666666665,
+          "spearman_max": 0.9878787878787878,
+          "kendall_mean": 0.8278518518518516,
+          "kendall_min": 0.6888888888888888,
+          "kendall_max": 0.9555555555555554,
+          "top_overlap_mean": 0.8822222222222221
+        },
+        "2x10": {
+          "n": 300,
+          "spearman_mean": 0.9618181818181817,
+          "spearman_min": 0.8909090909090909,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.8943703703703703,
+          "kendall_min": 0.7777777777777777,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.957777777777778
+        },
+        "3x10": {
+          "n": 300,
+          "spearman_mean": 0.9734545454545454,
+          "spearman_min": 0.8909090909090909,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9239999999999998,
+          "kendall_min": 0.7777777777777777,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.991111111111111
+        },
+        "5x10": {
+          "n": 300,
+          "spearman_mean": 0.9835555555555555,
+          "spearman_min": 0.9636363636363635,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9478518518518516,
+          "kendall_min": 0.911111111111111,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 1.0
+        }
+      },
+      "noise_and_signal": {
+        "3": {
+          "noise_std_of_seed_mean": 0.00603271888707027,
+          "ranking_noise_std_of_centred_seed_mean": 0.0038572208472618295,
+          "signal_std_between_itemsets": 0.011801581212975743,
+          "signal_to_noise": 1.9562624139954023,
+          "signal_to_ranking_noise": 3.0596073391424996,
+          "median_gap_between_neighbours": 0.002320899472328823
+        },
+        "5": {
+          "noise_std_of_seed_mean": 0.005632168312395354,
+          "ranking_noise_std_of_centred_seed_mean": 0.0031803373410626713,
+          "signal_std_between_itemsets": 0.011801581212975743,
+          "signal_to_noise": 2.095388588974278,
+          "signal_to_ranking_noise": 3.7107954117321365,
+          "median_gap_between_neighbours": 0.002320899472328823
+        },
+        "10": {
+          "noise_std_of_seed_mean": 0.005291979278601226,
+          "ranking_noise_std_of_centred_seed_mean": 0.0025471102077651063,
+          "signal_std_between_itemsets": 0.011801581212975743,
+          "signal_to_noise": 2.2300883264409026,
+          "signal_to_ranking_noise": 4.633321784427508,
+          "median_gap_between_neighbours": 0.002320899472328823
+        }
+      }
+    },
+    "fixed_train": {
+      "n_seeds": 10,
+      "n_repeats_run": 10,
+      "n_folds": 5,
+      "n_itemsets": 10,
+      "variance_sources": {
+        "std_between_repeats_same_fold": 0.006709350553964101,
+        "std_between_fold_means_same_seed": 0.005400998040085996,
+        "std_between_seed_means": 0.0016955971551092283,
+        "share_values_above_zero": 1.0,
+        "share_values_equal_zero": 0.0,
+        "share_values_below_zero": 0.0,
+        "share_cells_not_measurable": 0.0
+      },
+      "baseline_mean_all_seeds": 0.9939495827285978,
+      "baseline_std_between_seed_means": 0.00031144561988158897,
+      "between_seeds": {
+        "3": {
+          "primary_first_block": {
+            "n": 10,
+            "spearman_mean": 0.932121212121212,
+            "spearman_min": 0.8424242424242423,
+            "spearman_max": 0.9757575757575757,
+            "kendall_mean": 0.8488888888888887,
+            "kendall_min": 0.7333333333333333,
+            "kendall_max": 0.911111111111111,
+            "top_overlap_mean": 0.7666666666666667
+          },
+          "all_seeds_all_blocks": {
+            "n": 135,
+            "spearman_mean": 0.9384062850729518,
+            "spearman_min": 0.7939393939393938,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.8518518518518517,
+            "kendall_min": 0.6888888888888888,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.8098765432098765,
+            "spearman_mean_bootstrap_95": [
+              0.9240802764486975,
+              0.9526269748769747
+            ]
+          }
+        },
+        "5": {
+          "primary_first_block": {
+            "n": 10,
+            "spearman_mean": 0.9709090909090907,
+            "spearman_min": 0.9393939393939393,
+            "spearman_max": 0.9878787878787878,
+            "kendall_mean": 0.9111111111111111,
+            "kendall_min": 0.8222222222222221,
+            "kendall_max": 0.9555555555555554,
+            "top_overlap_mean": 0.7333333333333334
+          },
+          "all_seeds_all_blocks": {
+            "n": 90,
+            "spearman_mean": 0.964040404040404,
+            "spearman_min": 0.9030303030303028,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.899753086419753,
+            "kendall_min": 0.7777777777777777,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.8185185185185185,
+            "spearman_mean_bootstrap_95": [
+              0.9555061850857743,
+              0.9722727272727271
+            ]
+          }
+        },
+        "10": {
+          "primary_first_block": {
+            "n": 10,
+            "spearman_mean": 0.9781818181818182,
+            "spearman_min": 0.9515151515151514,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9288888888888888,
+            "kendall_min": 0.8666666666666666,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.8666666666666666
+          },
+          "all_seeds_all_blocks": {
+            "n": 45,
+            "spearman_mean": 0.967946127946128,
+            "spearman_min": 0.9030303030303028,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9091358024691358,
+            "kendall_min": 0.8222222222222221,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.8296296296296294,
+            "spearman_mean_bootstrap_95": [
+              0.9547894686129981,
+              0.9786305286497838
+            ]
+          }
+        }
+      },
+      "seed_groups": {
+        "seeds 0-4, 5 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9709090909090907,
+          "spearman_min": 0.9393939393939393,
+          "spearman_max": 0.9878787878787878,
+          "kendall_mean": 0.9111111111111111,
+          "kendall_min": 0.8222222222222221,
+          "kendall_max": 0.9555555555555554,
+          "top_overlap_mean": 0.7333333333333334
+        },
+        "seeds 0-4, 10 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9781818181818182,
+          "spearman_min": 0.9515151515151514,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9288888888888888,
+          "kendall_min": 0.8666666666666666,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8666666666666666
+        },
+        "seeds 5-9, 5 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9612121212121212,
+          "spearman_min": 0.9151515151515152,
+          "spearman_max": 0.9878787878787878,
+          "kendall_mean": 0.9022222222222223,
+          "kendall_min": 0.8222222222222221,
+          "kendall_max": 0.9555555555555554,
+          "top_overlap_mean": 0.8666666666666666
+        },
+        "seeds 5-9, 10 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9684848484848484,
+          "spearman_min": 0.9515151515151514,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9111111111111111,
+          "kendall_min": 0.8666666666666666,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8
+        }
+      },
+      "same_folds": {
+        "3": {
+          "n": 30,
+          "spearman_mean": 0.9470707070707073,
+          "spearman_min": 0.8545454545454544,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.8666666666666667,
+          "kendall_min": 0.7333333333333333,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8333333333333335
+        },
+        "5": {
+          "n": 10,
+          "spearman_mean": 0.972121212121212,
+          "spearman_min": 0.9515151515151514,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9155555555555555,
+          "kendall_min": 0.8666666666666666,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8666666666666666
+        }
+      },
+      "pooled_seeds": {
+        "1x5": {
+          "n": 300,
+          "spearman_mean": 0.9624646464646464,
+          "spearman_min": 0.9030303030303028,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.897037037037037,
+          "kendall_min": 0.7777777777777777,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.808888888888889
+        },
+        "2x5": {
+          "n": 300,
+          "spearman_mean": 0.98,
+          "spearman_min": 0.9030303030303028,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9385185185185183,
+          "kendall_min": 0.8222222222222221,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8566666666666667
+        },
+        "3x5": {
+          "n": 300,
+          "spearman_mean": 0.9839191919191917,
+          "spearman_min": 0.9393939393939393,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9485925925925927,
+          "kendall_min": 0.8222222222222221,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.9033333333333333
+        },
+        "5x5": {
+          "n": 300,
+          "spearman_mean": 0.9933737373737374,
+          "spearman_min": 0.9515151515151514,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9767407407407405,
+          "kendall_min": 0.8666666666666666,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.9788888888888888
+        },
+        "1x10": {
+          "n": 300,
+          "spearman_mean": 0.9687272727272725,
+          "spearman_min": 0.9030303030303028,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9111111111111112,
+          "kendall_min": 0.8222222222222221,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8288888888888889
+        },
+        "2x10": {
+          "n": 300,
+          "spearman_mean": 0.9848080808080808,
+          "spearman_min": 0.9393939393939393,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.950962962962963,
+          "kendall_min": 0.8222222222222221,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.8877777777777777
+        },
+        "3x10": {
+          "n": 300,
+          "spearman_mean": 0.9941818181818182,
+          "spearman_min": 0.9515151515151514,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9788148148148146,
+          "kendall_min": 0.8666666666666666,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.9522222222222223
+        },
+        "5x10": {
+          "n": 300,
+          "spearman_mean": 0.9989494949494948,
+          "spearman_min": 0.9878787878787878,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9961481481481481,
+          "kendall_min": 0.9555555555555554,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 0.9911111111111113
+        }
+      },
+      "noise_and_signal": {
+        "3": {
+          "noise_std_of_seed_mean": 0.002239853282497118,
+          "ranking_noise_std_of_centred_seed_mean": 0.0018188811353652002,
+          "signal_std_between_itemsets": 0.015621506111488789,
+          "signal_to_noise": 6.974343468636941,
+          "signal_to_ranking_noise": 8.58852500460524,
+          "median_gap_between_neighbours": 0.0020572004557010137
+        },
+        "5": {
+          "noise_std_of_seed_mean": 0.0019389310132289555,
+          "ranking_noise_std_of_centred_seed_mean": 0.001511519882828126,
+          "signal_std_between_itemsets": 0.015621506111488789,
+          "signal_to_noise": 8.056762208096234,
+          "signal_to_ranking_noise": 10.334965678559389,
+          "median_gap_between_neighbours": 0.0020572004557010137
+        },
+        "10": {
+          "noise_std_of_seed_mean": 0.0016955971551092237,
+          "ranking_noise_std_of_centred_seed_mean": 0.0012515438004416474,
+          "signal_std_between_itemsets": 0.015621506111488789,
+          "signal_to_noise": 9.212982024897602,
+          "signal_to_ranking_noise": 12.481789375630512,
+          "median_gap_between_neighbours": 0.0020572004557010137
+        }
+      }
+    },
+    "faithful_train": {
+      "n_seeds": 10,
+      "n_repeats_run": 10,
+      "n_folds": 5,
+      "n_itemsets": 10,
+      "variance_sources": {
+        "std_between_repeats_same_fold": 0.008740424457945106,
+        "std_between_fold_means_same_seed": 0.008702595019817523,
+        "std_between_seed_means": 0.002622190828568038,
+        "share_values_above_zero": 1.0,
+        "share_values_equal_zero": 0.0,
+        "share_values_below_zero": 0.0,
+        "share_cells_not_measurable": 0.0
+      },
+      "baseline_mean_all_seeds": 0.9939495827285978,
+      "baseline_std_between_seed_means": 0.00031144561988158897,
+      "between_seeds": {
+        "10": {
+          "primary_first_block": {
+            "n": 10,
+            "spearman_mean": 0.9612121212121212,
+            "spearman_min": 0.9151515151515152,
+            "spearman_max": 0.9878787878787878,
+            "kendall_mean": 0.8933333333333333,
+            "kendall_min": 0.7777777777777777,
+            "kendall_max": 0.9555555555555554,
+            "top_overlap_mean": 1.0
+          },
+          "all_seeds_all_blocks": {
+            "n": 45,
+            "spearman_mean": 0.9636363636363634,
+            "spearman_min": 0.8909090909090909,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.8883950617283951,
+            "kendall_min": 0.7777777777777777,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 1.0,
+            "spearman_mean_bootstrap_95": [
+              0.9475732323232323,
+              0.9766444937176644
+            ]
+          }
+        }
+      },
+      "seed_groups": {
+        "seeds 0-4, 10 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9612121212121212,
+          "spearman_min": 0.9151515151515152,
+          "spearman_max": 0.9878787878787878,
+          "kendall_mean": 0.8933333333333333,
+          "kendall_min": 0.7777777777777777,
+          "kendall_max": 0.9555555555555554,
+          "top_overlap_mean": 1.0
+        },
+        "seeds 5-9, 10 repeats": {
+          "n": 10,
+          "spearman_mean": 0.9624242424242423,
+          "spearman_min": 0.9393939393939393,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.8933333333333332,
+          "kendall_min": 0.8222222222222221,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 1.0
+        }
+      },
+      "same_folds": {},
+      "pooled_seeds": {
+        "1x10": {
+          "n": 300,
+          "spearman_mean": 0.9625858585858585,
+          "spearman_min": 0.8909090909090909,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.8847407407407405,
+          "kendall_min": 0.7777777777777777,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 1.0
+        },
+        "2x10": {
+          "n": 300,
+          "spearman_mean": 0.9810505050505048,
+          "spearman_min": 0.9272727272727272,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9371851851851852,
+          "kendall_min": 0.8222222222222221,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 1.0
+        },
+        "3x10": {
+          "n": 300,
+          "spearman_mean": 0.9875151515151515,
+          "spearman_min": 0.9636363636363635,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.9546666666666666,
+          "kendall_min": 0.8666666666666666,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 1.0
+        },
+        "5x10": {
+          "n": 300,
+          "spearman_mean": 0.9932121212121211,
+          "spearman_min": 0.9757575757575757,
+          "spearman_max": 0.9999999999999999,
+          "kendall_mean": 0.975111111111111,
+          "kendall_min": 0.911111111111111,
+          "kendall_max": 0.9999999999999999,
+          "top_overlap_mean": 1.0
+        }
+      },
+      "noise_and_signal": {
+        "10": {
+          "noise_std_of_seed_mean": 0.002622190828568039,
+          "ranking_noise_std_of_centred_seed_mean": 0.0019182839743145774,
+          "signal_std_between_itemsets": 0.013751007568340716,
+          "signal_to_noise": 5.24409109303843,
+          "signal_to_ranking_noise": 7.16838995292868,
+          "median_gap_between_neighbours": 0.0032200164620002636
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "config": {
+    "logs": [
+      "f2"
+    ],
+    "lengths": [
+      1,
+      2,
+      3
+    ],
+    "k": 10,
+    "folds": 5,
+    "fold_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "repeats": 10,
+    "seed": 2023,
+    "mode": "fixed",
+    "score_on": [
+      "test",
+      "train"
+    ],
+    "allowed_from": "log",
+    "draw": "sequential",
+    "xgb_n_jobs": 1,
+    "apriori_sets": "results/experiments/C7/apriori_sets_{log}.json",
+    "impressed_sets": "results/experiments/C4/impressed_sets_{log}.json",
+    "output_dir": "results/experiments/pilot"
+  },
+  "setup": 0.20425820001401007,
+  "per_fold_seed": {
+    "0": {
+      "fit": 8.604583100182936,
+      "test": 31.288328299764544,
+      "train": 100.57414369960316
+    },
+    "1": {
+      "fit": 8.492961199954152,
+      "test": 31.13702779985033,
+      "train": 100.89826969942078
+    },
+    "2": {
+      "fit": 8.336234500166029,
+      "test": 31.172272299882025,
+      "train": 100.77561239991337
+    },
+    "3": {
+      "fit": 8.338427300332114,
+      "test": 31.110623699845746,
+      "train": 100.75051229982637
+    },
+    "4": {
+      "fit": 8.263606599764898,
+      "test": 31.585655000060797,
+      "train": 101.61692420043983
+    },
+    "5": {
+      "fit": 8.329452500212938,
+      "test": 30.719404899980873,
+      "train": 98.19334860006347
+    },
+    "6": {
+      "fit": 7.534877300262451,
+      "test": 27.599686300382018,
+      "train": 88.4333682002034
+    },
+    "7": {
+      "fit": 7.30012879986316,
+      "test": 26.368714000331238,
+      "train": 85.15734920045361
+    },
+    "8": {
+      "fit": 7.309391500195488,
+      "test": 26.198357499903068,
+      "train": 84.73346839984879
+    },
+    "9": {
+      "fit": 7.198120799846947,
+      "test": 26.252702799858525,
+      "train": 85.3636423998978
+    }
+  },
+  "total": 1319.9399910999928,
+  "figures": [
+    "box_f2_len1_test.png",
+    "box_f2_len2_test.png",
+    "box_f2_len3_test.png",
+    "box_f2_len1_train.png",
+    "box_f2_len2_train.png",
+    "box_f2_len3_train.png"
+  ]
+}

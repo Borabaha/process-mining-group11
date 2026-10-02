@@ -103,7 +103,8 @@ def main() -> None:
             })
             say(f"n_jobs={n_jobs} {label}: "
                 f"{records[-1]['seconds_per_iteration_median']:.4f} s/iteration, "
-                f"{records[-1]['own_cores_median']:.2f} cores, fit {fit['seconds']:.2f} s, "
+                f"{records[-1]['own_cores_median']:.2f} cores, "
+                f"fit {fit['seconds']:.2f} s, "
                 f"same values: {same}")
 
     write_json(RESULT_DIR / f"threads_{args.dataset}.json", {

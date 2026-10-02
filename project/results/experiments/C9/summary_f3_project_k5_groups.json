@@ -1,0 +1,678 @@
+{
+  "dataset": "f3",
+  "repeats": 10,
+  "settings": {
+    "fixed_test": {
+      "n_seeds": 10,
+      "groups": {
+        "all 60 sets": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.7388461541936269,
+            "spearman_min": 0.5611704714940544,
+            "spearman_max": 0.8950147279497582,
+            "kendall_mean": 0.5759873610217453,
+            "kendall_min": 0.3970546746599016,
+            "kendall_max": 0.7463193657984144,
+            "top_overlap_mean": 0.7555555555555554
+          },
+          "sets_above_zero": 29,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0022379092348971162,
+            "ranking_noise_std_of_centred_seed_mean": 0.002076862411369207,
+            "signal_std_between_itemsets": 0.027327956501417845,
+            "signal_to_noise": 12.211378404126474,
+            "signal_to_ranking_noise": 13.15828932712082,
+            "median_gap_between_neighbours": 0.00011691505781741003
+          },
+          "cells_not_measurable": 58,
+          "cells": 3000,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.8999451638600198,
+            "spearman_min": 0.7899738787306176,
+            "spearman_max": 0.958928472183627,
+            "kendall_mean": 0.762272555681389,
+            "kendall_min": 0.6387315968289919,
+            "kendall_max": 0.8539071347678368,
+            "top_overlap_mean": 0.7077777777777777
+          }
+        },
+        "apriori, all sizes (30)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.8333160301569645,
+            "spearman_min": 0.7294771968854282,
+            "spearman_max": 0.9305895439377085,
+            "kendall_mean": 0.6519029374201788,
+            "kendall_min": 0.5172413793103449,
+            "kendall_max": 0.7793103448275862,
+            "top_overlap_mean": 0.5185185185185185
+          },
+          "sets_above_zero": 19,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0026220150056200423,
+            "ranking_noise_std_of_centred_seed_mean": 0.0020551681844326332,
+            "signal_std_between_itemsets": 0.027213841290102708,
+            "signal_to_noise": 10.378979995069594,
+            "signal_to_ranking_noise": 13.24166143493292,
+            "median_gap_between_neighbours": 0.0002726461676818906
+          },
+          "cells_not_measurable": 0,
+          "cells": 1500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9432673340748979,
+            "spearman_min": 0.8905450500556173,
+            "spearman_max": 0.9764182424916574,
+            "kendall_mean": 0.8093026819923371,
+            "kendall_min": 0.7103448275862069,
+            "kendall_max": 0.8896551724137931,
+            "top_overlap_mean": 0.5877777777777777
+          }
+        },
+        "apriori, size 1 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.4763636363636364,
+            "spearman_min": -0.10303030303030303,
+            "spearman_max": 0.9878787878787878,
+            "kendall_mean": 0.3817283950617283,
+            "kendall_min": -0.1111111111111111,
+            "kendall_max": 0.9555555555555554,
+            "top_overlap_mean": 0.5555555555555556
+          },
+          "sets_above_zero": 3,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.002082167849525837,
+            "ranking_noise_std_of_centred_seed_mean": 0.0016681795636195262,
+            "signal_std_between_itemsets": 0.04757941204984415,
+            "signal_to_noise": 22.850901314550217,
+            "signal_to_ranking_noise": 28.52175694240547,
+            "median_gap_between_neighbours": 0.00030301816282995303
+          },
+          "cells_not_measurable": 0,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.8107070707070706,
+            "spearman_min": 0.4545454545454545,
+            "spearman_max": 0.9636363636363635,
+            "kendall_mean": 0.6628148148148147,
+            "kendall_min": 0.3333333333333333,
+            "kendall_max": 0.911111111111111,
+            "top_overlap_mean": 0.8200000000000001
+          }
+        },
+        "apriori, size 2 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.8540067340067339,
+            "spearman_min": 0.6848484848484848,
+            "spearman_max": 0.9757575757575757,
+            "kendall_mean": 0.7076543209876545,
+            "kendall_min": 0.4222222222222222,
+            "kendall_max": 0.911111111111111,
+            "top_overlap_mean": 0.6518518518518518
+          },
+          "sets_above_zero": 7,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0027870132870582015,
+            "ranking_noise_std_of_centred_seed_mean": 0.0020010699738147054,
+            "signal_std_between_itemsets": 0.00582747865152053,
+            "signal_to_noise": 2.0909403907692363,
+            "signal_to_ranking_noise": 2.912181346867854,
+            "median_gap_between_neighbours": 0.000807769963033644
+          },
+          "cells_not_measurable": 0,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.964969696969697,
+            "spearman_min": 0.8909090909090909,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.8918518518518517,
+            "kendall_min": 0.7333333333333333,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.9344444444444444
+          }
+        },
+        "apriori, size 3 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.7810101010101009,
+            "spearman_min": 0.6,
+            "spearman_max": 0.9636363636363635,
+            "kendall_mean": 0.6069135802469137,
+            "kendall_min": 0.37777777777777777,
+            "kendall_max": 0.8666666666666666,
+            "top_overlap_mean": 0.5851851851851853
+          },
+          "sets_above_zero": 9,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0029968638802760866,
+            "ranking_noise_std_of_centred_seed_mean": 0.002034288329410854,
+            "signal_std_between_itemsets": 0.005961871268977209,
+            "signal_to_noise": 1.9893700572172703,
+            "signal_to_ranking_noise": 2.9306913787898563,
+            "median_gap_between_neighbours": 0.00043321983882788073
+          },
+          "cells_not_measurable": 0,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.8980606060606061,
+            "spearman_min": 0.7333333333333332,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.796148148148148,
+            "kendall_min": 0.5555555555555555,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.7111111111111111
+          }
+        },
+        "impressed, all sizes (30)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.6317341184582392,
+            "spearman_min": 0.3141967067200713,
+            "spearman_max": 0.8786159323542503,
+            "kendall_mean": 0.4945806479585258,
+            "kendall_min": 0.22119815668202764,
+            "kendall_max": 0.7211981566820276,
+            "top_overlap_mean": 0.7851851851851849
+          },
+          "sets_above_zero": 10,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.001853803464174189,
+            "ranking_noise_std_of_centred_seed_mean": 0.0018680080375655915,
+            "signal_std_between_itemsets": 0.02781998309339446,
+            "signal_to_noise": 15.006975459390127,
+            "signal_to_ranking_noise": 14.892860487714906,
+            "median_gap_between_neighbours": 0.00015173571754031282
+          },
+          "cells_not_measurable": 58,
+          "cells": 1500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.8411479421579532,
+            "spearman_min": 0.6783092324805339,
+            "spearman_max": 0.9537263626251389,
+            "kendall_mean": 0.6988812260536399,
+            "kendall_min": 0.5264367816091954,
+            "kendall_max": 0.8574712643678161,
+            "top_overlap_mean": 0.8300000000000001
+          }
+        },
+        "impressed, size 1 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.4281600932818806,
+            "spearman_min": -0.20668788485122197,
+            "spearman_max": 0.857146816588891,
+            "kendall_mean": 0.3436791758622471,
+            "kendall_min": -0.22473328748774735,
+            "kendall_max": 0.7191465199607916,
+            "top_overlap_mean": 0.5407407407407407
+          },
+          "sets_above_zero": 3,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0015807954622053858,
+            "ranking_noise_std_of_centred_seed_mean": 0.0016252162650405913,
+            "signal_std_between_itemsets": 0.04770020082923456,
+            "signal_to_noise": 30.174808803339722,
+            "signal_to_ranking_noise": 29.350063653247528,
+            "median_gap_between_neighbours": 0.00023304261849479068
+          },
+          "cells_not_measurable": 49,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.7149898989898988,
+            "spearman_min": 0.2606060606060606,
+            "spearman_max": 0.9636363636363635,
+            "kendall_mean": 0.5958518518518519,
+            "kendall_min": 0.19999999999999998,
+            "kendall_max": 0.911111111111111,
+            "top_overlap_mean": 0.6666666666666666
+          }
+        },
+        "impressed, size 2 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.7538047138047138,
+            "spearman_min": 0.5030303030303029,
+            "spearman_max": 0.9757575757575757,
+            "kendall_mean": 0.5980246913580247,
+            "kendall_min": 0.3333333333333333,
+            "kendall_max": 0.911111111111111,
+            "top_overlap_mean": 1.0
+          },
+          "sets_above_zero": 4,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.00282156054568763,
+            "ranking_noise_std_of_centred_seed_mean": 0.0028505715948732744,
+            "signal_std_between_itemsets": 0.009296446426743992,
+            "signal_to_noise": 3.294788921312478,
+            "signal_to_ranking_noise": 3.2612569505230327,
+            "median_gap_between_neighbours": 0.0003020626782792677
+          },
+          "cells_not_measurable": 0,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.8743838383838382,
+            "spearman_min": 0.7939393939393938,
+            "spearman_max": 0.9757575757575757,
+            "kendall_mean": 0.7042962962962962,
+            "kendall_min": 0.5111111111111111,
+            "kendall_max": 0.911111111111111,
+            "top_overlap_mean": 1.0
+          }
+        },
+        "impressed, size 3 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.5927272727272728,
+            "spearman_min": 0.16363636363636364,
+            "spearman_max": 0.9757575757575757,
+            "kendall_mean": 0.4765432098765432,
+            "kendall_min": 0.1111111111111111,
+            "kendall_max": 0.911111111111111,
+            "top_overlap_mean": 0.6148148148148148
+          },
+          "sets_above_zero": 3,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0011590543846295525,
+            "ranking_noise_std_of_centred_seed_mean": 0.0010020480377250876,
+            "signal_std_between_itemsets": 0.00149988904374393,
+            "signal_to_noise": 1.2940626976906804,
+            "signal_to_ranking_noise": 1.4968234927629542,
+            "median_gap_between_neighbours": 0.0004346307636661866
+          },
+          "cells_not_measurable": 9,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.8614545454545453,
+            "spearman_min": 0.5515151515151515,
+            "spearman_max": 0.9878787878787878,
+            "kendall_mean": 0.7583703703703703,
+            "kendall_min": 0.4222222222222222,
+            "kendall_max": 0.9555555555555554,
+            "top_overlap_mean": 0.6411111111111111
+          }
+        }
+      },
+      "levels": {
+        "size 1": {
+          "apriori_mean": 0.015349849803167484,
+          "impressed_mean": 0.014995525879081189,
+          "difference_mean": 0.0003543239240862943,
+          "difference_std_between_seeds": 0.0006831613691004484,
+          "seeds_with_positive_difference": 5,
+          "n_seeds": 10
+        },
+        "size 2": {
+          "apriori_mean": 0.0059408965528241625,
+          "impressed_mean": 0.005628655932332631,
+          "difference_mean": 0.00031224062049153205,
+          "difference_std_between_seeds": 0.0014403892785307573,
+          "seeds_with_positive_difference": 5,
+          "n_seeds": 10
+        },
+        "size 3": {
+          "apriori_mean": 0.008359828552990733,
+          "impressed_mean": -0.0001525379104464215,
+          "difference_mean": 0.008512366463437155,
+          "difference_std_between_seeds": 0.0021544128786560807,
+          "seeds_with_positive_difference": 10,
+          "n_seeds": 10
+        },
+        "all sizes": {
+          "apriori_mean": 0.009883524969660794,
+          "impressed_mean": 0.006823881300322467,
+          "difference_mean": 0.0030596436693383273,
+          "difference_std_between_seeds": 0.0011273154531680108,
+          "seeds_with_positive_difference": 10,
+          "n_seeds": 10
+        }
+      }
+    },
+    "fixed_train": {
+      "n_seeds": 10,
+      "groups": {
+        "all 60 sets": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.9948140326176231,
+            "spearman_min": 0.9891068748957927,
+            "spearman_max": 0.9978880675818377,
+            "kendall_mean": 0.9552283880709701,
+            "kendall_min": 0.929784824462061,
+            "kendall_max": 0.9705549263873158,
+            "top_overlap_mean": 0.7407407407407406
+          },
+          "sets_above_zero": 59,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0011184881989312874,
+            "ranking_noise_std_of_centred_seed_mean": 0.0011710205976993855,
+            "signal_std_between_itemsets": 0.03514404591609987,
+            "signal_to_noise": 31.421025228232104,
+            "signal_to_ranking_noise": 30.01146690770827,
+            "median_gap_between_neighbours": 0.00033735368195983786
+          },
+          "cells_not_measurable": 1,
+          "cells": 3000,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9981579873654571,
+            "spearman_min": 0.9971099872172512,
+            "spearman_max": 0.9991663424665149,
+            "kendall_mean": 0.9764703661759154,
+            "kendall_min": 0.9660249150622875,
+            "kendall_max": 0.987542468856172,
+            "top_overlap_mean": 0.7033333333333334
+          }
+        },
+        "apriori, all sizes (30)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.9911209986404648,
+            "spearman_min": 0.9830923248053391,
+            "spearman_max": 0.9982202447163514,
+            "kendall_mean": 0.9441123882503193,
+            "kendall_min": 0.903448275862069,
+            "kendall_max": 0.9862068965517242,
+            "top_overlap_mean": 1.0
+          },
+          "sets_above_zero": 30,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0012955654767195278,
+            "ranking_noise_std_of_centred_seed_mean": 0.0011851160063841182,
+            "signal_std_between_itemsets": 0.03408375575113929,
+            "signal_to_noise": 26.30801481175772,
+            "signal_to_ranking_noise": 28.759847616210585,
+            "median_gap_between_neighbours": 0.0007360569528100571
+          },
+          "cells_not_measurable": 0,
+          "cells": 1500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9959851687059695,
+            "spearman_min": 0.992880978865406,
+            "spearman_max": 0.9991101223581758,
+            "kendall_mean": 0.9688275862068967,
+            "kendall_min": 0.9494252873563218,
+            "kendall_max": 0.9908045977011495,
+            "top_overlap_mean": 1.0
+          }
+        },
+        "apriori, size 1 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.9224242424242424,
+            "spearman_min": 0.7454545454545454,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.8380246913580246,
+            "kendall_min": 0.6,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 1.0
+          },
+          "sets_above_zero": 10,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0011974484047635433,
+            "ranking_noise_std_of_centred_seed_mean": 0.0011599356143844552,
+            "signal_std_between_itemsets": 0.05936971432534329,
+            "signal_to_noise": 49.58018574258894,
+            "signal_to_ranking_noise": 51.18362915069998,
+            "median_gap_between_neighbours": 0.0007360569528100571
+          },
+          "cells_not_measurable": 0,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9860606060606061,
+            "spearman_min": 0.9272727272727272,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9528888888888887,
+            "kendall_min": 0.8666666666666666,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 1.0
+          }
+        },
+        "apriori, size 2 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.9868013468013467,
+            "spearman_min": 0.9757575757575757,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9516049382716047,
+            "kendall_min": 0.911111111111111,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.8148148148148147
+          },
+          "sets_above_zero": 10,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0011157352547790213,
+            "ranking_noise_std_of_centred_seed_mean": 0.0009523594644809902,
+            "signal_std_between_itemsets": 0.010431985206679505,
+            "signal_to_noise": 9.34987503710782,
+            "signal_to_ranking_noise": 10.953831610593223,
+            "median_gap_between_neighbours": 0.002003772661041521
+          },
+          "cells_not_measurable": 0,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9905050505050504,
+            "spearman_min": 0.9757575757575757,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9651851851851851,
+            "kendall_min": 0.911111111111111,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.95
+          }
+        },
+        "apriori, size 3 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.9070707070707071,
+            "spearman_min": 0.7454545454545454,
+            "spearman_max": 0.9878787878787878,
+            "kendall_mean": 0.7995061728395061,
+            "kendall_min": 0.5111111111111111,
+            "kendall_max": 0.9555555555555554,
+            "top_overlap_mean": 0.6592592592592591
+          },
+          "sets_above_zero": 10,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0015735127706160191,
+            "ranking_noise_std_of_centred_seed_mean": 0.0012646781056122754,
+            "signal_std_between_itemsets": 0.009286998759479371,
+            "signal_to_noise": 5.902080321752696,
+            "signal_to_ranking_noise": 7.343369603906606,
+            "median_gap_between_neighbours": 0.0009792870645192985
+          },
+          "cells_not_measurable": 0,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9343838383838384,
+            "spearman_min": 0.8666666666666665,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.8531851851851849,
+            "kendall_min": 0.6888888888888888,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 0.5866666666666667
+          }
+        },
+        "impressed, all sizes (30)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.9946508466197006,
+            "spearman_min": 0.9879866518353726,
+            "spearman_max": 0.9982202447163514,
+            "kendall_mean": 0.9605619412515963,
+            "kendall_min": 0.9264367816091954,
+            "kendall_max": 0.9816091954022989,
+            "top_overlap_mean": 0.8814814814814813
+          },
+          "sets_above_zero": 29,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0009414109211430469,
+            "ranking_noise_std_of_centred_seed_mean": 0.0010846135051098737,
+            "signal_std_between_itemsets": 0.036021956947026014,
+            "signal_to_noise": 38.263797602102066,
+            "signal_to_ranking_noise": 33.211790907376646,
+            "median_gap_between_neighbours": 0.00046748810477897397
+          },
+          "cells_not_measurable": 1,
+          "cells": 1500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9986162402669633,
+            "spearman_min": 0.9964404894327029,
+            "spearman_max": 1.0,
+            "kendall_mean": 0.9864061302681993,
+            "kendall_min": 0.9724137931034483,
+            "kendall_max": 1.0,
+            "top_overlap_mean": 1.0
+          }
+        },
+        "impressed, size 1 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.9911111111111109,
+            "spearman_min": 0.9636363636363635,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9703703703703701,
+            "kendall_min": 0.911111111111111,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 1.0
+          },
+          "sets_above_zero": 9,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0009574833758332898,
+            "ranking_noise_std_of_centred_seed_mean": 0.0011553612439004393,
+            "signal_std_between_itemsets": 0.06071946616995524,
+            "signal_to_noise": 63.415687104866535,
+            "signal_to_ranking_noise": 52.55452914879634,
+            "median_gap_between_neighbours": 0.0016390008119905276
+          },
+          "cells_not_measurable": 1,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9997575757575756,
+            "spearman_min": 0.9878787878787878,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.999111111111111,
+            "kendall_min": 0.9555555555555554,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 1.0
+          }
+        },
+        "impressed, size 2 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.9816835016835015,
+            "spearman_min": 0.9515151515151514,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9387654320987653,
+            "kendall_min": 0.8666666666666666,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 1.0
+          },
+          "sets_above_zero": 10,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.0015558535033347019,
+            "ranking_noise_std_of_centred_seed_mean": 0.0018936477527767858,
+            "signal_std_between_itemsets": 0.015107155733414672,
+            "signal_to_noise": 9.709883161258503,
+            "signal_to_ranking_noise": 7.977806702044776,
+            "median_gap_between_neighbours": 0.0023049284449389775
+          },
+          "cells_not_measurable": 0,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9933737373737374,
+            "spearman_min": 0.9757575757575757,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9757037037037037,
+            "kendall_min": 0.911111111111111,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 1.0
+          }
+        },
+        "impressed, size 3 (10)": {
+          "two_seeds": {
+            "n": 45,
+            "spearman_mean": 0.9975757575757574,
+            "spearman_min": 0.9878787878787878,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9911111111111109,
+            "kendall_min": 0.9555555555555554,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 1.0
+          },
+          "sets_above_zero": 10,
+          "noise_and_signal": {
+            "noise_std_of_seed_mean": 0.00031089588426114895,
+            "ranking_noise_std_of_centred_seed_mean": 0.0002788194003440708,
+            "signal_std_between_itemsets": 0.004732138718785626,
+            "signal_to_noise": 15.220975761810614,
+            "signal_to_ranking_noise": 16.972056868876543,
+            "median_gap_between_neighbours": 0.0012854924835631579
+          },
+          "cells_not_measurable": 0,
+          "cells": 500,
+          "two_groups_of_5_seeds": {
+            "n": 300,
+            "spearman_mean": 0.9999999999999998,
+            "spearman_min": 0.9999999999999999,
+            "spearman_max": 0.9999999999999999,
+            "kendall_mean": 0.9999999999999998,
+            "kendall_min": 0.9999999999999999,
+            "kendall_max": 0.9999999999999999,
+            "top_overlap_mean": 1.0
+          }
+        }
+      },
+      "levels": {
+        "size 1": {
+          "apriori_mean": 0.030006438564794062,
+          "impressed_mean": 0.02660038963769326,
+          "difference_mean": 0.003406048927100802,
+          "difference_std_between_seeds": 0.00030926992435620837,
+          "seeds_with_positive_difference": 10,
+          "n_seeds": 10
+        },
+        "size 2": {
+          "apriori_mean": 0.023558993497053975,
+          "impressed_mean": 0.018123214612427198,
+          "difference_mean": 0.005435778884626778,
+          "difference_std_between_seeds": 0.0011048962256796375,
+          "seeds_with_positive_difference": 10,
+          "n_seeds": 10
+        },
+        "size 3": {
+          "apriori_mean": 0.02745166379057193,
+          "impressed_mean": 0.00577886585347128,
+          "difference_mean": 0.021672797937100648,
+          "difference_std_between_seeds": 0.001203826190879888,
+          "seeds_with_positive_difference": 10,
+          "n_seeds": 10
+        },
+        "all sizes": {
+          "apriori_mean": 0.027005698617473324,
+          "impressed_mean": 0.01683415670119725,
+          "difference_mean": 0.010171541916276072,
+          "difference_std_between_seeds": 0.000510305671531883,
+          "seeds_with_positive_difference": 10,
+          "n_seeds": 10
+        }
+      }
+    }
+  }
+}

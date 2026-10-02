@@ -1,0 +1,25 @@
+{
+  "dataset": "f2",
+  "itemsets": "original",
+  "seed": 6,
+  "n_folds": 5,
+  "n_itemsets": 10,
+  "repeats": {
+    "fixed_test": 10,
+    "fixed_train": 10,
+    "faithful_train": 10
+  },
+  "permutation_seed": {
+    "fixed_test": 2029,
+    "fixed_train": 2029,
+    "faithful_train": 2023
+  },
+  "xgboost_n_jobs": 1,
+  "seconds": {
+    "fit": 11.088770999806002,
+    "fixed_test": 10.745870099868625,
+    "fixed_train": 36.95256570028141,
+    "faithful_train": 48.1472218001727
+  },
+  "seconds_total": 106.96139010018669
+}

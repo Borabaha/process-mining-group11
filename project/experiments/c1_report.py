@@ -292,9 +292,11 @@ def table_loads(results: dict, grid_sets: dict, singles: dict) -> str:
     rows = []
     for log in LOGS:
         loads = [group["original"]["load"] for group in results[log]["groups"]]
-        others = [value for group in results[log]["groups"]
-                  for value in group["original"].get(
-                      "others_percent_runs", [group["original"]["load"]["others_percent"]])]
+        others = []
+        for group in results[log]["groups"]:
+            original = group["original"]
+            others += original.get("others_percent_runs",
+                                   [original["load"]["others_percent"]])
         own = statistics.median(load["own_cores"] for load in loads)
         rows.append(["original itemset routine (groups of 10 iterations)", log,
                      "", f"{min(others):.0f}-{max(others):.0f} %", f"{own:.2f}"])
@@ -345,7 +347,8 @@ def extrapolate_defaults(results: dict) -> tuple[str, dict]:
                 engine_setup + N_FOLDS * engine_fit
                 + N_FOLDS * N_REPEATS * sum(per_size_engine[size] for size in sizes))
         rows.append([
-            log, f"{len(sizes)} ({sizes.count(2)} of size 2, {sizes.count(3)} of size 3)",
+            log,
+            f"{len(sizes)} ({sizes.count(2)} of size 2, {sizes.count(3)} of size 3)",
             N_FOLDS * N_REPEATS * len(sizes),
             f"{per_size[2]:.2f} s / {per_size[3]:.2f} s",
             duration(setup + N_FOLDS * fit), duration(total), duration(total_ten),

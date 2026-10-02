@@ -144,7 +144,8 @@ def time_model_fits(objects, folds) -> tuple[object, dict]:
         records["fit on engine matrix (int8)"].append(meter.as_dict())
         with LoadMeter() as meter:
             engine_model.predict(train_matrix)
-        records["baseline predict, engine matrix, training fold"].append(meter.as_dict())
+        records["baseline predict, engine matrix, training fold"].append(
+            meter.as_dict())
         say(f"fold {fold}: fits timed")
     return first_model, records
 
@@ -268,7 +269,8 @@ def main() -> None:
                 })
             medians = {label: group[label]["seconds_per_iteration"]["median"]
                        for label in ENGINE_VARIANTS}
-            say(f"  original median {group['original']['seconds_per_iteration']['median']}"
+            original_median = group["original"]["seconds_per_iteration"]["median"]
+            say(f"  original median {original_median}"
                 f" s (others' load {original['load']['others_percent']:.1f} %), "
                 f"engine medians {medians}, "
                 f"diff {group['faithful_vs_original_max_abs_diff']}, "

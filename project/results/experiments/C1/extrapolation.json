@@ -150,8 +150,8 @@
   },
   "single_activity": {
     "f1": {
-      "original_one_pass_seconds": null,
-      "original_total_seconds": null,
+      "original_one_pass_seconds": 922.6196396001615,
+      "original_total_seconds": 46148.103180608014,
       "engine": {
         "faithful_train": 77.75588659988716,
         "fixed_train": 72.20864350022748,
@@ -159,8 +159,8 @@
       }
     },
     "f2": {
-      "original_one_pass_seconds": null,
-      "original_total_seconds": null,
+      "original_one_pass_seconds": 1807.973588399822,
+      "original_total_seconds": 90424.0487888914,
       "engine": {
         "faithful_train": 101.74657840025611,
         "fixed_train": 96.83117190003395,
@@ -168,8 +168,8 @@
       }
     },
     "f3": {
-      "original_one_pass_seconds": 404.29262417528247,
-      "original_total_seconds": 20229.274587762975,
+      "original_one_pass_seconds": 651.5691130999476,
+      "original_total_seconds": 32593.09903399623,
       "engine": {
         "faithful_train": 55.724586999742314,
         "fixed_train": 53.41020799963735,

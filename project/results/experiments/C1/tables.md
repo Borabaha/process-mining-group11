@@ -91,9 +91,9 @@
 
 | Log | activities | iterations | original: one pass (1 fold, 1 repeat), measured | original: median per scored activity | original: S + 5 F + 50 passes (extrapolated) | engine faithful, training fold: MEASURED | engine fixed, training fold: MEASURED | engine fixed, held-out fold: MEASURED |
 |---|---|---|---|---|---|---|---|---|
-| f1 | 164 | 8200 | n/a | n/a | n/a | 77.8 s | 72.2 s | 37.4 s |
-| f2 | 207 | 10350 | n/a | n/a | n/a | 101.7 s | 96.8 s | 49.3 s |
-| f3 | 156 | 7800 | 6.7 min (scaled from the first 7 activities) | 4.38 s | 5.6 h | 55.7 s | 53.4 s | 28.9 s |
+| f1 | 164 | 8200 | 15.4 min | 6.19 s | 12.8 h | 77.8 s | 72.2 s | 37.4 s |
+| f2 | 207 | 10350 | 30.1 min | 10.0 s | 25.1 h | 101.7 s | 96.8 s | 49.3 s |
+| f3 | 156 | 7800 | 10.9 min | 4.61 s | 9.1 h | 55.7 s | 53.4 s | 28.9 s |
 
 ### T7. Machine load
 
@@ -103,15 +103,17 @@
 | engine grid, 10 repeats, default threads | f1 | 17 % | 34 % | 7.88 |
 | engine grid, 2 repeats (demo), default threads | f1 | 13 % | 15 % | 10.10 |
 | engine grid, 10 repeats, n_jobs=1, three logs at the same time | f1 | 26 % | 37 % | 1.02 |
+| original single-activity pass | f1 | 13 % | 25 % | 1.16 |
 | original itemset routine (groups of 10 iterations) | f2 |  | 12-24 % | 1.12 |
 | engine grid, 10 repeats, default threads | f2 | 32 % | 29 % | 8.50 |
 | engine grid, 2 repeats (demo), default threads | f2 | 10 % | 28 % | 8.66 |
 | engine grid, 10 repeats, n_jobs=1, three logs at the same time | f2 | 27 % | 30 % | 1.01 |
+| original single-activity pass | f2 | 13 % | 23 % | 1.10 |
 | original itemset routine (groups of 10 iterations) | f3 |  | 15-24 % | 1.20 |
 | engine grid, 10 repeats, default threads | f3 | 31 % | 18 % | 9.80 |
 | engine grid, 2 repeats (demo), default threads | f3 | 21 % | 18 % | 9.81 |
 | engine grid, 10 repeats, n_jobs=1, three logs at the same time | f3 | 26 % | 39 % | 1.02 |
-| original single-activity pass | f3 | 12 % | 13 % | 1.35 |
+| original single-activity pass | f3 | 20 % | 23 % | 1.21 |
 
 ### T8. Engine wall time of a demo and a full setting
 
@@ -163,3 +165,7 @@
 | f1 | 1 | 1.27 s | 0.0439 s (1.0) | 0.0334 s (1.0) | 0.0095 s (1.0) | yes |
 | f1 | 2 | 0.78 s | 0.0412 s (2.0) | 0.0288 s (2.0) | 0.0091 s (2.0) | yes |
 | f1 | 4 | 0.58 s | 0.0429 s (3.9) | 0.0293 s (4.0) | 0.0101 s (4.0) | yes |
+| f3 | default (all cores) | 0.56 s | 0.0374 s (10.3) | 0.0250 s (10.2) | 0.0095 s (10.2) | yes |
+| f3 | 1 | 1.01 s | 0.0319 s (1.0) | 0.0233 s (1.0) | 0.0074 s (1.0) | yes |
+| f3 | 2 | 0.58 s | 0.0299 s (2.0) | 0.0207 s (2.0) | 0.0067 s (2.0) | yes |
+| f3 | 4 | 0.45 s | 0.0300 s (4.0) | 0.0206 s (4.0) | 0.0073 s (4.0) | yes |

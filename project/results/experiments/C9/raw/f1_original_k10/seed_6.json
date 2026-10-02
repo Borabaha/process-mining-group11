@@ -1,0 +1,22 @@
+{
+  "dataset": "f1",
+  "itemsets": "original",
+  "seed": 6,
+  "n_folds": 10,
+  "n_itemsets": 10,
+  "repeats": {
+    "fixed_test": 10,
+    "fixed_train": 10
+  },
+  "permutation_seed": {
+    "fixed_test": 2029,
+    "fixed_train": 2029
+  },
+  "xgboost_n_jobs": 1,
+  "seconds": {
+    "fit": 21.78598739975132,
+    "fixed_test": 12.26867050002329,
+    "fixed_train": 71.74772049975581
+  },
+  "seconds_total": 105.84941009990871
+}

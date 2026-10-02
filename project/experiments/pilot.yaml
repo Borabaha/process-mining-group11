@@ -1,0 +1,21 @@
+# Pilot: location importance of Apriori sets and of IMPresseD sets, side by side.
+# Read by run_pilot.py. Paths are relative to the project root.
+
+logs: [f1, f2, f3]
+lengths: [1, 2, 3]        # number of distinct activities in a set
+k: 10                     # sets per strategy and length
+
+folds: 5
+fold_seeds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]   # one 5-fold split per seed
+repeats: 10               # permutation repeats per set and fold
+seed: 2023                # permutation seed; fixed mode uses seed + fold seed
+
+mode: fixed               # fixed = the paper's procedure; faithful = the original code
+score_on: [test, train]   # test = held-out fold (primary), train = stable companion
+allowed_from: log         # position pools from the whole log (as the original)
+draw: sequential          # the original's way of drawing positions for 2-3 activities
+xgb_n_jobs: 1             # one thread: same values, allows one process per log
+
+apriori_sets: results/experiments/C7/apriori_sets_{log}.json
+impressed_sets: results/experiments/C4/impressed_sets_{log}.json
+output_dir: results/experiments/pilot
