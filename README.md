@@ -1,6 +1,6 @@
 # Process Mining, Group 11: Explainable Predictive Process Monitoring
 
-Course project (TU/e, Process Mining 1JM0211). We reproduce the activity-location importance
+Course project, we reproduce the activity-location importance
 method of Vazifehdoostirani et al. (2024) and build a variant in which the activity sets come
 from the IMPresseD pattern discovery of Vazifehdoostirani et al. (2023) instead of Apriori.
 Work in progress.
