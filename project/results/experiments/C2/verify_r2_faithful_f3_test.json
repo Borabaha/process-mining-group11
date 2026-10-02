@@ -1,0 +1,43 @@
+{
+  "dataset": "f3",
+  "score_on": "test",
+  "fold_seed": 11,
+  "fold": 2,
+  "n_scored_cases": 222,
+  "n_train_cases": 889,
+  "itemsets": {
+    "1": [
+      "ac370000",
+      "ac370419"
+    ],
+    "2": [
+      "370407",
+      "ac370000",
+      "ac370419"
+    ],
+    "3": [
+      "370407",
+      "ac370419"
+    ],
+    "4": [
+      "ac370000",
+      "ac370443"
+    ]
+  },
+  "n_repeats": 3,
+  "n_values": 12,
+  "max_abs_diff": 0.0,
+  "n_values_original_nonzero": 12,
+  "n_distinct_original_values": 11,
+  "original_min": 0.026320911391115587,
+  "original_max": 0.253502396109059,
+  "baseline_engine": 0.925753339546443,
+  "baseline_recomputed": 0.925753339546443,
+  "baseline_abs_diff": 0.0,
+  "manager_data_untouched_by_original": true,
+  "seconds_original": 49.8,
+  "seconds_original_per_iteration": 4.15,
+  "seconds_engine": 0.18,
+  "seconds_engine_per_iteration": 0.0154,
+  "pass": true
+}

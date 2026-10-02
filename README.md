@@ -10,6 +10,7 @@ Work in progress.
 | Path | What it is |
 |---|---|
 | `PROJECT_BRIEF_Group11.md` | Start here. The project explained in plain English, with the plan and the questions for the supervisor. |
+| `WALKTHROUGH_Group11.md` | What we did, how and why, step by step, with a guided tour of the code and the results of each experiment. |
 | `GUIDE_Group11_EN.md` | Long reference guide: concepts, both papers and their code step by step, open questions. |
 | `project/experiments/` | Prototype modules and experiment scripts (permutation engine, Apriori selector, chain-only IMPresseD selector, case distance, existence importance) with tests. |
 | `project/results/experiments/` | Results of the experiments, one folder and one `RESULT.md` per experiment. |

@@ -1,0 +1,18 @@
+{
+  "dataset": "f3",
+  "score_on": "test",
+  "n_scored_cases": 222,
+  "n_activities": 156,
+  "n_repeats": 2,
+  "n_values": 312,
+  "max_abs_diff": 0.0,
+  "n_values_original_nonzero": 116,
+  "guards": {
+    "": 178,
+    "fewer_than_3_cases": 128,
+    "one_allowed_position": 6
+  },
+  "seconds_original": 830.5,
+  "seconds_engine": 1.08,
+  "pass": true
+}

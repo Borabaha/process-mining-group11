@@ -1,0 +1,302 @@
+{
+  "original_defaults": {
+    "f1": {
+      "itemset_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "original_setup_seconds": 3.9829660998657346,
+      "original_fit_and_baseline_seconds": 2.627646900014952,
+      "original_total_seconds": 3379.578970592702,
+      "original_total_seconds_if_10_itemsets": 3379.578970592702,
+      "engine_total_seconds": {
+        "engine_faithful_train": 28.970137805677954,
+        "engine_fixed_train": 20.42769630579278,
+        "engine_fixed_test": 8.757630797568709
+      }
+    },
+    "f2": {
+      "itemset_sizes": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "original_setup_seconds": 6.798195899929851,
+      "original_fit_and_baseline_seconds": 3.714234600076452,
+      "original_total_seconds": 5497.766748896567,
+      "original_total_seconds_if_10_itemsets": 5497.766748896567,
+      "engine_total_seconds": {
+        "engine_faithful_train": 39.26250675122719,
+        "engine_fixed_train": 29.339428249630146,
+        "engine_fixed_test": 12.68828824989032
+      }
+    },
+    "f3": {
+      "itemset_sizes": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ],
+      "original_setup_seconds": 3.0012844998855144,
+      "original_fit_and_baseline_seconds": 2.328418899793178,
+      "original_total_seconds": 1385.8422390017658,
+      "original_total_seconds_if_10_itemsets": 2757.0410990046803,
+      "engine_total_seconds": {
+        "engine_faithful_train": 13.865252001211047,
+        "engine_fixed_train": 10.178543501766399,
+        "engine_fixed_test": 5.335444498574361
+      }
+    }
+  },
+  "project_grid": {
+    "f1": {
+      "original_total_seconds": 19245.17382556689,
+      "original_loop_seconds_by_strategy": {
+        "apriori": 10093.834100000095,
+        "impressed": 9134.218524966855
+      },
+      "engine_setup_and_fits_seconds": 3.142155600246042,
+      "engine": {
+        "faithful_train": {
+          "measured_loop_seconds": 119.82060699886642,
+          "failed_calls": 0,
+          "extrapolated_loop_seconds": 127.16143501456828
+        },
+        "fixed_train": {
+          "measured_loop_seconds": 79.55930120008998,
+          "failed_calls": 0,
+          "extrapolated_loop_seconds": 87.19092000974342
+        },
+        "fixed_test": {
+          "measured_loop_seconds": 30.022471599280834,
+          "failed_calls": 0,
+          "extrapolated_loop_seconds": 33.52744999574497
+        }
+      }
+    },
+    "f2": {
+      "original_total_seconds": 32950.713143857894,
+      "original_loop_seconds_by_strategy": {
+        "apriori": 16770.578449999448,
+        "impressed": 16154.765324958134
+      },
+      "engine_setup_and_fits_seconds": 4.237094599986449,
+      "engine": {
+        "faithful_train": {
+          "measured_loop_seconds": 159.35597629938275,
+          "failed_calls": 0,
+          "extrapolated_loop_seconds": 172.11546500911936
+        },
+        "fixed_train": {
+          "measured_loop_seconds": 107.97122070030309,
+          "failed_calls": 0,
+          "extrapolated_loop_seconds": 127.3310350079555
+        },
+        "fixed_test": {
+          "measured_loop_seconds": 40.23433670005761,
+          "failed_calls": 0,
+          "extrapolated_loop_seconds": 47.302807500818744
+        }
+      }
+    },
+    "f3": {
+      "original_total_seconds": 15701.7194289139,
+      "original_loop_seconds_by_strategy": {
+        "apriori": 8150.374349963386,
+        "impressed": 7536.701699951664
+      },
+      "engine_setup_and_fits_seconds": 2.466831099940464,
+      "engine": {
+        "faithful_train": {
+          "measured_loop_seconds": 86.54678440000862,
+          "failed_calls": 0,
+          "extrapolated_loop_seconds": 114.38799001043662
+        },
+        "fixed_train": {
+          "measured_loop_seconds": 58.85144630004652,
+          "failed_calls": 0,
+          "extrapolated_loop_seconds": 80.8569350047037
+        },
+        "fixed_test": {
+          "measured_loop_seconds": 24.15707889944315,
+          "failed_calls": 0,
+          "extrapolated_loop_seconds": 33.34337000269443
+        }
+      }
+    },
+    "all_logs_total_seconds": {
+      "original": 67897.60639833868,
+      "faithful_train": 375.56944899843074,
+      "fixed_train": 256.22804950061254,
+      "fixed_test": 104.25996849895455
+    }
+  },
+  "single_activity": {
+    "f1": {
+      "original_one_pass_seconds": null,
+      "original_total_seconds": null,
+      "engine": {
+        "faithful_train": 77.75588659988716,
+        "fixed_train": 72.20864350022748,
+        "fixed_test": 37.433756000129506
+      }
+    },
+    "f2": {
+      "original_one_pass_seconds": null,
+      "original_total_seconds": null,
+      "engine": {
+        "faithful_train": 101.74657840025611,
+        "fixed_train": 96.83117190003395,
+        "fixed_test": 49.321585200261325
+      }
+    },
+    "f3": {
+      "original_one_pass_seconds": 404.29262417528247,
+      "original_total_seconds": 20229.274587762975,
+      "engine": {
+        "faithful_train": 55.724586999742314,
+        "fixed_train": 53.41020799963735,
+        "fixed_test": 28.863974299980327
+      }
+    }
+  },
+  "presets": {
+    "demo: 1 fold seed x 5 folds x 2 repeats; default threads, logs one after the other (measured) | project grid, fixed, held-out fold": {
+      "f1": 8.305373399052769,
+      "f2": 12.114877899875864,
+      "f3": 7.131213200511411,
+      "all_three_wall": 27.551464499440044
+    },
+    "demo: 1 fold seed x 5 folds x 2 repeats; default threads, logs one after the other (measured) | project grid, fixed, both folds": {
+      "f1": 22.666007899912074,
+      "f2": 34.69272980024107,
+      "f3": 19.663744500139728,
+      "all_three_wall": 77.02248220029287
+    },
+    "demo: 1 fold seed x 5 folds x 2 repeats; default threads, logs one after the other (measured) | project grid, fixed both folds + faithful": {
+      "f1": 43.51693709963001,
+      "f2": 65.28465050063096,
+      "f3": 37.793233999516815,
+      "all_three_wall": 146.5948215997778
+    },
+    "demo: 1 fold seed x 5 folds x 2 repeats; default threads, logs one after the other (measured) | project grid + single-activity analysis, all three settings": {
+      "f1": 76.36540219909512,
+      "f2": 114.97492840141058,
+      "f3": 65.84703059960157,
+      "all_three_wall": 257.18736120010726
+    },
+    "1 fold seed x 5 folds x 10 repeats; default threads, logs one after the other (measured) | project grid, fixed, held-out fold": {
+      "f1": 33.164627199526876,
+      "f2": 44.47143130004406,
+      "f3": 26.623909999383613,
+      "all_three_wall": 104.25996849895455
+    },
+    "1 fold seed x 5 folds x 10 repeats; default threads, logs one after the other (measured) | project grid, fixed, both folds": {
+      "f1": 112.72392839961685,
+      "f2": 152.44265200034715,
+      "f3": 85.47535629943013,
+      "all_three_wall": 350.64193669939414
+    },
+    "1 fold seed x 5 folds x 10 repeats; default threads, logs one after the other (measured) | project grid, fixed both folds + faithful": {
+      "f1": 232.54453539848328,
+      "f2": 311.7986282997299,
+      "f3": 172.02214069943875,
+      "all_three_wall": 716.3653043976519
+    },
+    "1 fold seed x 5 folds x 10 repeats; default threads, logs one after the other (measured) | project grid + single-activity analysis, all three settings": {
+      "f1": 419.9428214987274,
+      "f2": 559.6979638002813,
+      "f3": 310.02090999879874,
+      "all_three_wall": 1289.6616952978075
+    },
+    "1 fold seed x 5 folds x 10 repeats; n_jobs=1, three logs at the same time (measured) | project grid, fixed, held-out fold": {
+      "f1": 31.97082790080458,
+      "f2": 42.05682180006988,
+      "f3": 27.86399000021629,
+      "all_three_wall": 42.05682180006988
+    },
+    "1 fold seed x 5 folds x 10 repeats; n_jobs=1, three logs at the same time (measured) | project grid, fixed, both folds": {
+      "f1": 107.64920540037565,
+      "f2": 150.2875447999686,
+      "f3": 93.14543390111066,
+      "all_three_wall": 150.2875447999686
+    },
+    "1 fold seed x 5 folds x 10 repeats; n_jobs=1, three logs at the same time (measured) | project grid, fixed both folds + faithful": {
+      "f1": 214.19036950077862,
+      "f2": 295.9582272002008,
+      "f3": 181.52975820051506,
+      "all_three_wall": 295.9582272002008
+    },
+    "1 fold seed x 5 folds x 10 repeats; n_jobs=1, three logs at the same time (measured) | project grid + single-activity analysis, all three settings": {
+      "f1": 374.8184579014778,
+      "f2": 515.2028613998555,
+      "f3": 316.1273259005975,
+      "all_three_wall": 515.2028613998555
+    },
+    "full: 10 fold seeds x 5 folds x 10 repeats; default threads, logs one after the other (10 x measured) | project grid, fixed, held-out fold": {
+      "f1": 331.64627199526876,
+      "f2": 444.7143130004406,
+      "f3": 266.23909999383613,
+      "all_three_wall": 1042.5996849895455
+    },
+    "full: 10 fold seeds x 5 folds x 10 repeats; default threads, logs one after the other (10 x measured) | project grid, fixed, both folds": {
+      "f1": 1127.2392839961685,
+      "f2": 1524.4265200034715,
+      "f3": 854.7535629943013,
+      "all_three_wall": 3506.4193669939414
+    },
+    "full: 10 fold seeds x 5 folds x 10 repeats; default threads, logs one after the other (10 x measured) | project grid, fixed both folds + faithful": {
+      "f1": 2325.4453539848328,
+      "f2": 3117.986282997299,
+      "f3": 1720.2214069943875,
+      "all_three_wall": 7163.653043976519
+    },
+    "full: 10 fold seeds x 5 folds x 10 repeats; default threads, logs one after the other (10 x measured) | project grid + single-activity analysis, all three settings": {
+      "f1": 4199.428214987274,
+      "f2": 5596.979638002813,
+      "f3": 3100.2090999879874,
+      "all_three_wall": 12896.616952978075
+    },
+    "full: 10 fold seeds x 5 folds x 10 repeats; n_jobs=1, three logs at the same time (10 x measured) | project grid, fixed, held-out fold": {
+      "f1": 319.7082790080458,
+      "f2": 420.56821800069883,
+      "f3": 278.6399000021629,
+      "all_three_wall": 420.56821800069883
+    },
+    "full: 10 fold seeds x 5 folds x 10 repeats; n_jobs=1, three logs at the same time (10 x measured) | project grid, fixed, both folds": {
+      "f1": 1076.4920540037565,
+      "f2": 1502.875447999686,
+      "f3": 931.4543390111066,
+      "all_three_wall": 1502.875447999686
+    },
+    "full: 10 fold seeds x 5 folds x 10 repeats; n_jobs=1, three logs at the same time (10 x measured) | project grid, fixed both folds + faithful": {
+      "f1": 2141.903695007786,
+      "f2": 2959.582272002008,
+      "f3": 1815.2975820051506,
+      "all_three_wall": 2959.582272002008
+    },
+    "full: 10 fold seeds x 5 folds x 10 repeats; n_jobs=1, three logs at the same time (10 x measured) | project grid + single-activity analysis, all three settings": {
+      "f1": 3748.184579014778,
+      "f2": 5152.028613998555,
+      "f3": 3161.273259005975,
+      "all_three_wall": 5152.028613998555
+    }
+  }
+}

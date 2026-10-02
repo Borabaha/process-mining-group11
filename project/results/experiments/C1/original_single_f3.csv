@@ -1,0 +1,8 @@
+dataset,activity,n_train_cases,n_train_events,n_allowed_positions,kind,seconds
+f3,ac410100,297,338,28,scored,4.415751300053671
+f3,ac419100,597,892,30,scored,5.084337800042704
+f3,ac10107,159,160,5,scored,4.292534899897873
+f3,339486e,68,75,17,scored,4.348711700178683
+f3,ac10213,1,1,1,instant (one allowed position),0.0
+f3,370707s,2,2,1,instant (one allowed position),0.0
+f3,302213e,0,0,1,instant (one allowed position),0.0

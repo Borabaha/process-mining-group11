@@ -1,0 +1,97 @@
+{
+  "dataset": "f1",
+  "fold_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "n_repeats": 10,
+  "n_itemsets": 10,
+  "seconds_total": 1217.9247846000362,
+  "scored_on": {
+    "train": {
+      "sequential_draw_log_pools": {
+        "importance": {
+          "mean": 0.03300049536654874,
+          "ci95_low": 0.03243833261001895,
+          "ci95_high": 0.03356265812307853
+        },
+        "share_of_values_above_zero": 1.0,
+        "traces_changed": 2544147,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.03467170784037193
+      },
+      "uniform_draw_log_pools": {
+        "importance": {
+          "mean": 0.02917904538769144,
+          "ci95_low": 0.028635820600972403,
+          "ci95_high": 0.029722270174410474
+        },
+        "share_of_values_above_zero": 1.0,
+        "traces_changed": 2539923,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.03305463847514207,
+        "difference_to_default": {
+          "mean": -0.003821449978857304,
+          "ci95_low": -0.004100195023145315,
+          "ci95_high": -0.0035427049345692933
+        },
+        "spearman_with_default_ranking": 0.9272727272727272
+      }
+    },
+    "test": {
+      "sequential_draw_log_pools": {
+        "importance": {
+          "mean": 0.0024206051266073953,
+          "ci95_low": -0.00019215864474360182,
+          "ci95_high": 0.005033368897958392
+        },
+        "share_of_values_above_zero": 0.5266,
+        "traces_changed": 636129,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.034631282908269
+      },
+      "sequential_draw_train_pools": {
+        "importance": {
+          "mean": 0.0025479037849019445,
+          "ci95_low": 1.9945899258886485e-05,
+          "ci95_high": 0.005075861670545002
+        },
+        "share_of_values_above_zero": 0.536,
+        "traces_changed": 636094,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.04309983632787943,
+        "difference_to_default": {
+          "mean": 0.0001272986582945494,
+          "ci95_low": -2.9068446727125303e-05,
+          "ci95_high": 0.00028366576331622414
+        },
+        "spearman_with_default_ranking": 0.9636363636363635
+      },
+      "uniform_draw_log_pools": {
+        "importance": {
+          "mean": -0.00022301290994258303,
+          "ci95_low": -0.002417941880039564,
+          "ci95_high": 0.001971916060154398
+        },
+        "share_of_values_above_zero": 0.443,
+        "traces_changed": 635093,
+        "traces_unchanged_infeasible": 0,
+        "share_of_shifted_events_at_unobserved_position": 0.033087673163128,
+        "difference_to_default": {
+          "mean": -0.002643618036549978,
+          "ci95_low": -0.003402101845691635,
+          "ci95_high": -0.0018851342274083206
+        },
+        "spearman_with_default_ranking": 0.23636363636363633
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "f1": {
+    "seconds_original_encoding": 4.51,
+    "original_shape": [
+      1130,
+      5939
+    ],
+    "n_cases": 1130,
+    "n_activities": 164,
+    "eventlog_traces_equal_my_loader": true,
+    "eventlog_labels_equal_my_loader": true,
+    "eventlog_allowed_equal_my_loader": true,
+    "eventlog_allowed_equal_original": true,
+    "allowed_lists_sorted": true,
+    "activity_order_equal_original": true,
+    "row_order_equal": true,
+    "labels_equal_original": true,
+    "seconds_engine_encoding": 0.014,
+    "hash_columns_identical_incl_order": true,
+    "hash_values_identical": true,
+    "sorted_same_column_set": true,
+    "sorted_columns_identical_incl_order": false,
+    "sorted_values_identical_by_name": true,
+    "n_observed_columns": 2450,
+    "sorted_first_block_identical_order": true,
+    "tail_block_all_zero_in_original": true,
+    "engine_equals_naive_encoder": true,
+    "decode_roundtrip": true,
+    "subset_reencoding_equals_pad_until": [
+      true,
+      true,
+      true
+    ],
+    "all_ok": true
+  },
+  "f2": {
+    "seconds_original_encoding": 8.78,
+    "original_shape": [
+      1130,
+      8319
+    ],
+    "n_cases": 1130,
+    "n_activities": 207,
+    "eventlog_traces_equal_my_loader": true,
+    "eventlog_labels_equal_my_loader": true,
+    "eventlog_allowed_equal_my_loader": true,
+    "eventlog_allowed_equal_original": true,
+    "allowed_lists_sorted": true,
+    "activity_order_equal_original": true,
+    "row_order_equal": true,
+    "labels_equal_original": true,
+    "seconds_engine_encoding": 0.016,
+    "hash_columns_identical_incl_order": true,
+    "hash_values_identical": true,
+    "sorted_same_column_set": true,
+    "sorted_columns_identical_incl_order": false,
+    "sorted_values_identical_by_name": true,
+    "n_observed_columns": 3289,
+    "sorted_first_block_identical_order": true,
+    "tail_block_all_zero_in_original": true,
+    "engine_equals_naive_encoder": true,
+    "decode_roundtrip": true,
+    "subset_reencoding_equals_pad_until": [
+      true,
+      true,
+      true
+    ],
+    "all_ok": true
+  },
+  "f3": {
+    "seconds_original_encoding": 3.64,
+    "original_shape": [
+      1111,
+      4866
+    ],
+    "n_cases": 1111,
+    "n_activities": 156,
+    "eventlog_traces_equal_my_loader": true,
+    "eventlog_labels_equal_my_loader": true,
+    "eventlog_allowed_equal_my_loader": true,
+    "eventlog_allowed_equal_original": true,
+    "allowed_lists_sorted": true,
+    "activity_order_equal_original": true,
+    "row_order_equal": true,
+    "labels_equal_original": true,
+    "seconds_engine_encoding": 0.008,
+    "hash_columns_identical_incl_order": true,
+    "hash_values_identical": true,
+    "sorted_same_column_set": true,
+    "sorted_columns_identical_incl_order": false,
+    "sorted_values_identical_by_name": true,
+    "n_observed_columns": 2049,
+    "sorted_first_block_identical_order": true,
+    "tail_block_all_zero_in_original": true,
+    "engine_equals_naive_encoder": true,
+    "decode_roundtrip": true,
+    "subset_reencoding_equals_pad_until": [
+      true,
+      true,
+      true
+    ],
+    "all_ok": true
+  }
+}

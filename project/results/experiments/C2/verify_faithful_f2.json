@@ -7,25 +7,25 @@
   "make_folds_equals_sklearn_directly": true,
   "itemsets": {
     "3": [
-      "ac419100",
-      "ac379999"
+      "ac379999",
+      "ac419100"
     ],
     "4": [
-      "370407",
-      "ac370000"
+      "ac370000",
+      "370407"
     ],
     "5": [
-      "370407",
+      "ac379999",
       "ac370000",
-      "ac379999"
+      "370407"
     ],
     "6": [
-      "370407",
-      "ac379999"
+      "ac379999",
+      "370407"
     ],
     "7": [
-      "ac370000",
-      "ac370419"
+      "ac370419",
+      "ac370000"
     ]
   },
   "single": {
@@ -42,14 +42,14 @@
   "timing": {
     "apriori_4th_to_8th": {
       "iterations": 15,
-      "original_s_per_iteration": 28.050514246663077,
-      "engine_s_per_iteration": 0.09717116000441213,
+      "original_s_per_iteration": 25.157254380003238,
+      "engine_s_per_iteration": 0.1571179199963808,
       "baseline_equal": true
     },
     "single_activity": {
       "iterations": 2,
-      "original_s_per_iteration": 16.821287950035185,
-      "engine_s_per_iteration": 0.11011874990072101,
+      "original_s_per_iteration": 26.07807139994111,
+      "engine_s_per_iteration": 0.1959934999467805,
       "baseline_equal": true
     }
   }

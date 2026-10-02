@@ -1,0 +1,30 @@
+{
+  "f1": {
+    "size2": {
+      "sequential_calls": 4375,
+      "uniform_calls": 4375,
+      "sequential_gave_up_share": 0.0,
+      "uniform_gave_up_share": 0.0
+    },
+    "size3": {
+      "sequential_calls": 1680,
+      "uniform_calls": 1680,
+      "sequential_gave_up_share": 0.0,
+      "uniform_gave_up_share": 0.0
+    }
+  },
+  "f3": {
+    "size2": {
+      "sequential_calls": 3670,
+      "uniform_calls": 3670,
+      "sequential_gave_up_share": 0.0,
+      "uniform_gave_up_share": 0.0
+    },
+    "size3": {
+      "sequential_calls": 1250,
+      "uniform_calls": 1250,
+      "sequential_gave_up_share": 0.0,
+      "uniform_gave_up_share": 0.0
+    }
+  }
+}
